@@ -13,13 +13,14 @@
 
 ## **Technologies Used**
 
-**Frontend**:
+**Frontend**
 - **React** 
-- **Next.js**: 
+- **Next.js**:
 - **Chart.js** 
+- **Framer**
 
-**Backend**:
-- **Python.js**
+**Backend**
+- **Python**
 - 
 
 ---
