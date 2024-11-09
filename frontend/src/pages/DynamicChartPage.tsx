@@ -1,3 +1,5 @@
+// pages/DynamicDashboard.tsx
+
 import React, { useState, useEffect } from "react";
 import DropdownComponent from "@/components/DropdownComponent";
 import MonthlyUsageChart from "@/components/Graphs/MonthlyUsageChart";
@@ -11,6 +13,7 @@ interface DataType {
   ElectricityUseIntensity: number;
   OperatingHoursPerWeek: number;
   NumberOfEmployees: number;
+  GrossFloorArea: number; // Added GrossFloorArea property
 }
 
 const DynamicDashboard: React.FC = () => {
@@ -21,7 +24,7 @@ const DynamicDashboard: React.FC = () => {
   // Fetch data from the public directory
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data/data_toronto.csv");
+      const response = await fetch("/data/NEW_toronto.csv");
       const csvText = await response.text();
       const parsedData = parseCSVData(csvText);
       setData(parsedData);
@@ -34,7 +37,18 @@ const DynamicDashboard: React.FC = () => {
   const parseCSVData = (csvText: string): DataType[] => {
     const rows = csvText.split("\n").slice(1); // remove header
     return rows.map((row) => {
-      const [CompanyName, Location, Year, Month, MonthlyElectricityUsage, ElectricityUseIntensity, OperatingHoursPerWeek, NumberOfEmployees] = row.split(",");
+      const [
+        CompanyName,
+        Location,
+        Year,
+        Month,
+        MonthlyElectricityUsage,
+        ElectricityUseIntensity,
+        OperatingHoursPerWeek,
+        NumberOfEmployees,
+        GrossFloorArea, // Include GrossFloorArea in parsing
+      ] = row.split(",");
+
       return {
         CompanyName,
         Location,
@@ -44,6 +58,7 @@ const DynamicDashboard: React.FC = () => {
         ElectricityUseIntensity: parseFloat(ElectricityUseIntensity),
         OperatingHoursPerWeek: parseInt(OperatingHoursPerWeek),
         NumberOfEmployees: parseInt(NumberOfEmployees),
+        GrossFloorArea: parseFloat(GrossFloorArea), // Parse GrossFloorArea as a float
       };
     });
   };

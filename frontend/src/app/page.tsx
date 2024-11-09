@@ -7,10 +7,11 @@ import InputComponent from "@/components/InputComponent";
 import Usage from "@/components/Usage";
 import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
-import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
+import MonthlyUsageChart from "@/components/Graphs/MonthlyUsageChart";
 import LandingPage from "@/components/LandingPage";
-import Papa from "papaparse";
 import Link from "next/link";
+import Papa from "papaparse";
+import { Button } from "@nextui-org/react";
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
   const [region, setRegion] = useState("");
@@ -24,11 +25,10 @@ const Home: React.FC = () => {
   const [comparisonType, setComparisonType] = useState("My Company");
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
   const [hasMounted, setHasMounted] = useState(false);
-  
 
   interface CsvRow {
     "Company Name": string;
-    "Location": string;
+    Location: string;
     "Gross Floor Area (m²)": string;
     "Annual Electricity Use (kWh)": string;
     "Electricity Use Intensity (kWh/m²)": string;
@@ -42,7 +42,7 @@ const Home: React.FC = () => {
 
   const loadCsvData = (region: string) => {
     const filePath = `/Data/data_${region.toLowerCase()}.csv`;
-  
+
     Papa.parse<CsvRow>(filePath, {
       download: true,
       header: true,
@@ -82,9 +82,11 @@ const Home: React.FC = () => {
   };
 
   // Extract form data from csvData if csvData is available
-  const selectedData = csvData.find(row => row["Company Name"] === companyName);
+  const selectedData = csvData.find(
+    (row) => row["Company Name"] === companyName
+  );
 
-  const displayMonthlyUsage = selectedData 
+  const displayMonthlyUsage = selectedData
     ? Array(12).fill(Number(selectedData["Annual Electricity Use (kWh)"]) / 12)
     : monthlyUsage.map(Number);
 
@@ -117,7 +119,6 @@ const Home: React.FC = () => {
           usage and waste.
         </p>
         <Link href="/DynamicChartPage">Go to Dynamic Chart Page</Link>
-
       </div>
 
       {!showGraph && (
@@ -223,12 +224,25 @@ const Home: React.FC = () => {
           )}
 
           <div className="w-full flex justify-center mt-6">
+            {/* <Link href="/DynamicChartPage" passHref>
+              <button
+                disabled={!isFormComplete}
+                className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
+                  !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
+                }`}
+                onClick={isFormComplete ? handleFormSubmit : undefined} // Only call if form is complete
+              >
+                Confirm
+              </button>
+            </Link> */}
+
             <button
               disabled={!isFormComplete}
               className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
                 !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleFormSubmit}
+              
             >
               Confirm
             </button>
@@ -271,9 +285,8 @@ const Home: React.FC = () => {
                   monthlyUsage={displayMonthlyUsage}
                   floorArea={displayFloorArea}
                 />
-                <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
+                <MonthlyUsageChart monthlyUsage={monthlyUsage} />
               </div>
-              
             </>
           ) : (
             // Code for displaying data for "Other Companies"
@@ -317,9 +330,7 @@ const Home: React.FC = () => {
               </div>
             </>
           )}
-          
         </div>
-        
       )}
     </div>
   );
