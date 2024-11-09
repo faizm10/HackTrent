@@ -7,6 +7,8 @@ import InputComponent from "@/components/InputComponent";
 import Usage from "@/components/Usage";
 import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
+import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
+import LandingPage from "@/components/LandingPage";
 
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
@@ -20,7 +22,7 @@ const Home: React.FC = () => {
   const [showGraph, setShowGraph] = useState(false);
   const [comparisonType, setComparisonType] = useState("My Company"); // New state for filtering comparison type
   const [hasMounted, setHasMounted] = useState(false);
-
+  
   useEffect(() => {
     setHasMounted(true);
   }, []);
@@ -215,7 +217,9 @@ const Home: React.FC = () => {
                   monthlyUsage={monthlyUsage.map(Number)}
                   floorArea={Number(floorArea)}
                 />
+                <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
               </div>
+              
             </>
           ) : (
             <>
@@ -259,7 +263,9 @@ const Home: React.FC = () => {
               </div>
             </>
           )}
+          
         </div>
+        
       )}
     </div>
   );
