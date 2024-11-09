@@ -26,9 +26,12 @@ const Home: React.FC = () => {
   const [startYear, setStartYear] = useState("");
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
-  const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(0));
+  const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(""));
   const [companyData] = useState<number[]>([70, 65, 78, 85, 60, 62, 70, 75, 80, 78, 74, 68]);
   const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const [floorArea, setFloorArea] = useState("");
+  const [employees, setEmployees] = useState("");
+  const [workHours, setWorkHours] = useState("");
 
   useEffect(() => {
     // Load CSV data if needed
@@ -66,6 +69,9 @@ const Home: React.FC = () => {
             <DropdownComponent label="Waste Type" options={["Electricity", "Water"]} selected={wasteType} onSelect={setWasteType} />
           </div>
 
+
+          {wasteType === "Electricity" && (
+            <div className="space-y-4 mt-6">
           <div className="space-y-4 mt-6">
             <h2 className="text-2xl font-semibold text-indigo-700">Enter Monthly Data for {wasteType} (kWh)</h2>
             <div className="grid grid-cols-2 gap-4">
@@ -74,6 +80,14 @@ const Home: React.FC = () => {
               ))}
             </div>
           </div>
+              <h2 className="text-2xl font-semibold text-indigo-700">Enter Additional Data for Electricity</h2>
+              <div className="grid grid-cols-2 gap-4">
+                <InputComponent label="Number of Employees" id="employees" value={employees} placeholder="Enter number of employees" onChange={(e) => setEmployees(e.target.value)} />
+                <InputComponent label="Floor Area (m²)" id="floorArea" value={floorArea} placeholder="Enter gross floor area" onChange={(e) => setFloorArea(e.target.value)} />
+                <InputComponent label="Operating Hours per Week" id="workHours" value={workHours} placeholder="Enter weekly operating hours" onChange={(e) => setWorkHours(e.target.value)} />
+              </div>
+            </div>
+          )}
 
           <div className="w-full flex justify-center mt-6">
             <button
