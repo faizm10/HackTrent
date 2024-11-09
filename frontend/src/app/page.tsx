@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import { Image } from "@nextui-org/react";
+import Usage  from "../component/Dashboard";
+
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
         </h1>
         <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
       </main>
+      <Usage/>
     </div>
   );
 }

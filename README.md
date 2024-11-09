@@ -2,11 +2,25 @@
 
 **EcoTrack** is a simple and effective tool for office managers to monitor and reduce their office's resource consumption (energy, water, and paper). This web application provides a streamlined way to input resource usage data, view trends, and receive AI-powered recommendations to help make the office more sustainable.
 
+---
+
 ## **Features**
 - **Resource Tracking**: Enter monthly resource usage data for energy, water, and paper.
 - **Usage Trends**: Visualize resource consumption over time with easy-to-read charts.
 - **Efficiency Suggestions**: Get simple, actionable tips to reduce waste and save resources.
-- **Sustainability Tracking**: Track if your office already has basic practices like a recycling program or energy-saving policy.
+
+---
+
+## **Technologies Used**
+
+**Frontend**:
+- **React** 
+- **Next.js**: 
+- **Chart.js** 
+
+**Backend**:
+- **Python.js**
+- 
 
 ---
 
@@ -14,25 +28,26 @@
 
 ### Prerequisites
 - **Git**: For cloning the repo and managing changes.
+- **Node.js** and **npm**: Required to run the app locally.
 
 ### Installation
-1. Clone the repo to your local machine:
+1. **Clone the repo** to your local machine:
+   ```bash
+   git clone https://github.com/faizm10/HackTrent
    ```
-   git clone https://github.com/your-username/EcoTrack.git
-   ```
-2. Navigate into the project directory:
-   ```
+2. **Navigate** into the project directory:
+   ```bash
    cd EcoTrack
    ```
-3. Install dependencies:
-   ```
+3. **Install dependencies**:
+   ```bash
    npm install
    ```
-4. Run the app:
+4. **Run the app**:
+   ```bash
+   npm run dev
    ```
-   npm start
-   ```
-   Your app should now be running on `http://localhost:3000`!
+   Your app should now be running on `http://localhost:3000`.
 
 ---
 
@@ -53,7 +68,7 @@
 
 If you're making changes to the repo on GitHub, copy/paste the following commands when you're making your **first** commit:
 
-```
+```bash
 git checkout -b {your-name/feature}
 git add .
 git commit -m "New Feature"
