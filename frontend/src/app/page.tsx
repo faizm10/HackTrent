@@ -188,19 +188,12 @@ const Home: React.FC = () => {
             Confirm
           </button>
         </div>
-
-
-
-        {/* Right Column: Dashboard */}
-        {/* <div className="w-full md:w-1/3">
-          <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
-          <Usage />
-        </div> */}
       </div>
-      <div className="w-full">
-          <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
-          {/* <Usage /> */}
-        </div>
+
+
+
+
+       
     </div>
   );
 };
