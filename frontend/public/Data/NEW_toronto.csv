@@ -1,0 +1,1441 @@
+Company Name,Location,Year,Month,Gross Floor Area (m²),Monthly Electricity Use (kWh),Electricity Use Intensity (kWh/m²),Operating Hours per Week,Number of Employees
+Urban Tech Solutions,"Toronto, ON",2020,January,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,February,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,March,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,April,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,May,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,June,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,July,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,August,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,September,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,October,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,November,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2020,December,12000,150000.0,150,60,350
+Urban Tech Solutions,"Toronto, ON",2021,January,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,February,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,March,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,April,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,May,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,June,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,July,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,August,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,September,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,October,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,November,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2021,December,12000,155000.0,155,62,360
+Urban Tech Solutions,"Toronto, ON",2022,January,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,February,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,March,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,April,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,May,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,June,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,July,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,August,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,September,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,October,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,November,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2022,December,12000,160000.0,160,61,355
+Urban Tech Solutions,"Toronto, ON",2023,January,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,February,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,March,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,April,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,May,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,June,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,July,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,August,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,September,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,October,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,November,12000,158000.0,158,60,365
+Urban Tech Solutions,"Toronto, ON",2023,December,12000,158000.0,158,60,365
+EcoFuels Ltd.,"Toronto, ON",2020,January,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,February,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,March,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,April,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,May,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,June,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,July,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,August,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,September,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,October,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,November,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2020,December,14000,163333.33333333300,140,65,400
+EcoFuels Ltd.,"Toronto, ON",2021,January,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,February,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,March,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,April,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,May,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,June,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,July,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,August,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,September,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,October,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,November,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2021,December,14000,161000.0,138,63,390
+EcoFuels Ltd.,"Toronto, ON",2022,January,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,February,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,March,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,April,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,May,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,June,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,July,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,August,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,September,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,October,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,November,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2022,December,14000,165666.66666666700,142,66,405
+EcoFuels Ltd.,"Toronto, ON",2023,January,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,February,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,March,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,April,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,May,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,June,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,July,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,August,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,September,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,October,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,November,14000,168000.0,144,67,395
+EcoFuels Ltd.,"Toronto, ON",2023,December,14000,168000.0,144,67,395
+CityHealth Clinics,"Toronto, ON",2020,January,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,February,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,March,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,April,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,May,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,June,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,July,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,August,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,September,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,October,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,November,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2020,December,10000,125000.0,150,80,250
+CityHealth Clinics,"Toronto, ON",2021,January,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,February,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,March,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,April,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,May,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,June,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,July,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,August,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,September,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,October,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,November,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2021,December,10000,126666.66666666700,152,82,245
+CityHealth Clinics,"Toronto, ON",2022,January,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,February,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,March,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,April,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,May,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,June,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,July,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,August,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,September,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,October,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,November,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2022,December,10000,127500.0,153,81,260
+CityHealth Clinics,"Toronto, ON",2023,January,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,February,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,March,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,April,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,May,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,June,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,July,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,August,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,September,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,October,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,November,10000,130000.0,156,83,255
+CityHealth Clinics,"Toronto, ON",2023,December,10000,130000.0,156,83,255
+StudySpace Inc.,"Toronto, ON",2020,January,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,February,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,March,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,April,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,May,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,June,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,July,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,August,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,September,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,October,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,November,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2020,December,16000,200000.0,150,70,500
+StudySpace Inc.,"Toronto, ON",2021,January,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,February,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,March,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,April,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,May,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,June,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,July,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,August,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,September,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,October,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,November,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2021,December,16000,197333.33333333300,148,72,520
+StudySpace Inc.,"Toronto, ON",2022,January,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,February,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,March,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,April,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,May,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,June,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,July,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,August,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,September,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,October,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,November,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2022,December,16000,200000.0,150,71,510
+StudySpace Inc.,"Toronto, ON",2023,January,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,February,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,March,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,April,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,May,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,June,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,July,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,August,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,September,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,October,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,November,16000,198666.66666666700,149,74,515
+StudySpace Inc.,"Toronto, ON",2023,December,16000,198666.66666666700,149,74,515
+FinSafe Group,"Toronto, ON",2020,January,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,February,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,March,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,April,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,May,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,June,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,July,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,August,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,September,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,October,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,November,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2020,December,8000,100000.0,150,55,180
+FinSafe Group,"Toronto, ON",2021,January,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,February,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,March,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,April,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,May,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,June,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,July,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,August,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,September,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,October,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,November,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2021,December,8000,101333.33333333300,152,57,185
+FinSafe Group,"Toronto, ON",2022,January,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,February,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,March,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,April,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,May,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,June,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,July,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,August,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,September,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,October,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,November,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2022,December,8000,100666.66666666700,151,56,182
+FinSafe Group,"Toronto, ON",2023,January,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,February,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,March,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,April,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,May,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,June,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,July,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,August,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,September,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,October,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,November,8000,101333.33333333300,152,55,190
+FinSafe Group,"Toronto, ON",2023,December,8000,101333.33333333300,152,55,190
+GlobalMart Superstore,"Toronto, ON",2020,January,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,February,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,March,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,April,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,May,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,June,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,July,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,August,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,September,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,October,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,November,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2020,December,30000,375000.0,150,90,600
+GlobalMart Superstore,"Toronto, ON",2021,January,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,February,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,March,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,April,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,May,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,June,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,July,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,August,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,September,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,October,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,November,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2021,December,30000,387500.0,155,92,590
+GlobalMart Superstore,"Toronto, ON",2022,January,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,February,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,March,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,April,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,May,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,June,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,July,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,August,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,September,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,October,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,November,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2022,December,30000,395000.0,158,91,605
+GlobalMart Superstore,"Toronto, ON",2023,January,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,February,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,March,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,April,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,May,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,June,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,July,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,August,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,September,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,October,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,November,30000,392500.0,157,89,610
+GlobalMart Superstore,"Toronto, ON",2023,December,30000,392500.0,157,89,610
+DriveOn Auto Parts,"Toronto, ON",2020,January,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,February,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,March,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,April,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,May,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,June,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,July,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,August,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,September,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,October,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,November,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2020,December,20000,333333.3333333330,200,100,450
+DriveOn Auto Parts,"Toronto, ON",2021,January,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,February,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,March,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,April,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,May,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,June,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,July,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,August,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,September,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,October,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,November,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2021,December,20000,336666.6666666670,202,105,455
+DriveOn Auto Parts,"Toronto, ON",2022,January,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,February,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,March,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,April,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,May,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,June,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,July,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,August,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,September,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,October,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,November,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2022,December,20000,341666.6666666670,205,102,460
+DriveOn Auto Parts,"Toronto, ON",2023,January,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,February,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,March,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,April,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,May,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,June,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,July,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,August,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,September,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,October,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,November,20000,346666.6666666670,208,101,470
+DriveOn Auto Parts,"Toronto, ON",2023,December,20000,346666.6666666670,208,101,470
+GreenBite Foods,"Toronto, ON",2020,January,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,February,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,March,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,April,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,May,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,June,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,July,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,August,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,September,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,October,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,November,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2020,December,25000,416666.6666666670,200,120,700
+GreenBite Foods,"Toronto, ON",2021,January,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,February,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,March,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,April,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,May,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,June,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,July,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,August,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,September,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,October,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,November,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2021,December,25000,406250.0,195,118,710
+GreenBite Foods,"Toronto, ON",2022,January,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,February,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,March,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,April,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,May,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,June,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,July,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,August,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,September,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,October,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,November,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2022,December,25000,402083.3333333330,193,119,705
+GreenBite Foods,"Toronto, ON",2023,January,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,February,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,March,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,April,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,May,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,June,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,July,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,August,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,September,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,October,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,November,25000,395833.3333333330,190,117,695
+GreenBite Foods,"Toronto, ON",2023,December,25000,395833.3333333330,190,117,695
+MedicalSolutions Corp.,"Toronto, ON",2020,January,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,February,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,March,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,April,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,May,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,June,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,July,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,August,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,September,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,October,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,November,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2020,December,18000,225000.0,150,60,380
+MedicalSolutions Corp.,"Toronto, ON",2021,January,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,February,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,March,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,April,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,May,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,June,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,July,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,August,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,September,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,October,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,November,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2021,December,18000,222000.0,148,62,385
+MedicalSolutions Corp.,"Toronto, ON",2022,January,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,February,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,March,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,April,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,May,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,June,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,July,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,August,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,September,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,October,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,November,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2022,December,18000,225000.0,150,61,375
+MedicalSolutions Corp.,"Toronto, ON",2023,January,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,February,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,March,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,April,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,May,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,June,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,July,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,August,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,September,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,October,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,November,18000,223500.0,149,64,390
+MedicalSolutions Corp.,"Toronto, ON",2023,December,18000,223500.0,149,64,390
+PowerSave Ltd.,"Toronto, ON",2020,January,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,February,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,March,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,April,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,May,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,June,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,July,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,August,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,September,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,October,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,November,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2020,December,22000,275000.0,150,85,550
+PowerSave Ltd.,"Toronto, ON",2021,January,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,February,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,March,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,April,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,May,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,June,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,July,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,August,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,September,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,October,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,November,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2021,December,22000,278666.6666666670,152,87,540
+PowerSave Ltd.,"Toronto, ON",2022,January,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,February,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,March,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,April,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,May,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,June,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,July,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,August,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,September,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,October,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,November,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2022,December,22000,276833.3333333330,151,86,560
+PowerSave Ltd.,"Toronto, ON",2023,January,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,February,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,March,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,April,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,May,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,June,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,July,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,August,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,September,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,October,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,November,22000,280500.0,153,88,545
+PowerSave Ltd.,"Toronto, ON",2023,December,22000,280500.0,153,88,545
+NexSoft Technologies,"Toronto, ON",2020,January,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,February,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,March,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,April,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,May,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,June,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,July,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,August,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,September,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,October,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,November,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2020,December,15000,187500.0,150,65,400
+NexSoft Technologies,"Toronto, ON",2021,January,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,February,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,March,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,April,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,May,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,June,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,July,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,August,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,September,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,October,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,November,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2021,December,15000,190000.0,152,67,390
+NexSoft Technologies,"Toronto, ON",2022,January,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,February,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,March,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,April,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,May,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,June,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,July,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,August,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,September,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,October,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,November,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2022,December,15000,188750.0,151,66,410
+NexSoft Technologies,"Toronto, ON",2023,January,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,February,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,March,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,April,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,May,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,June,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,July,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,August,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,September,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,October,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,November,15000,191250.0,153,69,395
+NexSoft Technologies,"Toronto, ON",2023,December,15000,191250.0,153,69,395
+PressOn Publishing,"Toronto, ON",2020,January,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,February,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,March,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,April,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,May,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,June,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,July,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,August,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,September,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,October,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,November,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2020,December,18000,225000.0,150,70,320
+PressOn Publishing,"Toronto, ON",2021,January,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,February,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,March,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,April,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,May,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,June,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,July,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,August,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,September,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,October,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,November,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2021,December,18000,222000.0,148,72,310
+PressOn Publishing,"Toronto, ON",2022,January,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,February,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,March,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,April,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,May,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,June,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,July,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,August,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,September,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,October,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,November,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2022,December,18000,228000.0,152,71,330
+PressOn Publishing,"Toronto, ON",2023,January,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,February,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,March,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,April,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,May,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,June,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,July,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,August,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,September,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,October,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,November,18000,225000.0,150,73,325
+PressOn Publishing,"Toronto, ON",2023,December,18000,225000.0,150,73,325
+TrendWear Ltd.,"Toronto, ON",2020,January,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,February,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,March,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,April,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,May,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,June,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,July,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,August,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,September,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,October,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,November,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2020,December,14000,175000.0,150,60,280
+TrendWear Ltd.,"Toronto, ON",2021,January,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,February,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,March,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,April,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,May,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,June,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,July,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,August,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,September,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,October,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,November,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2021,December,14000,177333.33333333300,152,63,285
+TrendWear Ltd.,"Toronto, ON",2022,January,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,February,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,March,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,April,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,May,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,June,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,July,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,August,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,September,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,October,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,November,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2022,December,14000,180833.33333333300,155,61,275
+TrendWear Ltd.,"Toronto, ON",2023,January,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,February,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,March,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,April,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,May,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,June,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,July,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,August,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,September,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,October,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,November,14000,182000.0,156,62,290
+TrendWear Ltd.,"Toronto, ON",2023,December,14000,182000.0,156,62,290
+FreshFarm Ltd.,"Toronto, ON",2020,January,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,February,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,March,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,April,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,May,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,June,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,July,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,August,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,September,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,October,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,November,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2020,December,35000,583333.3333333330,200,150,800
+FreshFarm Ltd.,"Toronto, ON",2021,January,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,February,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,March,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,April,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,May,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,June,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,July,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,August,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,September,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,October,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,November,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2021,December,35000,577500.0,198,145,790
+FreshFarm Ltd.,"Toronto, ON",2022,January,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,February,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,March,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,April,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,May,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,June,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,July,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,August,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,September,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,October,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,November,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2022,December,35000,574583.3333333330,197,148,805
+FreshFarm Ltd.,"Toronto, ON",2023,January,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,February,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,March,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,April,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,May,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,June,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,July,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,August,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,September,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,October,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,November,35000,577500.0,198,149,810
+FreshFarm Ltd.,"Toronto, ON",2023,December,35000,577500.0,198,149,810
+TransportEase Inc.,"Toronto, ON",2020,January,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,February,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,March,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,April,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,May,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,June,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,July,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,August,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,September,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,October,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,November,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2020,December,30000,500000.0,200,140,650
+TransportEase Inc.,"Toronto, ON",2021,January,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,February,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,March,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,April,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,May,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,June,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,July,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,August,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,September,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,October,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,November,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2021,December,30000,505000.0,202,143,640
+TransportEase Inc.,"Toronto, ON",2022,January,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,February,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,March,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,April,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,May,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,June,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,July,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,August,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,September,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,October,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,November,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2022,December,30000,517500.0,207,141,670
+TransportEase Inc.,"Toronto, ON",2023,January,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,February,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,March,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,April,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,May,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,June,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,July,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,August,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,September,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,October,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,November,30000,515000.0,206,142,680
+TransportEase Inc.,"Toronto, ON",2023,December,30000,515000.0,206,142,680
+Shopify Headquarters,"Toronto, ON",2020,January,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,February,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,March,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,April,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,May,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,June,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,July,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,August,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,September,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,October,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,November,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2020,December,25000,312500.0,150,70,900
+Shopify Headquarters,"Toronto, ON",2021,January,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,February,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,March,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,April,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,May,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,June,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,July,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,August,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,September,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,October,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,November,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2021,December,25000,308333.3333333330,148,75,920
+Shopify Headquarters,"Toronto, ON",2022,January,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,February,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,March,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,April,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,May,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,June,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,July,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,August,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,September,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,October,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,November,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2022,December,25000,310416.6666666670,149,73,890
+Shopify Headquarters,"Toronto, ON",2023,January,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,February,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,March,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,April,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,May,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,June,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,July,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,August,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,September,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,October,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,November,25000,312500.0,150,72,915
+Shopify Headquarters,"Toronto, ON",2023,December,25000,312500.0,150,72,915
+Royal Bank of Canada,"Toronto, ON",2020,January,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,February,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,March,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,April,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,May,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,June,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,July,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,August,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,September,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,October,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,November,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2020,December,50000,625000.0,150,80,2000
+Royal Bank of Canada,"Toronto, ON",2021,January,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,February,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,March,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,April,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,May,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,June,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,July,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,August,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,September,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,October,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,November,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2021,December,50000,633333.3333333330,152,83,2020
+Royal Bank of Canada,"Toronto, ON",2022,January,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,February,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,March,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,April,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,May,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,June,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,July,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,August,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,September,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,October,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,November,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2022,December,50000,629166.6666666670,151,81,1980
+Royal Bank of Canada,"Toronto, ON",2023,January,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,February,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,March,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,April,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,May,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,June,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,July,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,August,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,September,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,October,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,November,50000,620833.3333333330,149,82,2010
+Royal Bank of Canada,"Toronto, ON",2023,December,50000,620833.3333333330,149,82,2010
+Scotiabank Tower,"Toronto, ON",2020,January,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,February,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,March,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,April,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,May,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,June,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,July,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,August,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,September,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,October,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,November,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2020,December,45000,750000.0,200,85,1800
+Scotiabank Tower,"Toronto, ON",2021,January,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,February,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,March,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,April,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,May,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,June,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,July,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,August,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,September,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,October,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,November,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2021,December,45000,742500.0,198,88,1780
+Scotiabank Tower,"Toronto, ON",2022,January,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,February,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,March,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,April,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,May,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,June,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,July,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,August,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,September,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,October,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,November,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2022,December,45000,753750.0,201,86,1830
+Scotiabank Tower,"Toronto, ON",2023,January,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,February,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,March,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,April,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,May,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,June,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,July,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,August,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,September,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,October,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,November,45000,761250.0,203,84,1795
+Scotiabank Tower,"Toronto, ON",2023,December,45000,761250.0,203,84,1795
+Rogers Communications,"Toronto, ON",2020,January,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,February,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,March,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,April,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,May,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,June,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,July,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,August,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,September,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,October,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,November,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2020,December,40000,566666.6666666670,170,80,1500
+Rogers Communications,"Toronto, ON",2021,January,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,February,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,March,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,April,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,May,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,June,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,July,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,August,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,September,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,October,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,November,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2021,December,40000,573333.3333333330,172,82,1480
+Rogers Communications,"Toronto, ON",2022,January,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,February,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,March,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,April,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,May,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,June,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,July,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,August,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,September,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,October,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,November,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2022,December,40000,583333.3333333330,175,81,1490
+Rogers Communications,"Toronto, ON",2023,January,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,February,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,March,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,April,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,May,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,June,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,July,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,August,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,September,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,October,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,November,40000,580000.0,174,79,1525
+Rogers Communications,"Toronto, ON",2023,December,40000,580000.0,174,79,1525
+Manulife Financial,"Toronto, ON",2020,January,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,February,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,March,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,April,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,May,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,June,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,July,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,August,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,September,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,October,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,November,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2020,December,55000,687500.0,150,75,2100
+Manulife Financial,"Toronto, ON",2021,January,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,February,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,March,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,April,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,May,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,June,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,July,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,August,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,September,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,October,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,November,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2021,December,55000,678333.3333333330,148,77,2080
+Manulife Financial,"Toronto, ON",2022,January,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,February,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,March,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,April,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,May,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,June,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,July,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,August,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,September,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,October,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,November,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2022,December,55000,682916.6666666670,149,76,2150
+Manulife Financial,"Toronto, ON",2023,January,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,February,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,March,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,April,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,May,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,June,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,July,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,August,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,September,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,October,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,November,55000,696666.6666666670,152,74,2125
+Manulife Financial,"Toronto, ON",2023,December,55000,696666.6666666670,152,74,2125
+Toronto Dominion Centre,"Toronto, ON",2020,January,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,February,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,March,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,April,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,May,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,June,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,July,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,August,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,September,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,October,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,November,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2020,December,60000,750000.0,150,85,2500
+Toronto Dominion Centre,"Toronto, ON",2021,January,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,February,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,March,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,April,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,May,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,June,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,July,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,August,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,September,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,October,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,November,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2021,December,60000,760000.0,152,88,2520
+Toronto Dominion Centre,"Toronto, ON",2022,January,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,February,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,March,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,April,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,May,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,June,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,July,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,August,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,September,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,October,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,November,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2022,December,60000,745000.0,149,87,2490
+Toronto Dominion Centre,"Toronto, ON",2023,January,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,February,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,March,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,April,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,May,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,June,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,July,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,August,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,September,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,October,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,November,60000,755000.0,151,86,2485
+Toronto Dominion Centre,"Toronto, ON",2023,December,60000,755000.0,151,86,2485
+George Brown College,"Toronto, ON",2020,January,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,February,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,March,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,April,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,May,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,June,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,July,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,August,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,September,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,October,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,November,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2020,December,30000,375000.0,150,70,1000
+George Brown College,"Toronto, ON",2021,January,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,February,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,March,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,April,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,May,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,June,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,July,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,August,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,September,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,October,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,November,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2021,December,30000,370000.0,148,72,1020
+George Brown College,"Toronto, ON",2022,January,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,February,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,March,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,April,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,May,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,June,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,July,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,August,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,September,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,October,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,November,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2022,December,30000,382500.0,153,71,1010
+George Brown College,"Toronto, ON",2023,January,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,February,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,March,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,April,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,May,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,June,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,July,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,August,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,September,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,October,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,November,30000,380000.0,152,70,995
+George Brown College,"Toronto, ON",2023,December,30000,380000.0,152,70,995
+SickKids Hospital,"Toronto, ON",2020,January,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,February,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,March,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,April,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,May,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,June,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,July,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,August,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,September,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,October,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,November,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2020,December,40000,666666.6666666670,200,168,3000
+SickKids Hospital,"Toronto, ON",2021,January,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,February,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,March,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,April,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,May,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,June,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,July,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,August,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,September,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,October,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,November,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2021,December,40000,660000.0,198,170,3050
+SickKids Hospital,"Toronto, ON",2022,January,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,February,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,March,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,April,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,May,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,June,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,July,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,August,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,September,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,October,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,November,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2022,December,40000,683333.3333333330,205,169,2990
+SickKids Hospital,"Toronto, ON",2023,January,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,February,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,March,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,April,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,May,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,June,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,July,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,August,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,September,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,October,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,November,40000,666666.6666666670,200,167,3025
+SickKids Hospital,"Toronto, ON",2023,December,40000,666666.6666666670,200,167,3025
+University Health Network,"Toronto, ON",2020,January,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,February,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,March,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,April,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,May,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,June,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,July,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,August,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,September,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,October,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,November,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2020,December,60000,1000000.0,200,168,5000
+University Health Network,"Toronto, ON",2021,January,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,February,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,March,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,April,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,May,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,June,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,July,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,August,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,September,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,October,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,November,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2021,December,60000,1025000.0,205,170,5080
+University Health Network,"Toronto, ON",2022,January,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,February,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,March,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,April,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,May,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,June,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,July,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,August,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,September,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,October,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,November,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2022,December,60000,1050000.0,210,169,4950
+University Health Network,"Toronto, ON",2023,January,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,February,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,March,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,April,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,May,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,June,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,July,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,August,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,September,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,October,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,November,60000,1010000.0,202,167,5050
+University Health Network,"Toronto, ON",2023,December,60000,1010000.0,202,167,5050
+Toronto Transit Commission,"Toronto, ON",2020,January,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,February,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,March,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,April,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,May,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,June,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,July,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,August,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,September,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,October,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,November,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2020,December,35000,875000.0,300,168,4500
+Toronto Transit Commission,"Toronto, ON",2021,January,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,February,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,March,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,April,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,May,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,June,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,July,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,August,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,September,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,October,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,November,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2021,December,35000,904166.6666666670,310,170,4520
+Toronto Transit Commission,"Toronto, ON",2022,January,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,February,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,March,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,April,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,May,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,June,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,July,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,August,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,September,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,October,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,November,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2022,December,35000,889583.3333333330,305,169,4550
+Toronto Transit Commission,"Toronto, ON",2023,January,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,February,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,March,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,April,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,May,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,June,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,July,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,August,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,September,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,October,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,November,35000,880833.3333333330,302,167,4535
+Toronto Transit Commission,"Toronto, ON",2023,December,35000,880833.3333333330,302,167,4535
+Ontario Power Generation,"Toronto, ON",2020,January,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,February,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,March,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,April,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,May,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,June,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,July,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,August,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,September,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,October,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,November,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2020,December,80000,1333333.3333333300,200,168,6000
+Ontario Power Generation,"Toronto, ON",2021,January,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,February,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,March,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,April,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,May,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,June,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,July,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,August,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,September,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,October,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,November,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2021,December,80000,1320000.0,198,170,5950
+Ontario Power Generation,"Toronto, ON",2022,January,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,February,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,March,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,April,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,May,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,June,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,July,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,August,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,September,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,October,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,November,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2022,December,80000,1366666.6666666700,205,169,6020
+Ontario Power Generation,"Toronto, ON",2023,January,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,February,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,March,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,April,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,May,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,June,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,July,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,August,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,September,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,October,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,November,80000,1333333.3333333300,200,167,5980
+Ontario Power Generation,"Toronto, ON",2023,December,80000,1333333.3333333300,200,167,5980
+CN Tower,"Toronto, ON",2020,January,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,February,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,March,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,April,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,May,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,June,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,July,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,August,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,September,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,October,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,November,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2020,December,10000,166666.66666666700,200,168,500
+CN Tower,"Toronto, ON",2021,January,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,February,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,March,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,April,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,May,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,June,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,July,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,August,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,September,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,October,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,November,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2021,December,10000,165000.0,198,170,520
+CN Tower,"Toronto, ON",2022,January,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,February,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,March,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,April,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,May,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,June,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,July,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,August,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,September,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,October,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,November,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2022,December,10000,170833.33333333300,205,169,510
+CN Tower,"Toronto, ON",2023,January,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,February,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,March,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,April,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,May,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,June,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,July,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,August,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,September,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,October,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,November,10000,166666.66666666700,200,167,515
+CN Tower,"Toronto, ON",2023,December,10000,166666.66666666700,200,167,515
+MaRS Discovery District,"Toronto, ON",2020,January,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,February,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,March,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,April,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,May,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,June,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,July,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,August,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,September,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,October,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,November,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2020,December,45000,562500.0,150,80,1200
+MaRS Discovery District,"Toronto, ON",2021,January,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,February,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,March,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,April,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,May,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,June,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,July,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,August,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,September,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,October,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,November,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2021,December,45000,555000.0,148,82,1220
+MaRS Discovery District,"Toronto, ON",2022,January,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,February,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,March,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,April,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,May,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,June,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,July,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,August,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,September,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,October,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,November,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2022,December,45000,581250.0,155,81,1210
+MaRS Discovery District,"Toronto, ON",2023,January,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,February,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,March,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,April,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,May,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,June,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,July,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,August,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,September,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,October,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,November,45000,573750.0,153,83,1195
+MaRS Discovery District,"Toronto, ON",2023,December,45000,573750.0,153,83,1195
+Canada Goose Headquarters,"Toronto, ON",2020,January,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,February,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,March,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,April,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,May,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,June,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,July,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,August,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,September,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,October,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,November,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2020,December,20000,250000.0,150,65,800
+Canada Goose Headquarters,"Toronto, ON",2021,January,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,February,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,March,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,April,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,May,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,June,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,July,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,August,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,September,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,October,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,November,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2021,December,20000,253333.33333333300,152,66,810
+Canada Goose Headquarters,"Toronto, ON",2022,January,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,February,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,March,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,April,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,May,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,June,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,July,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,August,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,September,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,October,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,November,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2022,December,20000,255000.0,153,64,790
+Canada Goose Headquarters,"Toronto, ON",2023,January,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,February,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,March,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,April,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,May,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,June,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,July,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,August,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,September,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,October,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,November,20000,258333.33333333300,155,63,825
+Canada Goose Headquarters,"Toronto, ON",2023,December,20000,258333.33333333300,155,63,825
+Hudson's Bay Company,"Toronto, ON",2020,January,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,February,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,March,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,April,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,May,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,June,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,July,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,August,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,September,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,October,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,November,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2020,December,35000,437500.0,150,70,1000
+Hudson's Bay Company,"Toronto, ON",2021,January,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,February,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,March,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,April,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,May,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,June,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,July,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,August,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,September,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,October,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,November,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2021,December,35000,431666.6666666670,148,72,980
+Hudson's Bay Company,"Toronto, ON",2022,January,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,February,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,March,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,April,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,May,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,June,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,July,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,August,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,September,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,October,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,November,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2022,December,35000,452083.3333333330,155,71,990
+Hudson's Bay Company,"Toronto, ON",2023,January,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,February,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,March,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,April,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,May,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,June,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,July,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,August,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,September,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,October,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,November,35000,443333.3333333330,152,73,1005
+Hudson's Bay Company,"Toronto, ON",2023,December,35000,443333.3333333330,152,73,1005
