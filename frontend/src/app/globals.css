@@ -26,43 +26,6 @@ body {
   }
 }
 
-.soccer-ball-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-  pointer-events: none;
-  overflow-x: hidden;
-}
-
-.soccer-ball {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  background-image: url('/images/soccer-ball.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  animation: float 6s ease-in-out infinite;
-  opacity: 0.8;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0) translateX(0) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-30px) translateX(30px) rotate(45deg);
-  }
-  100% {
-    transform: translateY(0) translateX(0) rotate(0deg);
-  }
-}
-
-
-
 
 /* fonts */
 @font-face {
@@ -82,6 +45,13 @@ body {
 @font-face {
   font-family: 'GameDescription';
   src: url('/fonts/SansMono.ttf') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Buttonfont';
+  src: url('/fonts/module.ttf') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
