@@ -23,8 +23,7 @@ const Home: React.FC = () => {
   const [workHours, setworkHours] = useState("");
   const [monthlyUsage, setMonthlyUsage] = useState(Array(12).fill("")); // Monthly electricity usage
   const [showGraph, setShowGraph] = useState(false);
-  const [comparisonType, setComparisonType] = useState("My Company");
-  const [csvData, setCsvData] = useState<CsvRow[]>([]);
+  const [csvData, setCsvData] = useState<CsvRow[]>([]); // Store all CSV data
   const [filteredData, setFilteredData] = useState<CsvRow[]>([]); // Store only the data for the selected year
   const [hasMounted, setHasMounted] = useState(false);
   
@@ -95,9 +94,11 @@ const Home: React.FC = () => {
   const displayNumEmployees = filteredData.length > 0 ? Number(filteredData[0]["Number of Employees"]) : Number(numEmployees);
   const displayWorkHours = filteredData.length > 0 ? Number(filteredData[0]["Operating Hours per Week"]) : Number(workHours);
 
-
   return (
+
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
+      {!showGraph && (
+        <div className="w-full max-w-4xl space-y-6">
       <div className="w-full text-center">
         <h1 className="text-4xl font-extrabold text-indigo-700">
           <Typewriter
@@ -112,11 +113,7 @@ const Home: React.FC = () => {
           EcoTrack is your all-in-one solution for tracking and managing energy
           usage and waste.
         </p>
-        <Link href="/DynamicChartPage">Go to Dynamic Chart Page</Link>
       </div>
-
-      {!showGraph && (
-        <div className="w-full max-w-4xl space-y-6">
           <InputComponent
             label="Company Name"
             id="companyName"
@@ -127,14 +124,7 @@ const Home: React.FC = () => {
           <div className="flex space-x-4 justify-center">
             <DropdownComponent
               label="Region"
-              options={[
-                "Toronto",
-                "Ottawa",
-                "Mississauga",
-                "Brampton",
-                "Hamilton",
-                "Markham",
-              ]}
+              options={["Toronto", "Ottawa", "Mississauga", "Brampton", "Hamilton", "Markham"]}
               selected={region}
               onSelect={setRegion}
             />
@@ -159,18 +149,8 @@ const Home: React.FC = () => {
               </h2>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  "January",
-                  "February",
-                  "March",
-                  "April",
-                  "May",
-                  "June",
-                  "July",
-                  "August",
-                  "September",
-                  "October",
-                  "November",
-                  "December",
+                  "January", "February", "March", "April", "May", "June",
+                  "July", "August", "September", "October", "November", "December"
                 ].map((month, index) => (
                   <InputComponent
                     key={month}
@@ -218,25 +198,12 @@ const Home: React.FC = () => {
           )}
 
           <div className="w-full flex justify-center mt-6">
-            {/* <Link href="/DynamicChartPage" passHref>
-              <button
-                disabled={!isFormComplete}
-                className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
-                  !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
-                }`}
-                onClick={isFormComplete ? handleFormSubmit : undefined} // Only call if form is complete
-              >
-                Confirm
-              </button>
-            </Link> */}
-
             <button
               disabled={!isFormComplete}
               className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
                 !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleFormSubmit}
-              
             >
               Confirm
             </button>
@@ -249,81 +216,28 @@ const Home: React.FC = () => {
           <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
             Data for {region} ({startYear})
           </h2>
-          <div className="flex justify-center mb-4">
-            <DropdownComponent
-              label="Comparison Type"
-              options={["My Company", "Other Companies"]}
-              selected={comparisonType}
-              onSelect={setComparisonType}
-            />
+          <Usage
+            formData={{
+              companyName,
+              region,
+              wasteType,
+              startYear,
+              monthlyUsage: displayMonthlyUsage,
+              floorArea: displayFloorArea,
+              numEmployees: displayNumEmployees,
+              workHours: displayWorkHours,
+            }}
+          />
+          <div className="mt-8">
+            <AnnualSummaryChart monthlyUsage={displayMonthlyUsage} />
           </div>
-          {comparisonType === "My Company" ? (
-            <>
-              <Usage
-                formData={{
-                  companyName,
-                  region,
-                  wasteType,
-                  startYear,
-                  monthlyUsage: displayMonthlyUsage,
-                  floorArea: displayFloorArea,
-                  numEmployees: displayNumEmployees,
-                  workHours: displayWorkHours,
-                }}
-              />
-              <div className="mt-8">
-                <AnnualSummaryChart monthlyUsage={displayMonthlyUsage} />
-              </div>
-              <div className="mt-8">
-                <ElectricityIntensityChart
-                  monthlyUsage={displayMonthlyUsage}
-                  floorArea={displayFloorArea}
-                />
-                <MonthlyUsageChart monthlyUsage={monthlyUsage} />
-              </div>
-            </>
-          ) : (
-            // Code for displaying data for "Other Companies"
-            <>
-              <Usage
-                formData={{
-                  companyName: "Other Company",
-                  region: "Toronto",
-                  wasteType,
-                  startYear,
-                  monthlyUsage: [
-                    300, 320, 290, 310, 300, 330, 340, 360, 320, 300, 310, 290,
-                  ],
-                  floorArea: "500",
-                  numEmployees: "200",
-                  workHours: "40",
-                }}
-              />
-              <div className="mt-8">
-                <AnnualSummaryChart
-                  monthlyUsage={[
-                    100, 200, 150, 250, 300, 200, 400, 500, 450, 300, 200, 150,
-                  ]}
-                  title="Custom Quarterly Usage Distribution"
-                  width="500px"
-                  height="500px"
-                  colors={["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"]}
-                />
-              </div>
-              <div className="mt-8">
-                <ElectricityIntensityChart
-                  monthlyUsage={[
-                    100, 200, 150, 250, 300, 200, 400, 500, 450, 300, 200, 150,
-                  ]}
-                  floorArea={1000}
-                  title="Custom Electricity Intensity"
-                  width="800px"
-                  height="500px"
-                  color="rgba(54, 162, 235, 0.6)"
-                />
-              </div>
-            </>
-          )}
+          <div className="mt-8">
+            <ElectricityIntensityChart
+              monthlyUsage={displayMonthlyUsage}
+              floorArea={displayFloorArea}
+            />
+            <MonthlyUsageChart monthlyUsage={monthlyUsage} />
+          </div>
         </div>
       )}
     </div>
