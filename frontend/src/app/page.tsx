@@ -1,27 +1,16 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import DropdownComponent from "@/components/DropdownComponent";
 import InputComponent from "@/components/InputComponent";
-import Usage from "@/components/Usage";
-import AnnualSummaryChart from "@/components/Graphs/PieChart";
-import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
-
-import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
-import LandingPage from "@/components/LandingPage";
+import LineChart from "@/components/Graphs/DoubleLineChart";
 import Link from "next/link";
 
-import Papa from "papaparse";
-import { Button } from "@nextui-org/react";
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
   const [region, setRegion] = useState("");
   const [wasteType, setWasteType] = useState("");
   const [startYear, setStartYear] = useState("");
-  const [floorArea, setFloorArea] = useState("");
-  const [numEmployees, setnumEmployees] = useState("");
-  const [workHours, setworkHours] = useState("");
-  const [monthlyUsage, setMonthlyUsage] = useState(Array(12).fill("")); // Monthly electricity usage
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]); // Store all CSV data
   const [filteredData, setFilteredData] = useState<CsvRow[]>([]); // Store only the data for the selected year
@@ -62,30 +51,34 @@ const Home: React.FC = () => {
       },
     });
   };
+  const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(0));
+  const [companyData] = useState<number[]>([
+    70, 65, 78, 85, 60, 62, 70, 75, 80, 78, 74, 68,
+  ]); // Mocked company data
+
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 
   const handleFormSubmit = () => {
-    loadCsvData(region, startYear); // Load data for specific year
     setShowGraph(true);
   };
 
-  const isFormComplete =
-    companyName &&
-    region &&
-    wasteType &&
-    startYear &&
-    monthlyUsage.every((value) => value) &&
-    floorArea &&
-    numEmployees &&
-    workHours;
-
-  if (!hasMounted) {
-    return null;
-  }
-
-  const handleMonthlyUsageChange = (index: number, value: string) => {
-    const updatedUsage = [...monthlyUsage];
-    updatedUsage[index] = value;
-    setMonthlyUsage(updatedUsage);
+  const handleMonthlyDataChange = (index: number, value: string) => {
+    const updatedData = [...monthlyData];
+    updatedData[index] = parseFloat(value) || 0;
+    setMonthlyData(updatedData);
   };
 
   // Calculate display values for monthly usage, floor area, employees, and work hours based on filtered data
@@ -93,6 +86,7 @@ const Home: React.FC = () => {
   const displayFloorArea = filteredData.length > 0 ? Number(filteredData[0]["Gross Floor Area (m²)"]) : Number(floorArea);
   const displayNumEmployees = filteredData.length > 0 ? Number(filteredData[0]["Number of Employees"]) : Number(numEmployees);
   const displayWorkHours = filteredData.length > 0 ? Number(filteredData[0]["Operating Hours per Week"]) : Number(workHours);
+  const isFormComplete = companyName && region && wasteType && startYear;
 
   return (
 
@@ -114,6 +108,9 @@ const Home: React.FC = () => {
           usage and waste.
         </p>
       </div>
+
+      {!showGraph ? (
+        <div className="w-full max-w-4xl space-y-6">
           <InputComponent
             label="Company Name"
             id="companyName"
@@ -124,7 +121,7 @@ const Home: React.FC = () => {
           <div className="flex space-x-4 justify-center">
             <DropdownComponent
               label="Region"
-              options={["Toronto", "Ottawa", "Mississauga", "Brampton", "Hamilton", "Markham"]}
+              options={["Toronto", "Ottawa", "Mississauga"]}
               selected={region}
               onSelect={setRegion}
             />
@@ -142,60 +139,26 @@ const Home: React.FC = () => {
             />
           </div>
 
-          {wasteType === "Electricity" && (
-            <div className="space-y-4 mt-6">
-              <h2 className="text-2xl font-semibold text-indigo-700">
-                Monthly Electricity Usage (kWh)
-              </h2>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  "January", "February", "March", "April", "May", "June",
-                  "July", "August", "September", "October", "November", "December"
-                ].map((month, index) => (
-                  <InputComponent
-                    key={month}
-                    label={month}
-                    id={`electricityUsage-${index}`}
-                    value={monthlyUsage[index]}
-                    placeholder={`Enter usage for ${month}`}
-                    onChange={(e) =>
-                      handleMonthlyUsageChange(index, e.target.value)
-                    }
-                    type="number"
-                  />
-                ))}
-              </div>
+          <div className="space-y-4 mt-6">
+            <h2 className="text-2xl font-semibold text-indigo-700">
+              Enter Monthly Data for {wasteType} (kWh)
+            </h2>
+            <div className="grid grid-cols-2 gap-4">
+              {months.map((month, index) => (
+                <InputComponent
+                  key={month}
+                  label={month}
+                  id={`monthlyData-${index}`}
+                  value={monthlyData[index].toString()}
+                  placeholder={`Enter usage for ${month}`}
+                  onChange={(e) =>
+                    handleMonthlyDataChange(index, e.target.value)
+                  }
+                  type="number"
+                />
+              ))}
             </div>
-          )}
-
-          {wasteType === "Electricity" && (
-            <div className="space-y-4 mt-6">
-              <InputComponent
-                label="Floor Area (m²)"
-                id="floorArea"
-                value={floorArea}
-                placeholder="Enter your floor area in m²"
-                onChange={(e) => setFloorArea(e.target.value)}
-                type="number"
-              />
-              <InputComponent
-                label="Number of Employees"
-                id="numEmployees"
-                value={numEmployees}
-                placeholder="Enter the number of employees"
-                onChange={(e) => setnumEmployees(e.target.value)}
-                type="number"
-              />
-              <InputComponent
-                label="Working Hours per Week"
-                id="workHours"
-                value={workHours}
-                placeholder="Enter working hours per week"
-                onChange={(e) => setworkHours(e.target.value)}
-                type="number"
-              />
-            </div>
-          )}
+          </div>
 
           <div className="w-full flex justify-center mt-6">
             <button
@@ -209,34 +172,20 @@ const Home: React.FC = () => {
             </button>
           </div>
         </div>
-      )}
-
-      {showGraph && (
+      ) : (
         <div className="w-full mt-10">
           <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
-            Data for {region} ({startYear})
+            Monthly Data for {region} ({startYear})
           </h2>
-          <Usage
-            formData={{
-              companyName,
-              region,
-              wasteType,
-              startYear,
-              monthlyUsage: displayMonthlyUsage,
-              floorArea: displayFloorArea,
-              numEmployees: displayNumEmployees,
-              workHours: displayWorkHours,
-            }}
-          />
           <div className="mt-8">
-            <AnnualSummaryChart monthlyUsage={displayMonthlyUsage} />
-          </div>
-          <div className="mt-8">
-            <ElectricityIntensityChart
-              monthlyUsage={displayMonthlyUsage}
-              floorArea={displayFloorArea}
+            <LineChart
+              labels={months}
+              userDataset={monthlyData}
+              companyDataset={companyData}
+              chartTitle={`Monthly ${wasteType} Usage Comparison for ${companyName}`}
+              xAxisLabel="Months"
+              yAxisLabel={`${wasteType} Usage (kWh)`}
             />
-            <MonthlyUsageChart monthlyUsage={monthlyUsage} />
           </div>
         </div>
       )}
