@@ -12,6 +12,45 @@ const Home: React.FC = () => {
   const [wasteType, setWasteType] = useState("");
   const [startYear, setStartYear] = useState("");
   const [showGraph, setShowGraph] = useState(false);
+  const [csvData, setCsvData] = useState<CsvRow[]>([]); // Store all CSV data
+  const [filteredData, setFilteredData] = useState<CsvRow[]>([]); // Store only the data for the selected year
+  const [hasMounted, setHasMounted] = useState(false);
+  
+  interface CsvRow {
+    "Company Name": string;
+    "Location": string;
+    "Year": string;
+    "Month": string;
+
+    "Gross Floor Area (m²)": string;
+    "Monthly Electricity Use (kWh)": string;
+    "Electricity Use Intensity (kWh/m²)": string;
+    "Operating Hours per Week": string;
+    "Number of Employees": string;
+  }
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
+
+  const loadCsvData = (region: string, year: string) => {
+    const filePath = `/Data/NEW_${region.toLowerCase()}.csv`;
+  
+
+    Papa.parse<CsvRow>(filePath, {
+      download: true,
+      header: true,
+      complete: (result) => {
+        // Filter data for the specific year before setting it
+        const yearFilteredData = result.data.filter(row => row["Year"] === year);
+        setFilteredData(yearFilteredData); // Store only the data for the selected year
+        console.log("Filtered data:", yearFilteredData);
+      },
+      error: (error) => {
+        console.error("Error loading CSV file:", error);
+      },
+    });
+  };
   const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(0));
   const [companyData] = useState<number[]>([
     70, 65, 78, 85, 60, 62, 70, 75, 80, 78, 74, 68,
@@ -42,10 +81,18 @@ const Home: React.FC = () => {
     setMonthlyData(updatedData);
   };
 
+  // Calculate display values for monthly usage, floor area, employees, and work hours based on filtered data
+  const displayMonthlyUsage = filteredData.map(row => Number(row["Monthly Electricity Use (kWh)"]));
+  const displayFloorArea = filteredData.length > 0 ? Number(filteredData[0]["Gross Floor Area (m²)"]) : Number(floorArea);
+  const displayNumEmployees = filteredData.length > 0 ? Number(filteredData[0]["Number of Employees"]) : Number(numEmployees);
+  const displayWorkHours = filteredData.length > 0 ? Number(filteredData[0]["Operating Hours per Week"]) : Number(workHours);
   const isFormComplete = companyName && region && wasteType && startYear;
 
   return (
+
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
+      {!showGraph && (
+        <div className="w-full max-w-4xl space-y-6">
       <div className="w-full text-center">
         <h1 className="text-4xl font-extrabold text-indigo-700">
           <Typewriter
