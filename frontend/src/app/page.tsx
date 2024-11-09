@@ -1,4 +1,3 @@
-// pages/Home.tsx
 "use client";
 import React, { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
@@ -7,10 +6,13 @@ import InputComponent from "@/components/InputComponent";
 import Usage from "@/components/Usage";
 import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
+
 import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
 import LandingPage from "@/components/LandingPage";
-import Papa from "papaparse";
+import Link from "next/link";
 
+import Papa from "papaparse";
+import { Button } from "@nextui-org/react";
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
   const [region, setRegion] = useState("");
@@ -23,14 +25,17 @@ const Home: React.FC = () => {
   const [showGraph, setShowGraph] = useState(false);
   const [comparisonType, setComparisonType] = useState("My Company");
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
+  const [filteredData, setFilteredData] = useState<CsvRow[]>([]); // Store only the data for the selected year
   const [hasMounted, setHasMounted] = useState(false);
   
-
   interface CsvRow {
     "Company Name": string;
     "Location": string;
+    "Year": string;
+    "Month": string;
+
     "Gross Floor Area (m²)": string;
-    "Annual Electricity Use (kWh)": string;
+    "Monthly Electricity Use (kWh)": string;
     "Electricity Use Intensity (kWh/m²)": string;
     "Operating Hours per Week": string;
     "Number of Employees": string;
@@ -40,15 +45,18 @@ const Home: React.FC = () => {
     setHasMounted(true);
   }, []);
 
-  const loadCsvData = (region: string) => {
-    const filePath = `/Data/data_${region.toLowerCase()}.csv`;
+  const loadCsvData = (region: string, year: string) => {
+    const filePath = `/Data/NEW_${region.toLowerCase()}.csv`;
   
+
     Papa.parse<CsvRow>(filePath, {
       download: true,
       header: true,
       complete: (result) => {
-        setCsvData(result.data);
-        console.log("Loaded data:", result.data);
+        // Filter data for the specific year before setting it
+        const yearFilteredData = result.data.filter(row => row["Year"] === year);
+        setFilteredData(yearFilteredData); // Store only the data for the selected year
+        console.log("Filtered data:", yearFilteredData);
       },
       error: (error) => {
         console.error("Error loading CSV file:", error);
@@ -57,7 +65,7 @@ const Home: React.FC = () => {
   };
 
   const handleFormSubmit = () => {
-    loadCsvData(region);
+    loadCsvData(region, startYear); // Load data for specific year
     setShowGraph(true);
   };
 
@@ -81,24 +89,12 @@ const Home: React.FC = () => {
     setMonthlyUsage(updatedUsage);
   };
 
-  // Extract form data from csvData if csvData is available
-  const selectedData = csvData.find(row => row["Company Name"] === companyName);
+  // Calculate display values for monthly usage, floor area, employees, and work hours based on filtered data
+  const displayMonthlyUsage = filteredData.map(row => Number(row["Monthly Electricity Use (kWh)"]));
+  const displayFloorArea = filteredData.length > 0 ? Number(filteredData[0]["Gross Floor Area (m²)"]) : Number(floorArea);
+  const displayNumEmployees = filteredData.length > 0 ? Number(filteredData[0]["Number of Employees"]) : Number(numEmployees);
+  const displayWorkHours = filteredData.length > 0 ? Number(filteredData[0]["Operating Hours per Week"]) : Number(workHours);
 
-  const displayMonthlyUsage = selectedData 
-    ? Array(12).fill(Number(selectedData["Annual Electricity Use (kWh)"]) / 12)
-    : monthlyUsage.map(Number);
-
-  const displayFloorArea = selectedData
-    ? Number(selectedData["Gross Floor Area (m²)"])
-    : Number(floorArea);
-
-  const displayNumEmployees = selectedData
-    ? Number(selectedData["Number of Employees"])
-    : Number(numEmployees);
-
-  const displayWorkHours = selectedData
-    ? Number(selectedData["Operating Hours per Week"])
-    : Number(workHours);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
@@ -116,6 +112,7 @@ const Home: React.FC = () => {
           EcoTrack is your all-in-one solution for tracking and managing energy
           usage and waste.
         </p>
+        <Link href="/DynamicChartPage">Go to Dynamic Chart Page</Link>
       </div>
 
       {!showGraph && (
@@ -221,12 +218,25 @@ const Home: React.FC = () => {
           )}
 
           <div className="w-full flex justify-center mt-6">
+            {/* <Link href="/DynamicChartPage" passHref>
+              <button
+                disabled={!isFormComplete}
+                className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
+                  !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
+                }`}
+                onClick={isFormComplete ? handleFormSubmit : undefined} // Only call if form is complete
+              >
+                Confirm
+              </button>
+            </Link> */}
+
             <button
               disabled={!isFormComplete}
               className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
                 !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleFormSubmit}
+              
             >
               Confirm
             </button>
@@ -269,9 +279,8 @@ const Home: React.FC = () => {
                   monthlyUsage={displayMonthlyUsage}
                   floorArea={displayFloorArea}
                 />
-                <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
+                <MonthlyUsageChart monthlyUsage={monthlyUsage} />
               </div>
-              
             </>
           ) : (
             // Code for displaying data for "Other Companies"
@@ -315,9 +324,7 @@ const Home: React.FC = () => {
               </div>
             </>
           )}
-          
         </div>
-        
       )}
     </div>
   );
