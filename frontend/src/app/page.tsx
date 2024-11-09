@@ -229,9 +229,9 @@ const Home: React.FC = () => {
                   monthlyUsage: [
                     300, 320, 290, 310, 300, 330, 340, 360, 320, 300, 310, 290,
                   ],
-                  floorArea: 500,
-                  numEmployees: 200,
-                  workHours: 40,
+                  floorArea: "500",
+                  numEmployees: "200",
+                  workHours: "40",
                 }}
               />
               <div className="mt-8">
