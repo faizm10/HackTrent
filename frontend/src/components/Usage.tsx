@@ -1,4 +1,3 @@
-'use client'
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import {
@@ -23,15 +22,31 @@ ChartJS.register(
   Legend
 );
 
-const Dashboard = () => {
+// Updated FormData interface to include monthlyUsage as an array of numbers
+interface FormData {
+  companyName: string;
+  region: string;
+  wasteType: string;
+  startYear: string;
+  monthlyUsage: number[]; // Array of monthly electricity usage values
+  floorArea: string;
+  numEmployees: string;
+  workHours: string;
+}
+
+interface UsageProps {
+  formData: FormData;
+}
+
+const Usage: React.FC<UsageProps> = ({ formData }) => {
   // Sample labels for each month
   const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-  // Mock data for energy usage of two companies
-  const companyAData = [300, 280, 320, 310, 295,345,256,225,64,4,64,3]; // Energy usage for Company A
-  const companyBData = [250, 260, 290, 300, 280,400,35,23,523,6,325,52]; // Energy usage for Company B
+  // Mock data for comparison
+  const companyAData = [300, 280, 320, 310, 295, 345, 256, 225, 64, 4, 64, 3];
+  const companyBData = formData.monthlyUsage; // Directly using the array of monthly usage values
 
-  // Chart options for the double line chart
+  // Chart options
   const lineChartOptions: ChartOptions<'line'> = {
     responsive: true,
     plugins: {
@@ -40,14 +55,12 @@ const Dashboard = () => {
       },
       title: {
         display: true,
-        text: 'Monthly Energy Usage Comparison Between Company A and Company B',
+        text: 'Monthly Energy Usage Comparison Between Company A and Submitted Data',
       },
     },
     scales: {
       y: {
         beginAtZero: true,
-        min: 0,
-        max: 400,
         title: {
           display: true,
           text: 'Energy Usage (kWh)',
@@ -56,7 +69,7 @@ const Dashboard = () => {
     },
   };
 
-  // Data configuration for the double line chart
+  // Data for the double line chart
   const energyComparisonData = {
     labels,
     datasets: [
@@ -68,7 +81,7 @@ const Dashboard = () => {
         tension: 0.4,
       },
       {
-        label: 'Company B',
+        label: 'Submitted Data',
         data: companyBData,
         borderColor: 'rgba(255, 99, 132, 1)',
         backgroundColor: 'rgba(255, 99, 132, 0.2)',
@@ -77,35 +90,11 @@ const Dashboard = () => {
     ],
   };
 
-  // Inline styles for layout
-  const styles = {
-    container: {
-      padding: '20px',
-      fontFamily: 'Arial, sans-serif',
-    },
-    header: {
-      textAlign: 'center' as const,
-      marginBottom: '30px',
-    },
-    chartBox: {
-      padding: '20px',
-      backgroundColor: '#f3f3f3',
-      borderRadius: '8px',
-      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-      textAlign: 'center' as const,
-    },
-  };
-
   return (
-    <div style={styles.container}>
-      <h1 style={styles.header} className=" text-2xl">Energy Usage Dashboard</h1>
-
-      <div style={styles.chartBox}>
-        <h2>Energy Usage Comparison</h2>
-        <Line options={lineChartOptions} data={energyComparisonData} />
-      </div>
+    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+      <Line options={lineChartOptions} data={energyComparisonData} />
     </div>
   );
 };
 
-export default Dashboard;
+export default Usage;
