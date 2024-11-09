@@ -27,7 +27,7 @@ const ElectricityIntensityChart: React.FC<ElectricityIntensityChartProps> = ({
   monthlyUsage,
   floorArea,
   title = "Monthly Electricity Intensity (kWh/m²)",
-  width = "600px",
+  width = "400px",
   height = "400px",
   color = "rgba(255, 99, 132, 0.5)", // Default color
 }) => {
