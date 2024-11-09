@@ -93,7 +93,7 @@ const Home: React.FC = () => {
           <div className="flex space-x-4 justify-center">
             <DropdownComponent
               label="Region"
-              options={["Toronto", "Ottawa", "Mississauga"]}
+              options={["Toronto", "Ottawa", "Mississauga", "Hamilton"]}
               selected={region}
               onSelect={setRegion}
             />
