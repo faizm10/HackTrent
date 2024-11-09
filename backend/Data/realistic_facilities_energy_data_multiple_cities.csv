@@ -1,0 +1,151 @@
+City,Facility Name,Address,Gross Floor Area (m²),Electricity Use (kWh),Natural Gas Use (m³),Total Site Energy Use (GJ),Site Energy Use Intensity (GJ/m²),Total GHG Emissions (metric tons CO₂e),GHG Emissions Intensity (kg CO₂e/m²)
+Toronto,Toronto Public Library - Central Branch,473 King St,5979.6,101347.4,12284.8,1988.0,0.41,72.5,16.0
+Toronto,Scotiabank Arena,849 King St,2688.2,64439.6,19621.3,2396.0,0.41,52.2,17.0
+Toronto,Toronto City Hall,371 University Ave,4692.2,60937.4,17821.1,2185.1,0.38,106.8,21.4
+Toronto,Enercare Centre,808 Queen St,4723.5,101001.5,10817.3,1797.2,0.4,96.7,16.9
+Toronto,Toronto Reference Library,852 University Ave,2955.9,50934.8,19279.2,2273.2,0.5,109.0,15.4
+Toronto,Metro Toronto Convention Centre,445 Queen St,5154.0,57808.3,17733.5,1797.1,0.49,82.6,21.9
+Toronto,Toronto Zoo,374 King St,4395.6,76533.9,14125.6,1292.5,0.5,69.6,20.0
+Toronto,Ripley's Aquarium of Canada,408 King St,4173.9,71497.1,18170.5,1344.4,0.48,75.6,18.1
+Toronto,Casa Loma,218 Front St,4257.5,90112.5,12226.7,1830.5,0.37,68.5,19.4
+Toronto,Ontario Science Centre,153 Front St,2587.7,54578.1,16861.9,1799.1,0.49,104.4,18.4
+Toronto,Toronto Western Hospital,238 Main St,4155.7,87807.3,11846.0,2053.2,0.37,85.9,17.0
+Toronto,Sunnybrook Health Sciences Centre,691 University Ave,2886.1,105679.3,12613.0,2052.7,0.45,110.5,16.8
+Toronto,Union Station,364 King St,3054.6,91448.7,13933.7,2066.0,0.35,89.9,19.3
+Toronto,Roy Thomson Hall,933 Main St,4834.3,97347.6,18564.7,2350.5,0.6,98.1,21.2
+Toronto,Art Gallery of Ontario,569 Main St,5619.2,68664.2,19928.2,1854.6,0.3,73.6,23.9
+Toronto,Nathan Phillips Square,355 University Ave,3762.9,87342.1,13229.6,1964.4,0.47,106.1,18.2
+Toronto,St. Lawrence Market,198 University Ave,3989.9,69789.1,12408.8,1292.3,0.36,84.0,21.9
+Toronto,The Distillery Historic District,779 Front St,3945.8,109645.5,14457.9,1452.7,0.49,52.0,19.6
+Toronto,High Park,801 Main St,3250.2,57430.2,12481.2,2325.4,0.41,109.4,20.7
+Toronto,Toronto Botanical Garden,149 Front St,3683.3,66937.6,12616.0,1426.0,0.45,98.1,21.4
+Toronto,Downsview Park,455 Front St,5616.1,107627.7,18834.4,1439.8,0.43,63.5,22.6
+Toronto,Toronto Police Headquarters,777 Queen St,5317.7,55707.7,14190.7,1714.8,0.56,95.0,17.5
+Toronto,Toronto General Hospital,460 University Ave,5187.7,58820.0,18354.4,2047.6,0.32,60.6,19.7
+Toronto,Princess Margaret Cancer Centre,713 University Ave,4021.0,114749.5,14244.4,1787.4,0.44,90.7,20.7
+Toronto,Toronto Eaton Centre,417 Main St,5147.3,57292.4,19707.8,2236.4,0.49,86.5,20.2
+Toronto,Yonge-Dundas Square,603 Main St,3992.4,82948.5,11581.2,1385.6,0.59,106.9,21.2
+Toronto,Harbourfront Centre,612 Front St,4502.2,119761.4,18231.4,1401.9,0.56,72.6,17.6
+Toronto,Humber River Hospital,917 King St,5145.6,74345.9,11916.4,1465.4,0.33,78.8,16.2
+Toronto,The Elgin and Winter Garden Theatre Centre,563 Front St,3255.9,113905.9,13667.0,1410.7,0.39,67.2,20.7
+Toronto,Toronto Islands Ferry Terminal,864 Queen St,4540.0,57187.4,18595.6,2158.9,0.52,109.4,19.9
+Ottawa,Ottawa City Hall,127 Main St,3671.1,107670.3,14991.6,1569.4,0.36,106.6,20.9
+Ottawa,Rideau Centre,825 Main St,3739.9,96214.1,11103.7,1497.2,0.54,72.6,19.6
+Ottawa,Canadian Museum of History,506 University Ave,3781.2,63502.7,19214.9,1989.3,0.47,103.5,17.7
+Ottawa,Canadian War Museum,775 Queen St,3717.1,54464.4,11072.3,2030.9,0.57,102.3,22.5
+Ottawa,Parliament Hill,335 Front St,3910.2,93508.0,13324.9,2045.2,0.31,65.2,20.0
+Ottawa,Carleton University,951 Queen St,3570.3,56154.2,17387.3,1993.6,0.34,74.9,23.9
+Ottawa,University of Ottawa,569 Front St,2894.7,99060.9,15644.3,1831.1,0.59,89.6,21.5
+Ottawa,TD Place Arena,143 Queen St,4101.8,95380.8,16105.7,1283.3,0.54,112.1,22.8
+Ottawa,National Gallery of Canada,381 Front St,5709.8,114740.5,10021.7,1504.5,0.59,55.4,20.5
+Ottawa,Rideau Hall,866 Front St,4771.1,110577.1,19978.5,1361.4,0.57,87.4,21.3
+Ottawa,Ottawa Convention Centre,846 Main St,3852.9,104494.4,19120.2,1761.1,0.4,79.7,17.7
+Ottawa,Byward Market,204 King St,4154.4,104424.6,16248.4,1515.7,0.43,83.4,25.0
+Ottawa,Ottawa Train Station,282 University Ave,4080.0,118965.1,14406.9,1516.8,0.49,107.0,15.4
+Ottawa,CHEO - Children's Hospital,517 King St,3017.9,116312.2,19381.8,1906.6,0.32,65.0,22.4
+Ottawa,Algonquin College,605 King St,4861.0,52024.8,18964.4,2447.9,0.58,111.2,16.9
+Ottawa,Canada Science and Technology Museum,294 Queen St,3051.6,106569.0,15669.8,2446.0,0.6,69.8,24.7
+Ottawa,Ottawa Police Headquarters,394 Queen St,5377.4,68531.0,19688.4,1362.8,0.59,75.5,19.7
+Ottawa,LeBreton Flats,495 Queen St,4500.8,116961.4,12429.0,2471.0,0.56,116.1,16.3
+Ottawa,Canadian Tire Centre,511 Front St,3403.1,65132.0,18178.2,1877.2,0.51,116.7,21.5
+Ottawa,Ottawa Public Library - Main,259 Main St,3724.4,71693.2,11466.1,2194.0,0.59,63.4,15.9
+Ottawa,Mooney's Bay Park,662 Main St,3722.8,67786.5,18561.9,1435.9,0.49,76.2,22.6
+Ottawa,National Arts Centre,953 Front St,5937.9,68187.7,10186.7,1551.1,0.57,99.0,18.7
+Ottawa,Confederation Park,746 Front St,5334.1,103772.0,14095.5,1827.3,0.38,79.5,17.4
+Ottawa,Canadian Aviation and Space Museum,187 Main St,5167.9,78735.8,10465.7,2171.0,0.57,57.2,19.8
+Ottawa,Ottawa Hospital,282 Queen St,5122.4,69861.6,10266.3,1380.4,0.34,118.4,18.6
+Ottawa,Gatineau Park Visitor Centre,966 Main St,3172.5,86631.5,16234.7,2129.6,0.41,91.9,17.1
+Ottawa,Ottawa Art Gallery,583 University Ave,4248.4,78027.8,15068.9,1810.5,0.56,107.8,17.3
+Ottawa,Hog's Back Falls,642 Main St,5945.3,80346.7,15377.3,2359.8,0.36,112.8,24.4
+Ottawa,RCMP Headquarters,250 Main St,2815.5,67595.1,10978.4,2112.9,0.48,110.2,23.4
+Ottawa,Dominion Arboretum,631 University Ave,5778.1,84176.0,10046.1,2335.3,0.36,91.0,21.8
+Mississauga,Square One Shopping Centre,488 King St,4193.5,92375.2,16864.2,1950.0,0.49,76.2,15.8
+Mississauga,Mississauga Civic Centre,200 Front St,5724.7,75370.3,10483.0,1665.9,0.37,109.6,20.7
+Mississauga,Mississauga Central Library,172 King St,3348.6,52438.9,12188.0,2120.4,0.39,97.3,24.3
+Mississauga,Living Arts Centre,287 Main St,4446.3,53338.4,12440.8,1724.9,0.34,97.1,15.6
+Mississauga,Mississauga Hospital,369 Front St,3004.0,58198.7,10102.5,1721.5,0.48,52.9,16.3
+Mississauga,Credit Valley Hospital,337 Front St,4436.9,54395.4,17024.7,1234.7,0.58,69.8,15.2
+Mississauga,Riverwood Conservancy,819 Queen St,3370.6,77875.4,15405.9,1963.7,0.36,84.0,23.5
+Mississauga,Port Credit Arena,155 Queen St,5830.6,71034.1,15238.8,1396.9,0.47,111.9,18.3
+Mississauga,Hershey Centre,146 King St,4243.2,80527.4,16557.3,1316.7,0.59,55.7,17.3
+Mississauga,Mississauga Valley Community Centre,801 King St,5422.2,95643.0,14312.8,2127.4,0.49,97.0,19.4
+Mississauga,Sheridan College - Hazel McCallion Campus,640 Main St,5252.1,118825.4,11330.9,1412.4,0.43,83.5,19.9
+Mississauga,University of Toronto Mississauga,609 Main St,3918.3,83189.1,19791.6,2333.6,0.58,62.8,20.6
+Mississauga,Erin Mills Town Centre,435 King St,5823.3,89328.6,17215.8,1396.8,0.4,66.6,19.9
+Mississauga,Streetsville Village Square,108 King St,3065.9,61118.1,18680.1,1698.1,0.42,95.7,17.8
+Mississauga,Rathwood Park,303 Queen St,3661.6,56945.3,17281.4,2406.1,0.46,58.4,15.3
+Mississauga,Mississauga Waterfront Trail,601 King St,4098.0,71476.0,10616.8,2421.1,0.44,82.2,21.2
+Mississauga,Benares Historic House,556 Front St,5460.9,106093.9,11610.3,2376.2,0.51,73.1,18.9
+Mississauga,Burnhamthorpe Community Centre,184 Queen St,3124.3,106674.6,15840.5,2304.0,0.4,59.3,15.9
+Mississauga,Erindale Park,448 University Ave,2551.2,102531.7,17716.7,2346.3,0.39,74.6,22.6
+Mississauga,Cooksville GO Station,326 University Ave,3105.2,70063.9,13042.4,2422.3,0.43,88.6,24.7
+Mississauga,Dixie Outlet Mall,507 Front St,5960.8,55256.3,19860.8,2327.1,0.41,93.4,21.0
+Mississauga,Lorne Park Library,641 Main St,4761.8,96750.3,10239.0,1954.9,0.51,82.6,18.7
+Mississauga,Malton Community Centre,621 Front St,4087.3,104051.3,13046.7,1512.4,0.47,99.1,17.3
+Mississauga,Woodbine Casino,904 Front St,3130.6,82911.4,19962.7,2095.7,0.32,64.4,24.7
+Mississauga,Lakefront Promenade Marina,499 Main St,3829.9,82640.3,19304.1,2210.8,0.59,96.8,18.0
+Mississauga,Mississauga Sports Hall of Fame,422 Front St,3521.7,71506.1,17167.9,2160.4,0.55,102.1,19.6
+Mississauga,South Common Community Centre,730 University Ave,5699.0,85703.6,16053.6,2300.0,0.46,110.7,17.1
+Mississauga,Sawmill Valley Trail,451 University Ave,5600.5,76170.4,18390.7,1286.9,0.46,51.5,15.6
+Mississauga,Indian Line Campground,792 Main St,5477.9,59534.4,14843.7,1700.3,0.49,110.6,18.5
+Mississauga,Sky Zone Trampoline Park,646 Queen St,5702.1,106869.2,12002.9,2448.6,0.47,84.8,20.9
+Hamilton,Hamilton City Hall,835 Main St,5402.5,80552.9,14073.4,1244.1,0.57,51.9,20.4
+Hamilton,Hamilton GO Centre,539 Front St,3544.9,80934.5,10593.9,2482.0,0.37,58.9,21.2
+Hamilton,McMaster University,331 Queen St,2721.4,83855.5,11845.8,1700.6,0.31,50.8,24.7
+Hamilton,Mohawk College,835 University Ave,3520.9,90524.4,18121.5,1810.2,0.36,88.6,20.9
+Hamilton,Hamilton Public Library - Central,531 King St,4636.2,54175.7,12132.0,1670.7,0.53,63.8,19.4
+Hamilton,FirstOntario Centre,317 King St,3880.9,87178.9,17278.6,1368.3,0.53,97.2,16.4
+Hamilton,Royal Botanical Gardens,787 King St,5231.7,56337.1,19074.9,1971.6,0.6,87.0,16.6
+Hamilton,Hamilton Museum of Steam & Technology,637 King St,5409.1,63421.6,13498.4,2201.3,0.41,79.2,19.4
+Hamilton,Bayfront Park,528 Queen St,4125.1,100738.9,10830.1,1284.2,0.42,107.1,22.7
+Hamilton,Dundurn Castle,490 Queen St,3743.7,79606.3,13569.5,2323.5,0.33,111.7,24.2
+Hamilton,Gore Park,404 University Ave,5776.8,77423.9,13427.4,1294.1,0.47,67.5,21.0
+Hamilton,Canadian Warplane Heritage Museum,824 Queen St,4154.3,113281.7,17273.7,1317.6,0.54,71.7,17.6
+Hamilton,Art Gallery of Hamilton,901 Front St,4816.4,75056.9,15828.3,2083.9,0.57,69.4,20.4
+Hamilton,Tim Hortons Field,492 University Ave,2922.1,73476.1,16046.7,1208.3,0.32,101.4,20.6
+Hamilton,Chedoke Falls,829 Front St,4590.3,105903.2,10137.0,1513.5,0.4,105.1,22.1
+Hamilton,Hamilton Health Sciences Centre,462 Queen St,2934.0,114583.1,10004.0,1785.5,0.44,115.2,15.6
+Hamilton,Hamilton Farmers' Market,615 Front St,2568.7,105655.2,11187.4,1790.5,0.6,105.6,21.7
+Hamilton,Fieldcote Memorial Park and Museum,687 University Ave,4277.7,110165.2,11571.8,1345.1,0.44,51.4,24.3
+Hamilton,Devil's Punchbowl Conservation Area,783 University Ave,2807.1,71091.0,19844.3,1214.2,0.32,90.7,16.7
+Hamilton,King's Forest Golf Club,867 Queen St,4083.8,76274.3,12895.0,1455.5,0.38,52.7,17.8
+Hamilton,Westdale Theatre,640 Main St,5852.5,118145.0,19331.3,2324.9,0.32,89.0,18.3
+Hamilton,Wild Waterworks,712 King St,3847.6,84347.2,19016.5,1426.7,0.57,95.5,21.7
+Hamilton,Christie Lake Conservation Area,481 King St,4704.4,84148.9,10914.8,2263.9,0.48,83.1,21.6
+Hamilton,Valens Lake Conservation Area,280 Queen St,5957.2,118333.3,14934.2,1943.0,0.4,72.3,23.3
+Hamilton,Hamilton Harbour,734 Queen St,3258.2,55135.8,19171.3,1258.5,0.55,103.6,17.6
+Hamilton,Sam Lawrence Park,909 Main St,4504.3,111447.3,11973.8,2300.8,0.3,106.1,17.2
+Hamilton,Pier 8,343 Front St,5721.1,93238.2,19377.2,1989.8,0.31,98.9,17.0
+Hamilton,Ancaster Community Centre,679 University Ave,5789.4,82722.4,14701.5,2472.3,0.56,54.5,17.0
+Hamilton,McMaster Children's Hospital,841 Main St,3202.1,110507.3,11385.3,1532.5,0.49,106.4,20.4
+Hamilton,Albion Falls,321 University Ave,2661.6,52565.6,14628.8,1658.4,0.46,72.7,22.9
+Brampton,Brampton Civic Hospital,801 Queen St,4311.5,95748.2,15411.8,1774.3,0.31,103.3,16.2
+Brampton,Brampton City Hall,622 Main St,4204.7,101261.3,10710.2,1989.3,0.48,114.3,23.1
+Brampton,Peel Art Gallery Museum and Archives (PAMA),459 King St,4965.1,58642.0,14454.4,1311.7,0.4,116.5,24.4
+Brampton,Gage Park,855 Queen St,5617.1,113631.0,12242.1,1430.9,0.3,55.7,21.4
+Brampton,Brampton Library - Four Corners Branch,257 Main St,3817.7,100571.2,18354.1,1849.3,0.57,115.3,19.6
+Brampton,Rose Theatre,350 University Ave,4818.3,106215.7,17286.4,2329.3,0.42,93.1,23.9
+Brampton,Chinguacousy Park,262 University Ave,3965.3,83831.2,11119.5,2419.9,0.46,113.1,19.8
+Brampton,Claireville Conservation Area,803 Queen St,5932.2,55437.2,18302.5,1369.9,0.48,93.0,22.9
+Brampton,Powerade Centre,406 King St,5665.4,100772.5,19028.5,2491.5,0.34,113.0,23.7
+Brampton,Shoppers World Brampton,268 Main St,4492.9,91527.0,17961.1,1629.4,0.35,118.7,15.2
+Brampton,Bramalea City Centre,955 King St,2900.8,72886.8,12841.4,1749.4,0.52,55.6,22.4
+Brampton,Brampton Courthouse,220 Front St,5972.4,55643.9,19865.8,1351.1,0.41,74.6,22.1
+Brampton,Heart Lake Conservation Area,324 Main St,4404.0,104569.6,15840.9,1806.2,0.58,94.1,22.8
+Brampton,Sikh Heritage Museum,745 Queen St,3087.6,83157.6,11768.8,2396.7,0.3,113.2,16.8
+Brampton,Professor's Lake,484 Main St,5725.2,97353.3,11749.0,1801.3,0.47,53.2,22.8
+Brampton,Century Gardens Recreation Centre,811 Front St,2982.6,91357.6,16521.9,2328.8,0.51,102.0,21.0
+Brampton,Loafer's Lake Recreation Centre,166 Queen St,4725.4,58088.0,18811.0,2412.5,0.4,108.8,15.7
+Brampton,Gore Meadows Community Centre,643 University Ave,3909.5,105320.3,17485.7,1974.6,0.49,117.7,24.0
+Brampton,Chris Gibson Recreation Centre,869 University Ave,3351.2,103130.3,18538.4,1446.9,0.37,77.5,23.8
+Brampton,Greenbriar Recreation Centre,356 Main St,4498.0,92765.4,10565.1,1998.7,0.38,58.9,17.3
+Brampton,Mount Pleasant GO Station,565 Main St,4010.1,101899.2,15064.1,2317.2,0.44,61.4,24.8
+Brampton,The Flower City Community Campus,115 University Ave,5226.1,111893.2,13655.8,2220.9,0.54,110.5,16.1
+Brampton,Peel Memorial Centre for Integrated Health and Wellness,645 Main St,3785.2,69937.9,17512.0,1580.5,0.52,72.1,16.0
+Brampton,Williams Parkway Operations Centre,148 King St,3250.6,53395.3,19556.7,1207.2,0.46,91.8,24.9
+Brampton,Downtown Brampton Farmers' Market,140 Front St,4783.6,84019.8,15870.5,1549.9,0.47,77.2,16.8
+Brampton,Dixie 401 Power Centre,650 Front St,4988.6,59737.5,11478.1,2112.2,0.45,113.5,21.3
+Brampton,Wet'n'Wild Toronto,585 Main St,5160.6,89415.3,12545.0,1367.4,0.47,62.6,23.0
+Brampton,The Great War Flying Museum,824 University Ave,3689.6,95265.3,14901.3,1499.0,0.51,77.9,16.8
+Brampton,Brampton Soccer Centre,723 Main St,5475.6,101228.2,18575.6,2207.5,0.57,67.6,23.8
+Brampton,Lakeland Centre,453 Main St,5794.4,83096.7,13745.2,2273.5,0.3,85.1,20.9
