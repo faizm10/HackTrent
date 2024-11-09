@@ -9,6 +9,7 @@ import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
 import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
 import LandingPage from "@/components/LandingPage";
+import Papa from "papaparse";
 
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
@@ -20,14 +21,43 @@ const Home: React.FC = () => {
   const [workHours, setworkHours] = useState("");
   const [monthlyUsage, setMonthlyUsage] = useState(Array(12).fill("")); // Monthly electricity usage
   const [showGraph, setShowGraph] = useState(false);
-  const [comparisonType, setComparisonType] = useState("My Company"); // New state for filtering comparison type
+  const [comparisonType, setComparisonType] = useState("My Company");
+  const [csvData, setCsvData] = useState<CsvRow[]>([]);
   const [hasMounted, setHasMounted] = useState(false);
   
+
+  interface CsvRow {
+    "Company Name": string;
+    "Location": string;
+    "Gross Floor Area (m²)": string;
+    "Annual Electricity Use (kWh)": string;
+    "Electricity Use Intensity (kWh/m²)": string;
+    "Operating Hours per Week": string;
+    "Number of Employees": string;
+  }
+
   useEffect(() => {
     setHasMounted(true);
   }, []);
 
+  const loadCsvData = (region: string) => {
+    const filePath = `/Data/data_${region.toLowerCase()}.csv`;
+  
+    Papa.parse<CsvRow>(filePath, {
+      download: true,
+      header: true,
+      complete: (result) => {
+        setCsvData(result.data);
+        console.log("Loaded data:", result.data);
+      },
+      error: (error) => {
+        console.error("Error loading CSV file:", error);
+      },
+    });
+  };
+
   const handleFormSubmit = () => {
+    loadCsvData(region);
     setShowGraph(true);
   };
 
@@ -36,7 +66,7 @@ const Home: React.FC = () => {
     region &&
     wasteType &&
     startYear &&
-    monthlyUsage.every((value) => value) && // Ensure all monthly usage fields are filled
+    monthlyUsage.every((value) => value) &&
     floorArea &&
     numEmployees &&
     workHours;
@@ -50,6 +80,25 @@ const Home: React.FC = () => {
     updatedUsage[index] = value;
     setMonthlyUsage(updatedUsage);
   };
+
+  // Extract form data from csvData if csvData is available
+  const selectedData = csvData.find(row => row["Company Name"] === companyName);
+
+  const displayMonthlyUsage = selectedData 
+    ? Array(12).fill(Number(selectedData["Annual Electricity Use (kWh)"]) / 12)
+    : monthlyUsage.map(Number);
+
+  const displayFloorArea = selectedData
+    ? Number(selectedData["Gross Floor Area (m²)"])
+    : Number(floorArea);
+
+  const displayNumEmployees = selectedData
+    ? Number(selectedData["Number of Employees"])
+    : Number(numEmployees);
+
+  const displayWorkHours = selectedData
+    ? Number(selectedData["Operating Hours per Week"])
+    : Number(workHours);
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
@@ -187,6 +236,9 @@ const Home: React.FC = () => {
 
       {showGraph && (
         <div className="w-full mt-10">
+          <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
+            Data for {region} ({startYear})
+          </h2>
           <div className="flex justify-center mb-4">
             <DropdownComponent
               label="Comparison Type"
@@ -203,27 +255,27 @@ const Home: React.FC = () => {
                   region,
                   wasteType,
                   startYear,
-                  monthlyUsage: monthlyUsage.map(Number),
-                  floorArea,
-                  numEmployees,
-                  workHours,
+                  monthlyUsage: displayMonthlyUsage,
+                  floorArea: displayFloorArea,
+                  numEmployees: displayNumEmployees,
+                  workHours: displayWorkHours,
                 }}
               />
               <div className="mt-8">
-                <AnnualSummaryChart monthlyUsage={monthlyUsage.map(Number)} />
+                <AnnualSummaryChart monthlyUsage={displayMonthlyUsage} />
               </div>
               <div className="mt-8">
                 <ElectricityIntensityChart
-                  monthlyUsage={monthlyUsage.map(Number)}
-                  floorArea={Number(floorArea)}
+                  monthlyUsage={displayMonthlyUsage}
+                  floorArea={displayFloorArea}
                 />
                 <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
               </div>
               
             </>
           ) : (
+            // Code for displaying data for "Other Companies"
             <>
-              {/* Placeholder components or mock data for "Other Companies" comparison */}
               <Usage
                 formData={{
                   companyName: "Other Company",
