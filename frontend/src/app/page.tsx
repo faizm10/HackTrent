@@ -2,6 +2,9 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 
+import { Image } from "@nextui-org/react";
+import Usage  from "../component/Dashboard";
+
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col items-start justify-start min-h-screen bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200 p-8 space-y-12">
@@ -16,6 +19,7 @@ const Home: React.FC = () => {
             cursor
           />
         </h1>
+
         <p className="text-left mt-6 max-w-3xl text-lg text-gray-800">
           EcoTrack is your all-in-one solution for tracking and managing energy usage and waste. By providing your company information, region, and waste type, we can help you calculate and monitor your electricity/natural gas consumption trends over time.
         </p>
@@ -88,6 +92,11 @@ const Home: React.FC = () => {
           </button>
         </div>
       </div>
+
+        <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
+      </main>
+      <Usage/>
+
     </div>
   );
 };
