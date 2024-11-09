@@ -6,9 +6,15 @@ import InputComponent from "@/components/InputComponent";
 import Usage from "@/components/Usage";
 import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
-import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
-import Papa from "papaparse";
 
+import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
+
+import MonthlyUsageChart from "@/components/Graphs/MonthlyUsageChart";
+import LandingPage from "@/components/LandingPage";
+import Link from "next/link";
+
+import Papa from "papaparse";
+import { Button } from "@nextui-org/react";
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
   const [region, setRegion] = useState("");
@@ -29,6 +35,7 @@ const Home: React.FC = () => {
     "Location": string;
     "Year": string;
     "Month": string;
+
     "Gross Floor Area (m²)": string;
     "Monthly Electricity Use (kWh)": string;
     "Electricity Use Intensity (kWh/m²)": string;
@@ -43,6 +50,7 @@ const Home: React.FC = () => {
   const loadCsvData = (region: string, year: string) => {
     const filePath = `/Data/NEW_${region.toLowerCase()}.csv`;
   
+
     Papa.parse<CsvRow>(filePath, {
       download: true,
       header: true,
@@ -89,6 +97,7 @@ const Home: React.FC = () => {
   const displayNumEmployees = filteredData.length > 0 ? Number(filteredData[0]["Number of Employees"]) : Number(numEmployees);
   const displayWorkHours = filteredData.length > 0 ? Number(filteredData[0]["Operating Hours per Week"]) : Number(workHours);
 
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
       <div className="w-full text-center">
@@ -105,6 +114,7 @@ const Home: React.FC = () => {
           EcoTrack is your all-in-one solution for tracking and managing energy
           usage and waste.
         </p>
+        <Link href="/DynamicChartPage">Go to Dynamic Chart Page</Link>
       </div>
 
       {!showGraph && (
@@ -210,12 +220,25 @@ const Home: React.FC = () => {
           )}
 
           <div className="w-full flex justify-center mt-6">
+            {/* <Link href="/DynamicChartPage" passHref>
+              <button
+                disabled={!isFormComplete}
+                className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
+                  !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
+                }`}
+                onClick={isFormComplete ? handleFormSubmit : undefined} // Only call if form is complete
+              >
+                Confirm
+              </button>
+            </Link> */}
+
             <button
               disabled={!isFormComplete}
               className={`w-full md:w-48 bg-indigo-600 text-white p-3 rounded-lg shadow-md hover:bg-indigo-700 transition ${
                 !isFormComplete ? "opacity-50 cursor-not-allowed" : ""
               }`}
               onClick={handleFormSubmit}
+              
             >
               Confirm
             </button>
@@ -258,9 +281,8 @@ const Home: React.FC = () => {
                   monthlyUsage={displayMonthlyUsage}
                   floorArea={displayFloorArea}
                 />
-                <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
+                <MonthlyUsageChart monthlyUsage={monthlyUsage} />
               </div>
-              
             </>
           ) : (
             // Code for displaying data for "Other Companies"
@@ -304,9 +326,7 @@ const Home: React.FC = () => {
               </div>
             </>
           )}
-          
         </div>
-        
       )}
     </div>
   );
