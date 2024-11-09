@@ -1,9 +1,8 @@
 "use client";
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-
 import { Image } from "@nextui-org/react";
-import Usage  from "../component/Dashboard";
+import Usage from "../components/Dashboard";
 
 const Home: React.FC = () => {
   return (
@@ -91,12 +90,13 @@ const Home: React.FC = () => {
             Confirm
           </button>
         </div>
+
+        {/* Right Column: Dashboard */}
+        <div className="w-full md:w-1/3">
+          <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
+          {/* <Usage /> */}
+        </div>
       </div>
-
-        <p className="text-center text-xl mb-5">Welcome To Your Dashboard</p>
-      </main>
-      <Usage/>
-
     </div>
   );
 };
