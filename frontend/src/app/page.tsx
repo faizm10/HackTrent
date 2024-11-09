@@ -10,7 +10,7 @@ import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
 import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
 import LandingPage from "@/components/LandingPage";
 import Papa from "papaparse";
-
+import Link from "next/link";
 const Home: React.FC = () => {
   const [companyName, setCompanyName] = useState("");
   const [region, setRegion] = useState("");
@@ -116,6 +116,8 @@ const Home: React.FC = () => {
           EcoTrack is your all-in-one solution for tracking and managing energy
           usage and waste.
         </p>
+        <Link href="/DynamicChartPage">Go to Dynamic Chart Page</Link>
+
       </div>
 
       {!showGraph && (
