@@ -8,8 +8,6 @@ import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
 
 import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
-
-import MonthlyUsageChart from "@/components/Graphs/MonthlyUsageChart";
 import LandingPage from "@/components/LandingPage";
 import Link from "next/link";
 
