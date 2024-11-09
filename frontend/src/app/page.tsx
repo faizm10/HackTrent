@@ -7,6 +7,8 @@ import InputComponent from "@/components/InputComponent";
 import Usage from "@/components/Usage";
 import AnnualSummaryChart from "@/components/Graphs/PieChart";
 import ElectricityIntensityChart from "@/components/Graphs/BarGraph";
+import MonthlyUsageChart from '@/components/Graphs/MonthlyUsageChart';
+import LandingPage from "@/components/LandingPage";
 import Papa from "papaparse";
 
 const Home: React.FC = () => {
@@ -22,6 +24,7 @@ const Home: React.FC = () => {
   const [comparisonType, setComparisonType] = useState("My Company");
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
   const [hasMounted, setHasMounted] = useState(false);
+  
 
   interface CsvRow {
     "Company Name": string;
@@ -266,7 +269,9 @@ const Home: React.FC = () => {
                   monthlyUsage={displayMonthlyUsage}
                   floorArea={displayFloorArea}
                 />
+                <MonthlyUsageChart monthlyUsage={monthlyUsage}/>
               </div>
+              
             </>
           ) : (
             // Code for displaying data for "Other Companies"
@@ -310,7 +315,9 @@ const Home: React.FC = () => {
               </div>
             </>
           )}
+          
         </div>
+        
       )}
     </div>
   );
