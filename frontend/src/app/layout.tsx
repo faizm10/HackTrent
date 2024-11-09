@@ -10,7 +10,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Fantasy Dashboard",
+  title: "EcoTracker",
   description: "All-In-One",
 };
 
