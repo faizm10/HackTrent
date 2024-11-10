@@ -1,4 +1,5 @@
 "use client";
+import * as dotenv from 'dotenv';
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription } from "@/components/ui/card";
@@ -26,6 +27,7 @@ export default function GetSuggestions({
   const [rating, setRating] = useState<number | null>(null);
   const [message, setMessage] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY as string;
 
   useEffect(() => {
     if (contentRef.current) {
@@ -37,7 +39,7 @@ export default function GetSuggestions({
     setLoading(true);
 
     const genAI = new GoogleGenerativeAI(
-      "AIzaSyDST7741cvRGCLGGEx618E4CLCvsxSmhfA"
+      apiKey
     );
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
