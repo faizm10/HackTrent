@@ -7,6 +7,8 @@ import InputComponent from "@/components/InputComponent";
 import LineChart from "@/components/Graphs/DoubleLineChart";
 import PieChart from "@/components/Graphs/PieChart";
 import Link from "next/link";
+import BarChart from "@/components/Graphs/BarGraphs";
+
 
 interface CsvRow {
   "Company Name": string;
@@ -204,6 +206,14 @@ const Home: React.FC = () => {
               <PieChart monthlyData={monthlyData} />
             </div>
           </div>
+		  <div className="mt-8">
+			{/* New BarChart component */}
+			<BarChart
+			  labels={months}
+			  userDataset={monthlyData}
+			  companyDataset={companyData}
+			/>
+		  </div>
         </div>
       )}
     </div>
