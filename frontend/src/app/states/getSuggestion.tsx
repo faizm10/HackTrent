@@ -42,24 +42,31 @@ export default function GetSuggestions({
     );
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-    const prompt = `You are an expert in energy efficiency. Provide three suggestions on how to save electricity for a company in the ${region} region, focusing on ${wasteType}. Also, give a rating from 1 to 10 on how well the company is doing in terms of sustainability. Consider the company name: ${companyName}. Provide the response in the following format:
+    const prompt = `You are an expert in energy efficiency. Provide two short suggestions on how to save electricity for a company in the ${region} region, focusing on ${wasteType}. Also, give a rating from 1 to 10 on how well the company is doing in terms of sustainability. Consider the company name: ${companyName}. Provide the response in the following format:
 
     1. Suggestion 1
     2. Suggestion 2
-    3. Suggestion 3
-    Rating: X/10
-    Message: "Your company is [appropriate message based on the rating]"`;
+    Rating: X/10`;
 
     try {
       const result = await model.generateContent(prompt);
       const response = await result.response;
       const text = await response.text();
 
+      // Log the full response text for debugging
+      console.log("AI Response:", text);
+
       // Parsing the response text
       const lines = text.split("\n").map((line) => line.trim());
+      console.log("Parsed Lines:", lines);
+
+      // Extracting suggestions
       const parsedSuggestions = lines
-        .slice(0, 3)
-        .map((line) => line.replace(/^\d\.\s*/, "")); // Extracting 3 suggestions
+        .filter((line) => /^\d\.\s/.test(line)) // Match lines starting with "1." or "2."
+        .map((line) => line.replace(/^\d\.\s*/, ""));
+      console.log("Parsed Suggestions:", parsedSuggestions);
+
+      // Extracting rating and message
       const ratingLine = lines.find((line) => line.startsWith("Rating:"));
       const messageLine = lines.find((line) => line.startsWith("Message:"));
 
@@ -113,9 +120,13 @@ export default function GetSuggestions({
             ) : (
               <>
                 <ul className="list-disc pl-5 space-y-2 text-sm">
-                  {suggestions.map((suggestion, index) => (
-                    <li key={index}>{suggestion}</li>
-                  ))}
+                  {suggestions.length > 0 ? (
+                    suggestions.map((suggestion, index) => (
+                      <li key={index}>{suggestion}</li>
+                    ))
+                  ) : (
+                    <li>No suggestions found.</li>
+                  )}
                 </ul>
                 {rating !== null && (
                   <div className="mt-4 pt-4 border-t">
