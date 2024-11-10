@@ -8,11 +8,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.21.0",
     "@nextui-org/input": "^2.2.3",
     "@nextui-org/react": "^2.4.8",
     "@nextui-org/system": "^2.2.3",
     "@nextui-org/theme": "^2.2.7",
+    "@radix-ui/react-collapsible": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.0",
     "chart.js": "^4.4.6",
     "chartjs-plugin-annotation": "^3.1.0",
     "class-variance-authority": "^0.7.0",

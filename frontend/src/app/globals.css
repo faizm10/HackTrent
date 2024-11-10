@@ -127,4 +127,17 @@ body {
     }
 }
 
+/* For smoother transitions */
+.collapsible-content {
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: 0;  /* Initially collapsed */
+  opacity: 0;
+}
+
+.collapsible-content-open {
+  max-height: 1000px; /* Adjust as needed */
+  opacity: 1;
+}
+
+
 
