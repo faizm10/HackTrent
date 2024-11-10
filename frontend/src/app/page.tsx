@@ -245,7 +245,7 @@ const Home: React.FC = () => {
               <LineChart
                 labels={months}
                 userDataset={monthlyData}
-                companyDataset={companyData}
+                companyDataset={monthlyAverages} // Use monthly averages here
                 chartTitle={`Monthly ${wasteType} Usage Comparison for ${companyName}`}
                 xAxisLabel="Months"
                 yAxisLabel={`${wasteType} Usage (kWh)`}
