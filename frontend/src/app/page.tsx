@@ -51,7 +51,6 @@ const Home: React.FC = () => {
   const [workHours, setWorkHours] = useState("");
   const [euiData, setEuiData] = useState<number[]>(Array(12).fill(0));
 
-
   useEffect(() => {
     // Load CSV data if needed
   }, []);
@@ -64,7 +63,6 @@ const Home: React.FC = () => {
       setEuiData(calculatedEUI);
     }
   }, [monthlyData, floorArea]);
-  
 
   const handleFormSubmit = () => {
     setShowGraph(true);
@@ -219,11 +217,13 @@ const Home: React.FC = () => {
           </div>
           <div className="mt-8">
             {/* New BarChart component */}
-            <BarChart
-              labels={months}
-              userDataset={euiData}
-              companyDataset={companyData}
-            />
+            <div className="mt-2 max-w-[800px] h-[400px] mx-auto">
+              <BarChart
+                labels={months}
+                userDataset={euiData}
+                companyDataset={companyData}
+              />
+            </div>
           </div>
         </div>
       )}
