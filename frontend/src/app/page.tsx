@@ -29,6 +29,9 @@ const Home: React.FC = () => {
   const [startYear, setStartYear] = useState("");
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
+  const [monthlyAverages, setMonthlyAverages] = useState<number[]>(
+    Array(12).fill(0)
+  ); // Added state for monthly averages
   const [monthlyAverages, setMonthlyAverages] = useState<number[]>(Array(12).fill(0)); // Added state for monthly averages
   const [intensityAverages, setIntensityAverages] = useState<number[]>(Array(12).fill(0));
   const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(""));
@@ -83,8 +86,14 @@ const Home: React.FC = () => {
       complete: (result) => {
         const yearFilteredData = result.data.filter((row) => row.Year === year);
 
+
+        // Group by month and calculate averages
+<!--         const monthlySums: { [key: string]: { sum: number; count: number } } =
+          {}; -->
+
         // Group by month and calculate averages for both Electricity Use and Intensity
         const monthlySums: { [key: string]: { useSum: number; intensitySum: number; count: number } } = {};
+
 
         yearFilteredData.forEach((row) => {
           const month = row.Month;
@@ -101,7 +110,12 @@ const Home: React.FC = () => {
 
         // Calculate monthly averages for usage and intensity
         const averages = months.map((month) =>
-          monthlySums[month] ? monthlySums[month].useSum / monthlySums[month].count : 0
+          monthlySums[month]
+            ? monthlySums[month].sum / monthlySums[month].count
+            : 0
+
+
+
         );
         const intensityAverages = months.map((month) =>
           monthlySums[month] ? monthlySums[month].intensitySum / monthlySums[month].count : 0
@@ -118,7 +132,6 @@ const Home: React.FC = () => {
       },
     });
   };
-
 
   const isFormComplete = companyName && region && wasteType && startYear;
 
@@ -219,6 +232,56 @@ const Home: React.FC = () => {
               </div>
             </div>
           )}
+          {wasteType === "Water" && (
+            <div className="space-y-4 mt-6">
+              <div className="space-y-4 mt-6">
+                <h2 className="text-2xl font-semibold text-indigo-700">
+                  Enter Monthly Data for {wasteType} (L)
+                </h2>
+                <div className="grid grid-cols-2 gap-4">
+                  {months.map((month, index) => (
+                    <InputComponent
+                      key={month}
+                      label={month}
+                      id={`monthlyData-${index}`}
+                      value={monthlyData[index].toString()}
+                      placeholder={`Enter usage for ${month}`}
+                      onChange={(e) =>
+                        handleMonthlyDataChange(index, e.target.value)
+                      }
+                      type="number"
+                    />
+                  ))}
+                </div>
+              </div>
+              <h2 className="text-2xl font-semibold text-indigo-700">
+                Enter Additional Data for Water
+              </h2>
+              <div className="grid grid-cols-2 gap-4">
+                <InputComponent
+                  label="Number of Employees"
+                  id="employees"
+                  value={employees}
+                  placeholder="Enter number of employees"
+                  onChange={(e) => setEmployees(e.target.value)}
+                />
+                <InputComponent
+                  label="Floor Area (m²)"
+                  id="floorArea"
+                  value={floorArea}
+                  placeholder="Enter gross floor area"
+                  onChange={(e) => setFloorArea(e.target.value)}
+                />
+                <InputComponent
+                  label="Operating Hours per Week"
+                  id="workHours"
+                  value={workHours}
+                  placeholder="Enter weekly operating hours"
+                  onChange={(e) => setWorkHours(e.target.value)}
+                />
+              </div>
+            </div>
+          )}
 
           <div className="w-full flex justify-center mt-6">
             <button
@@ -259,7 +322,11 @@ const Home: React.FC = () => {
                 companyDataset={monthlyAverages} // Use monthly averages here
                 chartTitle={`Monthly ${wasteType} Usage Comparison for ${companyName}`}
                 xAxisLabel="Months"
-                yAxisLabel={`${wasteType} Usage (kWh)`}
+                yAxisLabel={`${
+                  wasteType === "Electricity"
+                    ? "Electricity Usage (kWh)"
+                    : "Water Usage (L)"
+                }`}
                 region={region}
               />
             </div>

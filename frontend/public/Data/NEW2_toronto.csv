@@ -1,0 +1,481 @@
+Company Name,Location,Year,Month,Gross Floor Area (m²),Monthly Water Use (L),Water Use Intensity (L/m²),Operating Hours per Week,Number of Employees
+PureWater Inc,Toronto,2020,January,6170,166978,27.06,59,132
+PureWater Inc,Toronto,2020,February,4517,196059,43.4,57,93
+PureWater Inc,Toronto,2020,March,6527,92182,14.12,47,177
+PureWater Inc,Toronto,2020,April,4723,105586,22.36,49,122
+PureWater Inc,Toronto,2020,May,5053,195699,38.73,58,165
+PureWater Inc,Toronto,2020,June,6415,160377,25.0,58,103
+PureWater Inc,Toronto,2020,July,6108,154019,25.22,59,81
+PureWater Inc,Toronto,2020,August,4544,195894,43.11,49,97
+PureWater Inc,Toronto,2020,September,6819,124509,18.26,57,123
+PureWater Inc,Toronto,2020,October,4928,178316,36.18,57,127
+PureWater Inc,Toronto,2020,November,6454,184573,28.6,48,126
+PureWater Inc,Toronto,2020,December,6856,153819,22.44,48,128
+PureWater Inc,Toronto,2021,January,5107,125521,24.58,58,115
+PureWater Inc,Toronto,2021,February,4979,100587,20.2,56,134
+PureWater Inc,Toronto,2021,March,6042,170567,28.23,49,95
+PureWater Inc,Toronto,2021,April,6640,160376,24.15,58,144
+PureWater Inc,Toronto,2021,May,5584,91623,16.41,51,75
+PureWater Inc,Toronto,2021,June,5982,188434,31.5,54,179
+PureWater Inc,Toronto,2021,July,6664,140705,21.11,46,131
+PureWater Inc,Toronto,2021,August,5704,141467,24.8,56,145
+PureWater Inc,Toronto,2021,September,5007,114013,22.77,56,110
+PureWater Inc,Toronto,2021,October,5662,136632,24.13,55,124
+PureWater Inc,Toronto,2021,November,5104,171656,33.63,46,121
+PureWater Inc,Toronto,2021,December,6722,141684,21.08,52,76
+PureWater Inc,Toronto,2022,January,4835,99246,20.53,59,127
+PureWater Inc,Toronto,2022,February,5624,128276,22.81,54,90
+PureWater Inc,Toronto,2022,March,4886,166203,34.02,54,75
+PureWater Inc,Toronto,2022,April,6554,96576,14.74,59,166
+PureWater Inc,Toronto,2022,May,6606,164111,24.84,47,119
+PureWater Inc,Toronto,2022,June,5519,195124,35.35,52,74
+PureWater Inc,Toronto,2022,July,6349,124359,19.59,59,113
+PureWater Inc,Toronto,2022,August,4943,138534,28.03,57,175
+PureWater Inc,Toronto,2022,September,5878,180848,30.77,52,177
+PureWater Inc,Toronto,2022,October,4750,141165,29.72,59,76
+PureWater Inc,Toronto,2022,November,6035,148162,24.55,51,164
+PureWater Inc,Toronto,2022,December,5691,158066,27.77,58,76
+PureWater Inc,Toronto,2023,January,6252,165778,26.52,58,168
+PureWater Inc,Toronto,2023,February,6666,117857,17.68,54,151
+PureWater Inc,Toronto,2023,March,5333,92923,17.42,59,173
+PureWater Inc,Toronto,2023,April,5873,173717,29.58,46,150
+PureWater Inc,Toronto,2023,May,5748,119568,20.8,57,85
+PureWater Inc,Toronto,2023,June,5095,95046,18.65,57,92
+PureWater Inc,Toronto,2023,July,5627,144888,25.75,59,101
+PureWater Inc,Toronto,2023,August,6762,97360,14.4,51,107
+PureWater Inc,Toronto,2023,September,4785,93075,19.45,52,140
+PureWater Inc,Toronto,2023,October,5293,102606,19.39,56,85
+PureWater Inc,Toronto,2023,November,6010,126906,21.12,56,99
+PureWater Inc,Toronto,2023,December,4898,93686,19.13,50,92
+EcoPure Solutions,Toronto,2020,January,4683,186024,39.72,57,137
+EcoPure Solutions,Toronto,2020,February,5008,105732,21.11,45,73
+EcoPure Solutions,Toronto,2020,March,5998,181834,30.32,47,103
+EcoPure Solutions,Toronto,2020,April,5515,166558,30.2,58,108
+EcoPure Solutions,Toronto,2020,May,5766,112984,19.59,53,104
+EcoPure Solutions,Toronto,2020,June,6747,178217,26.41,53,107
+EcoPure Solutions,Toronto,2020,July,5509,162065,29.42,56,77
+EcoPure Solutions,Toronto,2020,August,6908,158681,22.97,52,113
+EcoPure Solutions,Toronto,2020,September,6509,182894,28.1,49,81
+EcoPure Solutions,Toronto,2020,October,5054,191791,37.95,48,179
+EcoPure Solutions,Toronto,2020,November,6677,146391,21.92,56,154
+EcoPure Solutions,Toronto,2020,December,6928,106849,15.42,56,148
+EcoPure Solutions,Toronto,2021,January,6553,158145,24.13,53,137
+EcoPure Solutions,Toronto,2021,February,6260,126893,20.27,46,127
+EcoPure Solutions,Toronto,2021,March,6120,121844,19.91,49,136
+EcoPure Solutions,Toronto,2021,April,6120,119869,19.59,59,146
+EcoPure Solutions,Toronto,2021,May,6013,152195,25.31,51,95
+EcoPure Solutions,Toronto,2021,June,4730,133770,28.28,58,156
+EcoPure Solutions,Toronto,2021,July,4936,118963,24.1,53,84
+EcoPure Solutions,Toronto,2021,August,4784,161003,33.65,58,110
+EcoPure Solutions,Toronto,2021,September,4699,123866,26.36,50,108
+EcoPure Solutions,Toronto,2021,October,5426,171025,31.52,59,155
+EcoPure Solutions,Toronto,2021,November,5153,135079,26.21,56,96
+EcoPure Solutions,Toronto,2021,December,6151,192852,31.35,59,130
+EcoPure Solutions,Toronto,2022,January,6955,191530,27.54,48,113
+EcoPure Solutions,Toronto,2022,February,6617,190079,28.73,55,75
+EcoPure Solutions,Toronto,2022,March,5930,161531,27.24,49,108
+EcoPure Solutions,Toronto,2022,April,6480,109517,16.9,54,171
+EcoPure Solutions,Toronto,2022,May,4994,97144,19.45,56,104
+EcoPure Solutions,Toronto,2022,June,6104,100349,16.44,45,115
+EcoPure Solutions,Toronto,2022,July,5603,168791,30.13,45,144
+EcoPure Solutions,Toronto,2022,August,4890,193776,39.63,59,115
+EcoPure Solutions,Toronto,2022,September,6002,137503,22.91,59,155
+EcoPure Solutions,Toronto,2022,October,6928,159971,23.09,46,78
+EcoPure Solutions,Toronto,2022,November,5230,147473,28.2,56,142
+EcoPure Solutions,Toronto,2022,December,6701,192869,28.78,51,159
+EcoPure Solutions,Toronto,2023,January,6910,196813,28.48,55,103
+EcoPure Solutions,Toronto,2023,February,4623,107749,23.31,55,149
+EcoPure Solutions,Toronto,2023,March,5803,122124,21.04,56,134
+EcoPure Solutions,Toronto,2023,April,5359,93015,17.36,51,71
+EcoPure Solutions,Toronto,2023,May,6126,197526,32.24,53,119
+EcoPure Solutions,Toronto,2023,June,6127,198755,32.44,47,155
+EcoPure Solutions,Toronto,2023,July,6235,112873,18.1,48,176
+EcoPure Solutions,Toronto,2023,August,5427,125255,23.08,56,174
+EcoPure Solutions,Toronto,2023,September,6228,179616,28.84,54,77
+EcoPure Solutions,Toronto,2023,October,6805,137772,20.25,53,129
+EcoPure Solutions,Toronto,2023,November,6205,155370,25.04,47,164
+EcoPure Solutions,Toronto,2023,December,5304,125270,23.62,45,109
+AquaVitality Ltd,Toronto,2020,January,6526,166203,25.47,52,120
+AquaVitality Ltd,Toronto,2020,February,6941,143384,20.66,47,172
+AquaVitality Ltd,Toronto,2020,March,5729,99093,17.3,59,116
+AquaVitality Ltd,Toronto,2020,April,6779,169509,25.01,58,94
+AquaVitality Ltd,Toronto,2020,May,4997,107053,21.42,56,73
+AquaVitality Ltd,Toronto,2020,June,4836,137907,28.52,55,175
+AquaVitality Ltd,Toronto,2020,July,4742,141828,29.91,51,149
+AquaVitality Ltd,Toronto,2020,August,6537,177892,27.21,46,122
+AquaVitality Ltd,Toronto,2020,September,6382,93205,14.6,45,154
+AquaVitality Ltd,Toronto,2020,October,6334,146017,23.05,50,132
+AquaVitality Ltd,Toronto,2020,November,6817,186998,27.43,50,162
+AquaVitality Ltd,Toronto,2020,December,6891,162418,23.57,59,172
+AquaVitality Ltd,Toronto,2021,January,5769,115018,19.94,46,95
+AquaVitality Ltd,Toronto,2021,February,6029,145760,24.18,49,117
+AquaVitality Ltd,Toronto,2021,March,4602,141815,30.82,52,96
+AquaVitality Ltd,Toronto,2021,April,4690,107663,22.96,52,72
+AquaVitality Ltd,Toronto,2021,May,6284,185562,29.53,48,93
+AquaVitality Ltd,Toronto,2021,June,4672,102396,21.92,46,86
+AquaVitality Ltd,Toronto,2021,July,6509,192621,29.59,58,150
+AquaVitality Ltd,Toronto,2021,August,6064,167982,27.7,56,122
+AquaVitality Ltd,Toronto,2021,September,6675,127682,19.13,45,84
+AquaVitality Ltd,Toronto,2021,October,5517,134414,24.36,47,120
+AquaVitality Ltd,Toronto,2021,November,5302,130674,24.65,50,110
+AquaVitality Ltd,Toronto,2021,December,5692,107111,18.82,50,73
+AquaVitality Ltd,Toronto,2022,January,5154,172958,33.56,55,118
+AquaVitality Ltd,Toronto,2022,February,5468,133297,24.38,53,77
+AquaVitality Ltd,Toronto,2022,March,5596,159784,28.55,45,148
+AquaVitality Ltd,Toronto,2022,April,6647,103195,15.53,48,101
+AquaVitality Ltd,Toronto,2022,May,4742,163399,34.46,49,151
+AquaVitality Ltd,Toronto,2022,June,6572,142819,21.73,52,112
+AquaVitality Ltd,Toronto,2022,July,5960,192121,32.24,59,98
+AquaVitality Ltd,Toronto,2022,August,5449,192463,35.32,48,151
+AquaVitality Ltd,Toronto,2022,September,5758,131077,22.76,58,114
+AquaVitality Ltd,Toronto,2022,October,4618,105542,22.85,58,121
+AquaVitality Ltd,Toronto,2022,November,6638,173729,26.17,59,132
+AquaVitality Ltd,Toronto,2022,December,5278,166901,31.62,45,75
+AquaVitality Ltd,Toronto,2023,January,5260,157763,29.99,49,109
+AquaVitality Ltd,Toronto,2023,February,6788,90216,13.29,45,80
+AquaVitality Ltd,Toronto,2023,March,6873,100559,14.63,55,151
+AquaVitality Ltd,Toronto,2023,April,5036,166264,33.02,55,157
+AquaVitality Ltd,Toronto,2023,May,6718,94246,14.03,59,149
+AquaVitality Ltd,Toronto,2023,June,6241,195594,31.34,50,92
+AquaVitality Ltd,Toronto,2023,July,4653,158077,33.97,57,70
+AquaVitality Ltd,Toronto,2023,August,6722,189779,28.23,56,121
+AquaVitality Ltd,Toronto,2023,September,4633,181146,39.1,57,170
+AquaVitality Ltd,Toronto,2023,October,4782,196010,40.99,58,102
+AquaVitality Ltd,Toronto,2023,November,6681,172555,25.83,54,139
+AquaVitality Ltd,Toronto,2023,December,6886,94048,13.66,52,166
+WaterWorks Inc,Toronto,2020,January,5664,112925,19.94,53,126
+WaterWorks Inc,Toronto,2020,February,6915,177835,25.72,59,86
+WaterWorks Inc,Toronto,2020,March,6786,128164,18.89,50,150
+WaterWorks Inc,Toronto,2020,April,5509,159702,28.99,58,110
+WaterWorks Inc,Toronto,2020,May,4630,139498,30.13,59,172
+WaterWorks Inc,Toronto,2020,June,5103,152031,29.79,45,82
+WaterWorks Inc,Toronto,2020,July,4602,114456,24.87,47,134
+WaterWorks Inc,Toronto,2020,August,6176,164108,26.57,47,170
+WaterWorks Inc,Toronto,2020,September,6677,98754,14.79,54,120
+WaterWorks Inc,Toronto,2020,October,5527,130291,23.57,54,105
+WaterWorks Inc,Toronto,2020,November,5631,182298,32.37,52,72
+WaterWorks Inc,Toronto,2020,December,6049,147858,24.44,55,97
+WaterWorks Inc,Toronto,2021,January,4720,189395,40.13,59,115
+WaterWorks Inc,Toronto,2021,February,4711,96426,20.47,47,97
+WaterWorks Inc,Toronto,2021,March,5604,129345,23.08,50,113
+WaterWorks Inc,Toronto,2021,April,5101,174786,34.27,59,93
+WaterWorks Inc,Toronto,2021,May,4784,151712,31.71,58,94
+WaterWorks Inc,Toronto,2021,June,6511,117094,17.98,50,158
+WaterWorks Inc,Toronto,2021,July,5405,168973,31.26,54,99
+WaterWorks Inc,Toronto,2021,August,5976,146947,24.59,49,90
+WaterWorks Inc,Toronto,2021,September,5107,188785,36.97,52,104
+WaterWorks Inc,Toronto,2021,October,5757,176517,30.66,59,131
+WaterWorks Inc,Toronto,2021,November,6375,98279,15.42,59,73
+WaterWorks Inc,Toronto,2021,December,5703,198189,34.75,48,88
+WaterWorks Inc,Toronto,2022,January,4665,119234,25.56,47,96
+WaterWorks Inc,Toronto,2022,February,6357,91784,14.44,54,175
+WaterWorks Inc,Toronto,2022,March,4852,130054,26.8,47,92
+WaterWorks Inc,Toronto,2022,April,5706,97425,17.07,59,89
+WaterWorks Inc,Toronto,2022,May,4761,153073,32.15,52,142
+WaterWorks Inc,Toronto,2022,June,5402,154426,28.59,47,73
+WaterWorks Inc,Toronto,2022,July,5169,171489,33.18,54,101
+WaterWorks Inc,Toronto,2022,August,6837,141514,20.7,49,169
+WaterWorks Inc,Toronto,2022,September,5605,124698,22.25,51,116
+WaterWorks Inc,Toronto,2022,October,5301,167344,31.57,50,155
+WaterWorks Inc,Toronto,2022,November,5662,141854,25.05,46,130
+WaterWorks Inc,Toronto,2022,December,6700,145629,21.74,56,129
+WaterWorks Inc,Toronto,2023,January,4660,143048,30.7,49,126
+WaterWorks Inc,Toronto,2023,February,6784,120412,17.75,50,174
+WaterWorks Inc,Toronto,2023,March,5515,146629,26.59,58,119
+WaterWorks Inc,Toronto,2023,April,4532,194872,43.0,48,94
+WaterWorks Inc,Toronto,2023,May,4616,146658,31.77,58,179
+WaterWorks Inc,Toronto,2023,June,5390,128627,23.86,51,162
+WaterWorks Inc,Toronto,2023,July,5469,171712,31.4,51,82
+WaterWorks Inc,Toronto,2023,August,6085,195129,32.07,50,114
+WaterWorks Inc,Toronto,2023,September,5392,158896,29.47,53,71
+WaterWorks Inc,Toronto,2023,October,5413,92922,17.17,58,133
+WaterWorks Inc,Toronto,2023,November,5810,123481,21.25,45,142
+WaterWorks Inc,Toronto,2023,December,4912,143847,29.28,50,128
+FlowGuard Corp,Toronto,2020,January,5316,109596,20.62,49,93
+FlowGuard Corp,Toronto,2020,February,4982,171697,34.46,57,141
+FlowGuard Corp,Toronto,2020,March,6644,96479,14.52,46,134
+FlowGuard Corp,Toronto,2020,April,4761,116273,24.42,59,88
+FlowGuard Corp,Toronto,2020,May,5254,95525,18.18,52,76
+FlowGuard Corp,Toronto,2020,June,6510,154607,23.75,47,70
+FlowGuard Corp,Toronto,2020,July,6895,105067,15.24,51,70
+FlowGuard Corp,Toronto,2020,August,5148,143127,27.8,52,154
+FlowGuard Corp,Toronto,2020,September,6375,182261,28.59,49,158
+FlowGuard Corp,Toronto,2020,October,6527,116178,17.8,46,97
+FlowGuard Corp,Toronto,2020,November,6875,145928,21.23,55,157
+FlowGuard Corp,Toronto,2020,December,5190,189207,36.46,48,84
+FlowGuard Corp,Toronto,2021,January,6397,171140,26.75,45,112
+FlowGuard Corp,Toronto,2021,February,4698,162451,34.58,46,126
+FlowGuard Corp,Toronto,2021,March,5433,163145,30.03,57,142
+FlowGuard Corp,Toronto,2021,April,5516,198211,35.93,57,155
+FlowGuard Corp,Toronto,2021,May,5243,168247,32.09,53,70
+FlowGuard Corp,Toronto,2021,June,5177,90500,17.48,56,172
+FlowGuard Corp,Toronto,2021,July,5586,122030,21.85,48,129
+FlowGuard Corp,Toronto,2021,August,5442,128240,23.56,48,140
+FlowGuard Corp,Toronto,2021,September,6723,169188,25.17,53,85
+FlowGuard Corp,Toronto,2021,October,4755,184861,38.88,46,101
+FlowGuard Corp,Toronto,2021,November,5287,120051,22.71,50,90
+FlowGuard Corp,Toronto,2021,December,5066,171387,33.83,57,132
+FlowGuard Corp,Toronto,2022,January,4727,189768,40.15,56,167
+FlowGuard Corp,Toronto,2022,February,6281,162921,25.94,51,70
+FlowGuard Corp,Toronto,2022,March,6164,131856,21.39,45,145
+FlowGuard Corp,Toronto,2022,April,5491,136515,24.86,57,82
+FlowGuard Corp,Toronto,2022,May,6974,155087,22.24,51,168
+FlowGuard Corp,Toronto,2022,June,4582,192308,41.97,45,125
+FlowGuard Corp,Toronto,2022,July,5724,123143,21.51,45,92
+FlowGuard Corp,Toronto,2022,August,6590,105021,15.94,46,116
+FlowGuard Corp,Toronto,2022,September,4881,159907,32.76,50,106
+FlowGuard Corp,Toronto,2022,October,6566,95365,14.52,55,77
+FlowGuard Corp,Toronto,2022,November,6703,189941,28.34,52,77
+FlowGuard Corp,Toronto,2022,December,6415,96651,15.07,54,80
+FlowGuard Corp,Toronto,2023,January,4671,190191,40.72,50,130
+FlowGuard Corp,Toronto,2023,February,6764,164464,24.31,48,150
+FlowGuard Corp,Toronto,2023,March,6099,110729,18.16,45,136
+FlowGuard Corp,Toronto,2023,April,6241,175280,28.09,51,121
+FlowGuard Corp,Toronto,2023,May,5101,91201,17.88,53,158
+FlowGuard Corp,Toronto,2023,June,6400,123472,19.29,55,95
+FlowGuard Corp,Toronto,2023,July,4643,184982,39.84,58,145
+FlowGuard Corp,Toronto,2023,August,5234,94661,18.09,52,120
+FlowGuard Corp,Toronto,2023,September,4984,179348,35.98,46,104
+FlowGuard Corp,Toronto,2023,October,6253,164146,26.25,46,160
+FlowGuard Corp,Toronto,2023,November,4855,101484,20.9,48,152
+FlowGuard Corp,Toronto,2023,December,5551,124920,22.5,46,151
+ClearH2O Services,Toronto,2020,January,6033,101743,16.86,57,143
+ClearH2O Services,Toronto,2020,February,5545,99521,17.95,45,79
+ClearH2O Services,Toronto,2020,March,5748,100589,17.5,57,170
+ClearH2O Services,Toronto,2020,April,5484,90283,16.46,53,77
+ClearH2O Services,Toronto,2020,May,5810,153477,26.42,46,131
+ClearH2O Services,Toronto,2020,June,6929,152812,22.05,59,162
+ClearH2O Services,Toronto,2020,July,6090,112945,18.55,57,115
+ClearH2O Services,Toronto,2020,August,6518,199134,30.55,56,151
+ClearH2O Services,Toronto,2020,September,5144,111262,21.63,55,81
+ClearH2O Services,Toronto,2020,October,5468,94016,17.19,54,155
+ClearH2O Services,Toronto,2020,November,4975,114413,23.0,49,100
+ClearH2O Services,Toronto,2020,December,6428,90945,14.15,48,169
+ClearH2O Services,Toronto,2021,January,5637,150243,26.65,52,79
+ClearH2O Services,Toronto,2021,February,6888,94469,13.72,56,89
+ClearH2O Services,Toronto,2021,March,5607,128076,22.84,47,161
+ClearH2O Services,Toronto,2021,April,6712,158253,23.58,57,76
+ClearH2O Services,Toronto,2021,May,6397,123123,19.25,56,134
+ClearH2O Services,Toronto,2021,June,6406,176246,27.51,50,154
+ClearH2O Services,Toronto,2021,July,5239,184467,35.21,47,111
+ClearH2O Services,Toronto,2021,August,4824,195096,40.44,58,141
+ClearH2O Services,Toronto,2021,September,6665,99985,15.0,46,111
+ClearH2O Services,Toronto,2021,October,4958,122395,24.69,51,103
+ClearH2O Services,Toronto,2021,November,5788,148075,25.58,54,135
+ClearH2O Services,Toronto,2021,December,6410,98662,15.39,59,125
+ClearH2O Services,Toronto,2022,January,5562,143120,25.73,59,171
+ClearH2O Services,Toronto,2022,February,6211,140601,22.64,51,169
+ClearH2O Services,Toronto,2022,March,5645,92222,16.34,50,127
+ClearH2O Services,Toronto,2022,April,6977,117295,16.81,55,167
+ClearH2O Services,Toronto,2022,May,5428,118100,21.76,50,88
+ClearH2O Services,Toronto,2022,June,5555,168650,30.36,54,157
+ClearH2O Services,Toronto,2022,July,5017,123016,24.52,55,172
+ClearH2O Services,Toronto,2022,August,5303,129482,24.42,58,95
+ClearH2O Services,Toronto,2022,September,6942,193317,27.85,57,104
+ClearH2O Services,Toronto,2022,October,6788,119373,17.59,46,74
+ClearH2O Services,Toronto,2022,November,5262,180803,34.36,46,105
+ClearH2O Services,Toronto,2022,December,4540,99382,21.89,58,97
+ClearH2O Services,Toronto,2023,January,5682,104942,18.47,49,82
+ClearH2O Services,Toronto,2023,February,5871,112135,19.1,48,109
+ClearH2O Services,Toronto,2023,March,4619,94695,20.5,55,83
+ClearH2O Services,Toronto,2023,April,4655,108994,23.41,56,145
+ClearH2O Services,Toronto,2023,May,5300,97640,18.42,56,152
+ClearH2O Services,Toronto,2023,June,5909,153581,25.99,48,112
+ClearH2O Services,Toronto,2023,July,5087,114891,22.59,45,145
+ClearH2O Services,Toronto,2023,August,5010,165148,32.96,46,75
+ClearH2O Services,Toronto,2023,September,5297,110293,20.82,56,71
+ClearH2O Services,Toronto,2023,October,5211,171545,32.92,50,70
+ClearH2O Services,Toronto,2023,November,5232,158838,30.36,59,178
+ClearH2O Services,Toronto,2023,December,5541,96755,17.46,50,126
+HydroTech Ltd,Toronto,2020,January,6983,127808,18.3,59,127
+HydroTech Ltd,Toronto,2020,February,5525,133262,24.12,49,132
+HydroTech Ltd,Toronto,2020,March,5049,99291,19.67,55,95
+HydroTech Ltd,Toronto,2020,April,5843,181861,31.12,46,170
+HydroTech Ltd,Toronto,2020,May,5440,146978,27.02,57,78
+HydroTech Ltd,Toronto,2020,June,4559,157394,34.52,58,141
+HydroTech Ltd,Toronto,2020,July,6565,159972,24.37,45,99
+HydroTech Ltd,Toronto,2020,August,5273,124962,23.7,54,154
+HydroTech Ltd,Toronto,2020,September,6971,129127,18.52,56,79
+HydroTech Ltd,Toronto,2020,October,5396,169294,31.37,47,170
+HydroTech Ltd,Toronto,2020,November,6143,160522,26.13,52,156
+HydroTech Ltd,Toronto,2020,December,6731,180596,26.83,53,104
+HydroTech Ltd,Toronto,2021,January,4616,191141,41.41,57,114
+HydroTech Ltd,Toronto,2021,February,5139,180924,35.21,51,133
+HydroTech Ltd,Toronto,2021,March,4990,161558,32.38,48,89
+HydroTech Ltd,Toronto,2021,April,4879,188130,38.56,53,123
+HydroTech Ltd,Toronto,2021,May,6612,95354,14.42,53,84
+HydroTech Ltd,Toronto,2021,June,6443,97659,15.16,56,124
+HydroTech Ltd,Toronto,2021,July,4936,142513,28.87,45,164
+HydroTech Ltd,Toronto,2021,August,6172,197500,32.0,53,109
+HydroTech Ltd,Toronto,2021,September,5773,95985,16.63,56,143
+HydroTech Ltd,Toronto,2021,October,4699,112016,23.84,56,104
+HydroTech Ltd,Toronto,2021,November,4589,162182,35.34,51,132
+HydroTech Ltd,Toronto,2021,December,5261,198112,37.66,53,114
+HydroTech Ltd,Toronto,2022,January,4745,159403,33.59,46,94
+HydroTech Ltd,Toronto,2022,February,5885,180644,30.7,55,124
+HydroTech Ltd,Toronto,2022,March,4634,146597,31.64,50,117
+HydroTech Ltd,Toronto,2022,April,6739,132537,19.67,48,74
+HydroTech Ltd,Toronto,2022,May,6611,160811,24.32,54,100
+HydroTech Ltd,Toronto,2022,June,6227,170979,27.46,57,121
+HydroTech Ltd,Toronto,2022,July,5586,95367,17.07,54,114
+HydroTech Ltd,Toronto,2022,August,5764,141988,24.63,53,116
+HydroTech Ltd,Toronto,2022,September,6743,140609,20.85,48,131
+HydroTech Ltd,Toronto,2022,October,6377,197099,30.91,57,101
+HydroTech Ltd,Toronto,2022,November,5365,124091,23.13,56,162
+HydroTech Ltd,Toronto,2022,December,6247,178675,28.6,48,100
+HydroTech Ltd,Toronto,2023,January,5777,120233,20.81,48,154
+HydroTech Ltd,Toronto,2023,February,4596,98457,21.42,59,148
+HydroTech Ltd,Toronto,2023,March,6371,153913,24.16,49,179
+HydroTech Ltd,Toronto,2023,April,6540,189223,28.93,46,126
+HydroTech Ltd,Toronto,2023,May,4636,130614,28.17,48,114
+HydroTech Ltd,Toronto,2023,June,5665,111545,19.69,50,143
+HydroTech Ltd,Toronto,2023,July,5976,133413,22.32,49,96
+HydroTech Ltd,Toronto,2023,August,5711,199867,35.0,54,104
+HydroTech Ltd,Toronto,2023,September,4945,132622,26.82,45,121
+HydroTech Ltd,Toronto,2023,October,5244,139768,26.65,45,106
+HydroTech Ltd,Toronto,2023,November,5733,104966,18.31,56,78
+HydroTech Ltd,Toronto,2023,December,5943,189677,31.92,49,160
+BlueClean Innovations,Toronto,2020,January,5340,154610,28.95,53,73
+BlueClean Innovations,Toronto,2020,February,4534,124382,27.43,57,130
+BlueClean Innovations,Toronto,2020,March,5862,110679,18.88,58,93
+BlueClean Innovations,Toronto,2020,April,5308,93857,17.68,56,78
+BlueClean Innovations,Toronto,2020,May,4830,128553,26.62,57,89
+BlueClean Innovations,Toronto,2020,June,5057,107388,21.24,45,77
+BlueClean Innovations,Toronto,2020,July,5984,194790,32.55,56,112
+BlueClean Innovations,Toronto,2020,August,6103,168252,27.57,57,83
+BlueClean Innovations,Toronto,2020,September,6509,99022,15.21,51,144
+BlueClean Innovations,Toronto,2020,October,6901,181105,26.24,48,108
+BlueClean Innovations,Toronto,2020,November,4990,111886,22.42,48,86
+BlueClean Innovations,Toronto,2020,December,6219,103512,16.64,57,75
+BlueClean Innovations,Toronto,2021,January,5488,194096,35.37,46,73
+BlueClean Innovations,Toronto,2021,February,6527,167031,25.59,46,128
+BlueClean Innovations,Toronto,2021,March,6761,129231,19.11,57,157
+BlueClean Innovations,Toronto,2021,April,6819,120640,17.69,46,131
+BlueClean Innovations,Toronto,2021,May,4525,149664,33.07,56,166
+BlueClean Innovations,Toronto,2021,June,5780,191497,33.13,59,166
+BlueClean Innovations,Toronto,2021,July,6229,162094,26.02,46,139
+BlueClean Innovations,Toronto,2021,August,5789,123850,21.39,47,169
+BlueClean Innovations,Toronto,2021,September,5380,156528,29.09,47,107
+BlueClean Innovations,Toronto,2021,October,6680,158232,23.69,52,177
+BlueClean Innovations,Toronto,2021,November,5666,148459,26.2,49,77
+BlueClean Innovations,Toronto,2021,December,4839,125260,25.89,45,164
+BlueClean Innovations,Toronto,2022,January,6371,121757,19.11,49,106
+BlueClean Innovations,Toronto,2022,February,6571,106737,16.24,48,110
+BlueClean Innovations,Toronto,2022,March,6025,124670,20.69,51,82
+BlueClean Innovations,Toronto,2022,April,5829,196413,33.7,54,101
+BlueClean Innovations,Toronto,2022,May,6737,174508,25.9,48,172
+BlueClean Innovations,Toronto,2022,June,4552,162949,35.8,50,168
+BlueClean Innovations,Toronto,2022,July,5553,106607,19.2,45,80
+BlueClean Innovations,Toronto,2022,August,5591,160210,28.65,54,145
+BlueClean Innovations,Toronto,2022,September,6014,143732,23.9,55,177
+BlueClean Innovations,Toronto,2022,October,5977,183902,30.77,51,78
+BlueClean Innovations,Toronto,2022,November,6952,103923,14.95,47,125
+BlueClean Innovations,Toronto,2022,December,5006,173001,34.56,48,104
+BlueClean Innovations,Toronto,2023,January,4830,137958,28.56,50,152
+BlueClean Innovations,Toronto,2023,February,4867,184668,37.94,54,139
+BlueClean Innovations,Toronto,2023,March,4585,187796,40.96,51,108
+BlueClean Innovations,Toronto,2023,April,5002,115195,23.03,52,133
+BlueClean Innovations,Toronto,2023,May,5849,157954,27.01,45,96
+BlueClean Innovations,Toronto,2023,June,4981,109970,22.08,55,70
+BlueClean Innovations,Toronto,2023,July,5040,141860,28.15,51,178
+BlueClean Innovations,Toronto,2023,August,4861,138839,28.56,59,141
+BlueClean Innovations,Toronto,2023,September,6856,129871,18.94,53,128
+BlueClean Innovations,Toronto,2023,October,6333,196556,31.04,51,171
+BlueClean Innovations,Toronto,2023,November,6724,142114,21.14,59,147
+BlueClean Innovations,Toronto,2023,December,4633,159386,34.4,52,144
+Urban Aqua Systems,Toronto,2020,January,5916,195877,33.11,45,90
+Urban Aqua Systems,Toronto,2020,February,5402,101156,18.73,59,164
+Urban Aqua Systems,Toronto,2020,March,6957,98361,14.14,59,81
+Urban Aqua Systems,Toronto,2020,April,4733,138443,29.25,58,177
+Urban Aqua Systems,Toronto,2020,May,5444,91547,16.82,48,71
+Urban Aqua Systems,Toronto,2020,June,6450,181426,28.13,56,173
+Urban Aqua Systems,Toronto,2020,July,5581,137968,24.72,48,149
+Urban Aqua Systems,Toronto,2020,August,6077,92518,15.22,48,117
+Urban Aqua Systems,Toronto,2020,September,5274,133212,25.26,58,116
+Urban Aqua Systems,Toronto,2020,October,5519,146688,26.58,46,137
+Urban Aqua Systems,Toronto,2020,November,6395,133331,20.85,54,91
+Urban Aqua Systems,Toronto,2020,December,6832,109274,15.99,59,79
+Urban Aqua Systems,Toronto,2021,January,5045,123878,24.55,54,96
+Urban Aqua Systems,Toronto,2021,February,6349,137875,21.72,54,104
+Urban Aqua Systems,Toronto,2021,March,6053,180583,29.83,55,172
+Urban Aqua Systems,Toronto,2021,April,6119,120614,19.71,54,72
+Urban Aqua Systems,Toronto,2021,May,5747,149767,26.06,53,152
+Urban Aqua Systems,Toronto,2021,June,4657,119475,25.65,47,149
+Urban Aqua Systems,Toronto,2021,July,6735,134065,19.91,51,174
+Urban Aqua Systems,Toronto,2021,August,6791,149218,21.97,52,159
+Urban Aqua Systems,Toronto,2021,September,5468,184388,33.72,54,140
+Urban Aqua Systems,Toronto,2021,October,5826,132899,22.81,58,111
+Urban Aqua Systems,Toronto,2021,November,6730,175339,26.05,55,89
+Urban Aqua Systems,Toronto,2021,December,4668,174619,37.41,48,138
+Urban Aqua Systems,Toronto,2022,January,4731,160141,33.85,51,115
+Urban Aqua Systems,Toronto,2022,February,5202,112314,21.59,56,143
+Urban Aqua Systems,Toronto,2022,March,5578,159099,28.52,54,78
+Urban Aqua Systems,Toronto,2022,April,5260,150800,28.67,57,83
+Urban Aqua Systems,Toronto,2022,May,5420,173442,32.0,46,86
+Urban Aqua Systems,Toronto,2022,June,6621,175740,26.54,54,94
+Urban Aqua Systems,Toronto,2022,July,5728,145364,25.38,50,85
+Urban Aqua Systems,Toronto,2022,August,6270,128884,20.56,54,93
+Urban Aqua Systems,Toronto,2022,September,4569,157888,34.56,51,79
+Urban Aqua Systems,Toronto,2022,October,5233,159711,30.52,57,88
+Urban Aqua Systems,Toronto,2022,November,6900,110683,16.04,49,166
+Urban Aqua Systems,Toronto,2022,December,6320,129200,20.44,47,124
+Urban Aqua Systems,Toronto,2023,January,4607,116722,25.34,47,105
+Urban Aqua Systems,Toronto,2023,February,6295,184290,29.28,47,83
+Urban Aqua Systems,Toronto,2023,March,5481,184993,33.75,45,74
+Urban Aqua Systems,Toronto,2023,April,5360,122817,22.91,45,139
+Urban Aqua Systems,Toronto,2023,May,4984,139962,28.08,59,141
+Urban Aqua Systems,Toronto,2023,June,5625,143748,25.56,52,136
+Urban Aqua Systems,Toronto,2023,July,4687,166447,35.51,50,91
+Urban Aqua Systems,Toronto,2023,August,6940,114479,16.5,52,96
+Urban Aqua Systems,Toronto,2023,September,5661,121711,21.5,57,73
+Urban Aqua Systems,Toronto,2023,October,6749,104760,15.52,54,178
+Urban Aqua Systems,Toronto,2023,November,5857,134888,23.03,47,163
+Urban Aqua Systems,Toronto,2023,December,5962,192499,32.29,52,150
+CityWave Corp,Toronto,2020,January,6831,160240,23.46,51,163
+CityWave Corp,Toronto,2020,February,6510,176620,27.13,55,95
+CityWave Corp,Toronto,2020,March,6052,100532,16.61,48,150
+CityWave Corp,Toronto,2020,April,5671,192716,33.98,49,145
+CityWave Corp,Toronto,2020,May,4611,156510,33.94,45,179
+CityWave Corp,Toronto,2020,June,6456,116444,18.04,50,171
+CityWave Corp,Toronto,2020,July,5840,197930,33.89,51,117
+CityWave Corp,Toronto,2020,August,6312,156133,24.74,50,122
+CityWave Corp,Toronto,2020,September,6958,128783,18.51,45,146
+CityWave Corp,Toronto,2020,October,5590,193258,34.57,49,144
+CityWave Corp,Toronto,2020,November,4911,126390,25.74,47,166
+CityWave Corp,Toronto,2020,December,6869,155489,22.64,51,160
+CityWave Corp,Toronto,2021,January,6110,119831,19.61,52,166
+CityWave Corp,Toronto,2021,February,6005,91383,15.22,50,86
+CityWave Corp,Toronto,2021,March,6404,196209,30.64,52,137
+CityWave Corp,Toronto,2021,April,5938,192112,32.35,53,96
+CityWave Corp,Toronto,2021,May,6081,104694,17.22,58,99
+CityWave Corp,Toronto,2021,June,6281,97409,15.51,55,140
+CityWave Corp,Toronto,2021,July,5425,147637,27.21,53,82
+CityWave Corp,Toronto,2021,August,6684,129140,19.32,47,130
+CityWave Corp,Toronto,2021,September,5446,198665,36.48,47,114
+CityWave Corp,Toronto,2021,October,4992,197628,39.59,59,177
+CityWave Corp,Toronto,2021,November,6843,101459,14.83,58,113
+CityWave Corp,Toronto,2021,December,5295,140865,26.6,55,131
+CityWave Corp,Toronto,2022,January,6548,129238,19.74,46,113
+CityWave Corp,Toronto,2022,February,6148,107613,17.5,59,146
+CityWave Corp,Toronto,2022,March,5581,140966,25.26,47,124
+CityWave Corp,Toronto,2022,April,5840,147191,25.2,58,107
+CityWave Corp,Toronto,2022,May,4778,138783,29.05,53,176
+CityWave Corp,Toronto,2022,June,5161,93153,18.05,56,75
+CityWave Corp,Toronto,2022,July,4717,188291,39.92,45,152
+CityWave Corp,Toronto,2022,August,5751,168273,29.26,56,179
+CityWave Corp,Toronto,2022,September,5061,119790,23.67,45,128
+CityWave Corp,Toronto,2022,October,6149,182232,29.64,55,73
+CityWave Corp,Toronto,2022,November,5470,150400,27.5,46,142
+CityWave Corp,Toronto,2022,December,6962,158980,22.84,56,105
+CityWave Corp,Toronto,2023,January,6460,182287,28.22,48,106
+CityWave Corp,Toronto,2023,February,6414,95963,14.96,50,92
+CityWave Corp,Toronto,2023,March,6842,104329,15.25,53,144
+CityWave Corp,Toronto,2023,April,6791,172472,25.4,53,133
+CityWave Corp,Toronto,2023,May,5657,154137,27.25,57,143
+CityWave Corp,Toronto,2023,June,4649,137301,29.53,58,168
+CityWave Corp,Toronto,2023,July,4950,130942,26.45,49,74
+CityWave Corp,Toronto,2023,August,4959,128148,25.84,45,152
+CityWave Corp,Toronto,2023,September,4559,132520,29.07,45,100
+CityWave Corp,Toronto,2023,October,6125,170474,27.83,50,104
+CityWave Corp,Toronto,2023,November,6289,95010,15.11,53,175
+CityWave Corp,Toronto,2023,December,6730,164190,24.4,50,115

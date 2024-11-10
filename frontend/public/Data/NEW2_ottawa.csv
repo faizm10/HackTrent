@@ -1,0 +1,481 @@
+Company Name,Location,Year,Month,Gross Floor Area (m²),Monthly Water Use (L),Water Use Intensity (L/m²),Operating Hours per Week,Number of Employees
+WaterWave Corp,Ottawa,2020,January,6472,111991,17.3,44,79
+WaterWave Corp,Ottawa,2020,February,4768,117131,24.57,52,140
+WaterWave Corp,Ottawa,2020,March,5481,106726,19.47,49,153
+WaterWave Corp,Ottawa,2020,April,5997,167610,27.95,48,70
+WaterWave Corp,Ottawa,2020,May,4906,119235,24.3,53,104
+WaterWave Corp,Ottawa,2020,June,6087,164174,26.97,42,64
+WaterWave Corp,Ottawa,2020,July,4118,118420,28.76,44,156
+WaterWave Corp,Ottawa,2020,August,4684,98119,20.95,45,158
+WaterWave Corp,Ottawa,2020,September,4182,110759,26.48,48,134
+WaterWave Corp,Ottawa,2020,October,6108,97240,15.92,51,90
+WaterWave Corp,Ottawa,2020,November,5325,87384,16.41,51,63
+WaterWave Corp,Ottawa,2020,December,5165,134040,25.95,47,131
+WaterWave Corp,Ottawa,2021,January,5274,118202,22.41,41,147
+WaterWave Corp,Ottawa,2021,February,4127,178375,43.22,41,140
+WaterWave Corp,Ottawa,2021,March,5692,107377,18.86,54,139
+WaterWave Corp,Ottawa,2021,April,5075,174939,34.47,50,65
+WaterWave Corp,Ottawa,2021,May,5842,130454,22.33,48,83
+WaterWave Corp,Ottawa,2021,June,4681,134643,28.76,50,88
+WaterWave Corp,Ottawa,2021,July,5681,107925,19.0,52,115
+WaterWave Corp,Ottawa,2021,August,4400,95774,21.77,45,120
+WaterWave Corp,Ottawa,2021,September,6344,141256,22.27,51,74
+WaterWave Corp,Ottawa,2021,October,5346,176589,33.03,43,67
+WaterWave Corp,Ottawa,2021,November,5160,85968,16.66,51,130
+WaterWave Corp,Ottawa,2021,December,5627,88667,15.76,42,80
+WaterWave Corp,Ottawa,2022,January,4034,166565,41.29,42,104
+WaterWave Corp,Ottawa,2022,February,6369,88111,13.83,53,152
+WaterWave Corp,Ottawa,2022,March,5055,179593,35.53,42,150
+WaterWave Corp,Ottawa,2022,April,4806,115089,23.95,40,65
+WaterWave Corp,Ottawa,2022,May,6347,88933,14.01,52,66
+WaterWave Corp,Ottawa,2022,June,5100,98299,19.27,43,96
+WaterWave Corp,Ottawa,2022,July,5839,124586,21.34,41,69
+WaterWave Corp,Ottawa,2022,August,5364,150432,28.04,54,123
+WaterWave Corp,Ottawa,2022,September,4734,155109,32.76,41,61
+WaterWave Corp,Ottawa,2022,October,4509,146226,32.43,54,120
+WaterWave Corp,Ottawa,2022,November,4491,106625,23.74,42,116
+WaterWave Corp,Ottawa,2022,December,6132,133172,21.72,52,131
+WaterWave Corp,Ottawa,2023,January,4484,111801,24.93,40,61
+WaterWave Corp,Ottawa,2023,February,6443,128597,19.96,51,156
+WaterWave Corp,Ottawa,2023,March,5376,162608,30.25,43,102
+WaterWave Corp,Ottawa,2023,April,5298,142721,26.94,45,120
+WaterWave Corp,Ottawa,2023,May,5656,122221,21.61,51,74
+WaterWave Corp,Ottawa,2023,June,4104,115216,28.07,46,120
+WaterWave Corp,Ottawa,2023,July,6212,120967,19.47,47,64
+WaterWave Corp,Ottawa,2023,August,4338,104106,24.0,40,99
+WaterWave Corp,Ottawa,2023,September,6359,143876,22.63,44,134
+WaterWave Corp,Ottawa,2023,October,5184,166410,32.1,42,65
+WaterWave Corp,Ottawa,2023,November,4607,144106,31.28,49,118
+WaterWave Corp,Ottawa,2023,December,5929,98517,16.62,42,104
+BlueStream Solutions,Ottawa,2020,January,5326,143771,26.99,48,65
+BlueStream Solutions,Ottawa,2020,February,4544,151399,33.32,52,133
+BlueStream Solutions,Ottawa,2020,March,5318,169447,31.86,44,117
+BlueStream Solutions,Ottawa,2020,April,4371,168519,38.55,47,141
+BlueStream Solutions,Ottawa,2020,May,5735,150869,26.31,47,77
+BlueStream Solutions,Ottawa,2020,June,5464,177546,32.49,43,121
+BlueStream Solutions,Ottawa,2020,July,5426,138992,25.62,40,75
+BlueStream Solutions,Ottawa,2020,August,5636,144356,25.61,51,111
+BlueStream Solutions,Ottawa,2020,September,4798,152499,31.78,53,139
+BlueStream Solutions,Ottawa,2020,October,6372,120831,18.96,42,92
+BlueStream Solutions,Ottawa,2020,November,4079,114536,28.08,44,87
+BlueStream Solutions,Ottawa,2020,December,5509,157315,28.56,52,73
+BlueStream Solutions,Ottawa,2021,January,4075,178012,43.68,42,142
+BlueStream Solutions,Ottawa,2021,February,5678,153946,27.11,41,86
+BlueStream Solutions,Ottawa,2021,March,5851,129166,22.08,49,72
+BlueStream Solutions,Ottawa,2021,April,4378,121799,27.82,45,95
+BlueStream Solutions,Ottawa,2021,May,6138,176484,28.75,45,157
+BlueStream Solutions,Ottawa,2021,June,5414,120982,22.35,41,110
+BlueStream Solutions,Ottawa,2021,July,6495,133581,20.57,44,108
+BlueStream Solutions,Ottawa,2021,August,5874,102521,17.45,48,152
+BlueStream Solutions,Ottawa,2021,September,4637,137932,29.75,43,126
+BlueStream Solutions,Ottawa,2021,October,5638,96212,17.06,54,122
+BlueStream Solutions,Ottawa,2021,November,4866,128138,26.33,53,76
+BlueStream Solutions,Ottawa,2021,December,5408,173459,32.07,42,148
+BlueStream Solutions,Ottawa,2022,January,4419,130292,29.48,49,134
+BlueStream Solutions,Ottawa,2022,February,4241,118033,27.83,45,113
+BlueStream Solutions,Ottawa,2022,March,4894,92444,18.89,52,84
+BlueStream Solutions,Ottawa,2022,April,4190,143554,34.26,41,125
+BlueStream Solutions,Ottawa,2022,May,6061,151494,24.99,42,136
+BlueStream Solutions,Ottawa,2022,June,4152,157484,37.93,49,117
+BlueStream Solutions,Ottawa,2022,July,4323,99635,23.05,42,88
+BlueStream Solutions,Ottawa,2022,August,5306,108613,20.47,50,153
+BlueStream Solutions,Ottawa,2022,September,6368,88132,13.84,54,123
+BlueStream Solutions,Ottawa,2022,October,5657,116036,20.51,45,140
+BlueStream Solutions,Ottawa,2022,November,6387,167622,26.24,42,79
+BlueStream Solutions,Ottawa,2022,December,4163,157725,37.89,48,96
+BlueStream Solutions,Ottawa,2023,January,5005,107380,21.45,48,74
+BlueStream Solutions,Ottawa,2023,February,5823,94236,16.18,47,97
+BlueStream Solutions,Ottawa,2023,March,5783,101102,17.48,44,117
+BlueStream Solutions,Ottawa,2023,April,6192,156393,25.26,40,140
+BlueStream Solutions,Ottawa,2023,May,4825,164442,34.08,51,138
+BlueStream Solutions,Ottawa,2023,June,6081,159562,26.24,41,111
+BlueStream Solutions,Ottawa,2023,July,6354,135143,21.27,43,127
+BlueStream Solutions,Ottawa,2023,August,5491,98739,17.98,41,105
+BlueStream Solutions,Ottawa,2023,September,5011,164155,32.76,40,129
+BlueStream Solutions,Ottawa,2023,October,6352,125254,19.72,53,111
+BlueStream Solutions,Ottawa,2023,November,5161,133378,25.84,41,131
+BlueStream Solutions,Ottawa,2023,December,5294,169910,32.09,43,82
+EcoAqua Ltd,Ottawa,2020,January,4247,104531,24.61,45,116
+EcoAqua Ltd,Ottawa,2020,February,6150,179163,29.13,41,108
+EcoAqua Ltd,Ottawa,2020,March,5788,143582,24.81,52,116
+EcoAqua Ltd,Ottawa,2020,April,5088,132932,26.13,48,159
+EcoAqua Ltd,Ottawa,2020,May,6145,127097,20.68,40,132
+EcoAqua Ltd,Ottawa,2020,June,5476,167767,30.64,46,92
+EcoAqua Ltd,Ottawa,2020,July,4825,87882,18.21,43,78
+EcoAqua Ltd,Ottawa,2020,August,5412,122522,22.64,40,143
+EcoAqua Ltd,Ottawa,2020,September,4129,147398,35.7,42,97
+EcoAqua Ltd,Ottawa,2020,October,6242,126863,20.32,48,154
+EcoAqua Ltd,Ottawa,2020,November,4504,90942,20.19,52,150
+EcoAqua Ltd,Ottawa,2020,December,4567,92637,20.28,40,120
+EcoAqua Ltd,Ottawa,2021,January,4361,126881,29.09,45,99
+EcoAqua Ltd,Ottawa,2021,February,4136,100727,24.35,41,133
+EcoAqua Ltd,Ottawa,2021,March,4805,173122,36.03,52,112
+EcoAqua Ltd,Ottawa,2021,April,5358,165392,30.87,43,94
+EcoAqua Ltd,Ottawa,2021,May,5226,146953,28.12,52,61
+EcoAqua Ltd,Ottawa,2021,June,5384,127097,23.61,40,137
+EcoAqua Ltd,Ottawa,2021,July,5044,165004,32.71,53,157
+EcoAqua Ltd,Ottawa,2021,August,5991,90139,15.05,48,96
+EcoAqua Ltd,Ottawa,2021,September,6242,177341,28.41,45,132
+EcoAqua Ltd,Ottawa,2021,October,4496,124542,27.7,41,94
+EcoAqua Ltd,Ottawa,2021,November,4273,141215,33.05,42,120
+EcoAqua Ltd,Ottawa,2021,December,4945,143611,29.04,45,105
+EcoAqua Ltd,Ottawa,2022,January,5202,116230,22.34,45,103
+EcoAqua Ltd,Ottawa,2022,February,4388,151582,34.54,45,139
+EcoAqua Ltd,Ottawa,2022,March,5929,150109,25.32,51,90
+EcoAqua Ltd,Ottawa,2022,April,4111,177754,43.24,45,76
+EcoAqua Ltd,Ottawa,2022,May,5151,116166,22.55,42,149
+EcoAqua Ltd,Ottawa,2022,June,4661,105746,22.69,48,143
+EcoAqua Ltd,Ottawa,2022,July,4958,151391,30.53,54,158
+EcoAqua Ltd,Ottawa,2022,August,5839,147310,25.23,46,155
+EcoAqua Ltd,Ottawa,2022,September,5382,151329,28.12,41,138
+EcoAqua Ltd,Ottawa,2022,October,6170,113095,18.33,45,125
+EcoAqua Ltd,Ottawa,2022,November,5202,173643,33.38,54,159
+EcoAqua Ltd,Ottawa,2022,December,5323,164573,30.92,41,100
+EcoAqua Ltd,Ottawa,2023,January,4513,179103,39.69,49,139
+EcoAqua Ltd,Ottawa,2023,February,5419,169570,31.29,43,107
+EcoAqua Ltd,Ottawa,2023,March,4448,138137,31.06,43,154
+EcoAqua Ltd,Ottawa,2023,April,5657,105755,18.69,51,80
+EcoAqua Ltd,Ottawa,2023,May,5481,114179,20.83,48,126
+EcoAqua Ltd,Ottawa,2023,June,5989,113003,18.87,51,142
+EcoAqua Ltd,Ottawa,2023,July,5106,134936,26.43,49,140
+EcoAqua Ltd,Ottawa,2023,August,4192,112830,26.92,44,103
+EcoAqua Ltd,Ottawa,2023,September,4830,92288,19.11,42,121
+EcoAqua Ltd,Ottawa,2023,October,5364,129478,24.14,47,100
+EcoAqua Ltd,Ottawa,2023,November,5337,146845,27.51,51,76
+EcoAqua Ltd,Ottawa,2023,December,4195,141160,33.65,50,122
+CapitalWater Inc,Ottawa,2020,January,4369,118076,27.03,43,63
+CapitalWater Inc,Ottawa,2020,February,4364,148004,33.91,42,130
+CapitalWater Inc,Ottawa,2020,March,6422,142222,22.15,53,94
+CapitalWater Inc,Ottawa,2020,April,6090,95311,15.65,48,63
+CapitalWater Inc,Ottawa,2020,May,5063,121057,23.91,49,123
+CapitalWater Inc,Ottawa,2020,June,4652,121937,26.21,44,97
+CapitalWater Inc,Ottawa,2020,July,5448,114290,20.98,52,109
+CapitalWater Inc,Ottawa,2020,August,4822,168110,34.86,43,146
+CapitalWater Inc,Ottawa,2020,September,4312,146473,33.97,53,149
+CapitalWater Inc,Ottawa,2020,October,4905,124537,25.39,49,133
+CapitalWater Inc,Ottawa,2020,November,5316,131138,24.67,40,142
+CapitalWater Inc,Ottawa,2020,December,5965,93748,15.72,44,104
+CapitalWater Inc,Ottawa,2021,January,4655,172964,37.16,49,112
+CapitalWater Inc,Ottawa,2021,February,5715,178545,31.24,41,117
+CapitalWater Inc,Ottawa,2021,March,5656,103178,18.24,48,134
+CapitalWater Inc,Ottawa,2021,April,5628,97594,17.34,42,114
+CapitalWater Inc,Ottawa,2021,May,5812,128394,22.09,54,120
+CapitalWater Inc,Ottawa,2021,June,4355,118659,27.25,42,71
+CapitalWater Inc,Ottawa,2021,July,6202,107911,17.4,50,110
+CapitalWater Inc,Ottawa,2021,August,4823,123435,25.59,49,125
+CapitalWater Inc,Ottawa,2021,September,6494,100644,15.5,41,94
+CapitalWater Inc,Ottawa,2021,October,6093,157039,25.77,52,62
+CapitalWater Inc,Ottawa,2021,November,4027,121357,30.14,44,94
+CapitalWater Inc,Ottawa,2021,December,4864,164526,33.83,54,121
+CapitalWater Inc,Ottawa,2022,January,4356,141045,32.38,43,159
+CapitalWater Inc,Ottawa,2022,February,4101,128990,31.45,43,133
+CapitalWater Inc,Ottawa,2022,March,4737,114501,24.17,47,68
+CapitalWater Inc,Ottawa,2022,April,5735,102509,17.87,42,123
+CapitalWater Inc,Ottawa,2022,May,5281,149397,28.29,53,145
+CapitalWater Inc,Ottawa,2022,June,6347,96898,15.27,41,60
+CapitalWater Inc,Ottawa,2022,July,6249,137605,22.02,47,68
+CapitalWater Inc,Ottawa,2022,August,6136,109184,17.79,40,159
+CapitalWater Inc,Ottawa,2022,September,5449,160925,29.53,46,85
+CapitalWater Inc,Ottawa,2022,October,4943,122107,24.7,46,121
+CapitalWater Inc,Ottawa,2022,November,4938,95877,19.42,41,92
+CapitalWater Inc,Ottawa,2022,December,5969,162656,27.25,42,107
+CapitalWater Inc,Ottawa,2023,January,4715,162203,34.4,48,121
+CapitalWater Inc,Ottawa,2023,February,4190,113587,27.11,50,138
+CapitalWater Inc,Ottawa,2023,March,4456,107540,24.13,47,76
+CapitalWater Inc,Ottawa,2023,April,6103,99692,16.33,49,99
+CapitalWater Inc,Ottawa,2023,May,6139,139355,22.7,44,128
+CapitalWater Inc,Ottawa,2023,June,5749,115707,20.13,53,77
+CapitalWater Inc,Ottawa,2023,July,5016,164280,32.75,46,96
+CapitalWater Inc,Ottawa,2023,August,4619,85716,18.56,53,128
+CapitalWater Inc,Ottawa,2023,September,6439,97376,15.12,51,123
+CapitalWater Inc,Ottawa,2023,October,5818,159066,27.34,46,125
+CapitalWater Inc,Ottawa,2023,November,5339,127776,23.93,50,146
+CapitalWater Inc,Ottawa,2023,December,4453,128474,28.85,44,79
+FlowDynamics,Ottawa,2020,January,4534,172385,38.02,53,69
+FlowDynamics,Ottawa,2020,February,4438,138156,31.13,42,79
+FlowDynamics,Ottawa,2020,March,5111,172679,33.79,40,142
+FlowDynamics,Ottawa,2020,April,4253,178666,42.01,41,156
+FlowDynamics,Ottawa,2020,May,4675,142136,30.4,43,155
+FlowDynamics,Ottawa,2020,June,5169,126919,24.55,41,142
+FlowDynamics,Ottawa,2020,July,5342,144978,27.14,49,158
+FlowDynamics,Ottawa,2020,August,5103,101110,19.81,44,63
+FlowDynamics,Ottawa,2020,September,4338,105176,24.25,53,94
+FlowDynamics,Ottawa,2020,October,5884,106257,18.06,43,73
+FlowDynamics,Ottawa,2020,November,4859,156724,32.25,42,130
+FlowDynamics,Ottawa,2020,December,5306,95868,18.07,41,106
+FlowDynamics,Ottawa,2021,January,6174,106598,17.27,48,124
+FlowDynamics,Ottawa,2021,February,6088,174174,28.61,49,96
+FlowDynamics,Ottawa,2021,March,6460,97327,15.07,54,119
+FlowDynamics,Ottawa,2021,April,5997,120116,20.03,42,96
+FlowDynamics,Ottawa,2021,May,5373,149369,27.8,45,62
+FlowDynamics,Ottawa,2021,June,6191,113147,18.28,47,118
+FlowDynamics,Ottawa,2021,July,4152,121247,29.2,48,78
+FlowDynamics,Ottawa,2021,August,5072,152809,30.13,53,113
+FlowDynamics,Ottawa,2021,September,4155,160430,38.61,44,88
+FlowDynamics,Ottawa,2021,October,5268,119775,22.74,47,65
+FlowDynamics,Ottawa,2021,November,4858,136989,28.2,47,116
+FlowDynamics,Ottawa,2021,December,6474,145457,22.47,53,131
+FlowDynamics,Ottawa,2022,January,4415,94913,21.5,48,110
+FlowDynamics,Ottawa,2022,February,5015,140398,28.0,47,77
+FlowDynamics,Ottawa,2022,March,5377,102349,19.03,46,98
+FlowDynamics,Ottawa,2022,April,5610,161176,28.73,52,135
+FlowDynamics,Ottawa,2022,May,4410,138788,31.47,49,130
+FlowDynamics,Ottawa,2022,June,5018,155991,31.09,40,140
+FlowDynamics,Ottawa,2022,July,6327,108924,17.22,43,118
+FlowDynamics,Ottawa,2022,August,4450,106280,23.88,52,80
+FlowDynamics,Ottawa,2022,September,5714,176187,30.83,41,110
+FlowDynamics,Ottawa,2022,October,6359,85031,13.37,49,123
+FlowDynamics,Ottawa,2022,November,5681,127694,22.48,44,62
+FlowDynamics,Ottawa,2022,December,5937,99477,16.76,53,94
+FlowDynamics,Ottawa,2023,January,4473,168396,37.65,40,123
+FlowDynamics,Ottawa,2023,February,4626,105808,22.87,45,94
+FlowDynamics,Ottawa,2023,March,5370,145795,27.15,52,145
+FlowDynamics,Ottawa,2023,April,4747,129199,27.22,40,112
+FlowDynamics,Ottawa,2023,May,5848,158905,27.17,42,104
+FlowDynamics,Ottawa,2023,June,4999,85856,17.17,40,115
+FlowDynamics,Ottawa,2023,July,5051,153034,30.3,48,90
+FlowDynamics,Ottawa,2023,August,5101,174127,34.14,46,87
+FlowDynamics,Ottawa,2023,September,6031,178703,29.63,48,157
+FlowDynamics,Ottawa,2023,October,5706,161989,28.39,40,64
+FlowDynamics,Ottawa,2023,November,5674,145034,25.56,41,64
+FlowDynamics,Ottawa,2023,December,6005,98173,16.35,46,60
+PureO2 Systems,Ottawa,2020,January,4749,152253,32.06,44,83
+PureO2 Systems,Ottawa,2020,February,4502,101116,22.46,53,120
+PureO2 Systems,Ottawa,2020,March,5739,109604,19.1,51,109
+PureO2 Systems,Ottawa,2020,April,4932,109703,22.24,48,140
+PureO2 Systems,Ottawa,2020,May,5026,90963,18.1,53,68
+PureO2 Systems,Ottawa,2020,June,5670,111789,19.72,49,107
+PureO2 Systems,Ottawa,2020,July,5828,165128,28.33,46,100
+PureO2 Systems,Ottawa,2020,August,4282,145067,33.88,43,60
+PureO2 Systems,Ottawa,2020,September,4807,160980,33.49,50,136
+PureO2 Systems,Ottawa,2020,October,5943,101768,17.12,54,132
+PureO2 Systems,Ottawa,2020,November,5941,134908,22.71,53,158
+PureO2 Systems,Ottawa,2020,December,5316,86332,16.24,44,77
+PureO2 Systems,Ottawa,2021,January,5432,158401,29.16,41,149
+PureO2 Systems,Ottawa,2021,February,6140,117708,19.17,51,104
+PureO2 Systems,Ottawa,2021,March,6040,176914,29.29,40,90
+PureO2 Systems,Ottawa,2021,April,4830,127574,26.41,49,120
+PureO2 Systems,Ottawa,2021,May,4088,177998,43.54,41,87
+PureO2 Systems,Ottawa,2021,June,5318,169322,31.84,44,97
+PureO2 Systems,Ottawa,2021,July,4371,140550,32.16,45,130
+PureO2 Systems,Ottawa,2021,August,4402,117710,26.74,42,104
+PureO2 Systems,Ottawa,2021,September,4531,99781,22.02,44,114
+PureO2 Systems,Ottawa,2021,October,4078,143201,35.12,42,119
+PureO2 Systems,Ottawa,2021,November,5386,179201,33.27,51,139
+PureO2 Systems,Ottawa,2021,December,4604,119123,25.87,54,118
+PureO2 Systems,Ottawa,2022,January,4307,150350,34.91,47,129
+PureO2 Systems,Ottawa,2022,February,6353,140871,22.17,51,81
+PureO2 Systems,Ottawa,2022,March,5428,99143,18.27,50,78
+PureO2 Systems,Ottawa,2022,April,5366,178086,33.19,52,114
+PureO2 Systems,Ottawa,2022,May,4852,140522,28.96,49,134
+PureO2 Systems,Ottawa,2022,June,5138,150425,29.28,54,134
+PureO2 Systems,Ottawa,2022,July,5038,154381,30.64,52,112
+PureO2 Systems,Ottawa,2022,August,4633,92390,19.94,45,79
+PureO2 Systems,Ottawa,2022,September,4094,115743,28.27,54,111
+PureO2 Systems,Ottawa,2022,October,4981,153794,30.88,41,78
+PureO2 Systems,Ottawa,2022,November,6403,137179,21.42,44,85
+PureO2 Systems,Ottawa,2022,December,6123,117826,19.24,52,159
+PureO2 Systems,Ottawa,2023,January,6208,99771,16.07,51,158
+PureO2 Systems,Ottawa,2023,February,5643,177556,31.46,54,129
+PureO2 Systems,Ottawa,2023,March,4592,168287,36.65,53,97
+PureO2 Systems,Ottawa,2023,April,5485,171589,31.28,50,110
+PureO2 Systems,Ottawa,2023,May,5033,85300,16.95,44,145
+PureO2 Systems,Ottawa,2023,June,4571,179565,39.28,44,144
+PureO2 Systems,Ottawa,2023,July,5401,158890,29.42,43,75
+PureO2 Systems,Ottawa,2023,August,4672,119361,25.55,51,101
+PureO2 Systems,Ottawa,2023,September,5417,143474,26.49,40,100
+PureO2 Systems,Ottawa,2023,October,6053,154462,25.52,47,78
+PureO2 Systems,Ottawa,2023,November,5219,132896,25.46,43,144
+PureO2 Systems,Ottawa,2023,December,4834,135203,27.97,42,60
+HydroClean Services,Ottawa,2020,January,5211,104418,20.04,54,142
+HydroClean Services,Ottawa,2020,February,4559,103795,22.77,45,70
+HydroClean Services,Ottawa,2020,March,6278,171398,27.3,42,145
+HydroClean Services,Ottawa,2020,April,4109,87546,21.31,53,70
+HydroClean Services,Ottawa,2020,May,5188,85327,16.45,52,88
+HydroClean Services,Ottawa,2020,June,5036,113186,22.48,43,156
+HydroClean Services,Ottawa,2020,July,5407,164747,30.47,54,116
+HydroClean Services,Ottawa,2020,August,5156,161041,31.23,49,109
+HydroClean Services,Ottawa,2020,September,5894,175142,29.72,52,83
+HydroClean Services,Ottawa,2020,October,6433,127777,19.86,52,117
+HydroClean Services,Ottawa,2020,November,4235,91170,21.53,46,107
+HydroClean Services,Ottawa,2020,December,5214,135314,25.95,48,63
+HydroClean Services,Ottawa,2021,January,6385,102731,16.09,49,143
+HydroClean Services,Ottawa,2021,February,6424,130598,20.33,49,121
+HydroClean Services,Ottawa,2021,March,5357,170467,31.82,41,69
+HydroClean Services,Ottawa,2021,April,6259,101231,16.17,53,106
+HydroClean Services,Ottawa,2021,May,5507,139146,25.27,53,113
+HydroClean Services,Ottawa,2021,June,5600,161250,28.79,46,61
+HydroClean Services,Ottawa,2021,July,4118,132843,32.26,46,78
+HydroClean Services,Ottawa,2021,August,5904,164902,27.93,46,74
+HydroClean Services,Ottawa,2021,September,4156,177263,42.65,54,154
+HydroClean Services,Ottawa,2021,October,4817,134349,27.89,54,100
+HydroClean Services,Ottawa,2021,November,6300,155570,24.69,45,99
+HydroClean Services,Ottawa,2021,December,5032,168977,33.58,51,96
+HydroClean Services,Ottawa,2022,January,5750,100646,17.5,44,134
+HydroClean Services,Ottawa,2022,February,4995,106015,21.22,44,131
+HydroClean Services,Ottawa,2022,March,5179,94295,18.21,49,145
+HydroClean Services,Ottawa,2022,April,5402,175966,32.57,44,128
+HydroClean Services,Ottawa,2022,May,5153,131593,25.54,50,121
+HydroClean Services,Ottawa,2022,June,4488,169995,37.88,48,155
+HydroClean Services,Ottawa,2022,July,4327,166867,38.56,42,73
+HydroClean Services,Ottawa,2022,August,5358,161247,30.09,52,93
+HydroClean Services,Ottawa,2022,September,4360,114181,26.19,41,159
+HydroClean Services,Ottawa,2022,October,4347,164674,37.88,44,64
+HydroClean Services,Ottawa,2022,November,4797,134762,28.09,45,135
+HydroClean Services,Ottawa,2022,December,4466,165252,37.0,43,78
+HydroClean Services,Ottawa,2023,January,4024,106137,26.38,41,113
+HydroClean Services,Ottawa,2023,February,5166,134748,26.08,41,98
+HydroClean Services,Ottawa,2023,March,6161,126279,20.5,45,70
+HydroClean Services,Ottawa,2023,April,5502,158089,28.73,50,140
+HydroClean Services,Ottawa,2023,May,6189,163769,26.46,53,68
+HydroClean Services,Ottawa,2023,June,6136,164233,26.77,41,131
+HydroClean Services,Ottawa,2023,July,6384,158298,24.8,41,70
+HydroClean Services,Ottawa,2023,August,5908,139421,23.6,51,70
+HydroClean Services,Ottawa,2023,September,6145,176121,28.66,42,65
+HydroClean Services,Ottawa,2023,October,5045,87249,17.29,40,154
+HydroClean Services,Ottawa,2023,November,5057,141504,27.98,44,145
+HydroClean Services,Ottawa,2023,December,6300,86618,13.75,48,100
+EcoStream Ottawa,Ottawa,2020,January,5083,147513,29.02,49,89
+EcoStream Ottawa,Ottawa,2020,February,5512,146584,26.59,53,113
+EcoStream Ottawa,Ottawa,2020,March,4654,129023,27.72,54,141
+EcoStream Ottawa,Ottawa,2020,April,6427,94509,14.7,45,152
+EcoStream Ottawa,Ottawa,2020,May,5122,152375,29.75,44,61
+EcoStream Ottawa,Ottawa,2020,June,5152,144869,28.12,42,114
+EcoStream Ottawa,Ottawa,2020,July,4519,119154,26.37,47,78
+EcoStream Ottawa,Ottawa,2020,August,4783,110805,23.17,43,100
+EcoStream Ottawa,Ottawa,2020,September,4706,133019,28.27,49,116
+EcoStream Ottawa,Ottawa,2020,October,4160,145461,34.97,47,150
+EcoStream Ottawa,Ottawa,2020,November,5939,112462,18.94,54,77
+EcoStream Ottawa,Ottawa,2020,December,5899,85267,14.45,45,157
+EcoStream Ottawa,Ottawa,2021,January,4428,135232,30.54,40,88
+EcoStream Ottawa,Ottawa,2021,February,6108,150357,24.62,44,151
+EcoStream Ottawa,Ottawa,2021,March,6082,143225,23.55,43,83
+EcoStream Ottawa,Ottawa,2021,April,5677,146682,25.84,45,153
+EcoStream Ottawa,Ottawa,2021,May,5847,96269,16.46,43,115
+EcoStream Ottawa,Ottawa,2021,June,4684,115287,24.61,44,152
+EcoStream Ottawa,Ottawa,2021,July,4011,127255,31.73,47,131
+EcoStream Ottawa,Ottawa,2021,August,6104,134324,22.01,51,113
+EcoStream Ottawa,Ottawa,2021,September,4817,105600,21.92,48,125
+EcoStream Ottawa,Ottawa,2021,October,5847,177969,30.44,44,117
+EcoStream Ottawa,Ottawa,2021,November,5192,104389,20.11,47,117
+EcoStream Ottawa,Ottawa,2021,December,5901,170706,28.93,51,88
+EcoStream Ottawa,Ottawa,2022,January,5511,117167,21.26,47,149
+EcoStream Ottawa,Ottawa,2022,February,6360,144114,22.66,46,86
+EcoStream Ottawa,Ottawa,2022,March,6173,101539,16.45,51,143
+EcoStream Ottawa,Ottawa,2022,April,5743,91242,15.89,54,109
+EcoStream Ottawa,Ottawa,2022,May,6254,112596,18.0,50,153
+EcoStream Ottawa,Ottawa,2022,June,4363,97091,22.25,47,105
+EcoStream Ottawa,Ottawa,2022,July,5044,155173,30.76,51,83
+EcoStream Ottawa,Ottawa,2022,August,6351,88473,13.93,47,140
+EcoStream Ottawa,Ottawa,2022,September,6220,131261,21.1,51,120
+EcoStream Ottawa,Ottawa,2022,October,4190,155477,37.11,54,152
+EcoStream Ottawa,Ottawa,2022,November,4655,178946,38.44,46,127
+EcoStream Ottawa,Ottawa,2022,December,5813,149816,25.77,51,87
+EcoStream Ottawa,Ottawa,2023,January,5851,96014,16.41,46,66
+EcoStream Ottawa,Ottawa,2023,February,5129,125424,24.45,50,144
+EcoStream Ottawa,Ottawa,2023,March,5636,96443,17.11,42,71
+EcoStream Ottawa,Ottawa,2023,April,4656,101773,21.86,41,80
+EcoStream Ottawa,Ottawa,2023,May,4219,164471,38.98,49,144
+EcoStream Ottawa,Ottawa,2023,June,4310,93808,21.77,50,62
+EcoStream Ottawa,Ottawa,2023,July,4169,117374,28.15,54,123
+EcoStream Ottawa,Ottawa,2023,August,6281,169753,27.03,47,64
+EcoStream Ottawa,Ottawa,2023,September,6433,105101,16.34,54,82
+EcoStream Ottawa,Ottawa,2023,October,4708,110021,23.37,47,76
+EcoStream Ottawa,Ottawa,2023,November,4280,170488,39.83,47,133
+EcoStream Ottawa,Ottawa,2023,December,6258,163734,26.16,54,129
+ClearSource Ltd,Ottawa,2020,January,4407,144438,32.77,54,84
+ClearSource Ltd,Ottawa,2020,February,4170,96462,23.13,48,84
+ClearSource Ltd,Ottawa,2020,March,5107,125041,24.48,44,84
+ClearSource Ltd,Ottawa,2020,April,4471,118505,26.51,51,120
+ClearSource Ltd,Ottawa,2020,May,4716,176482,37.42,50,140
+ClearSource Ltd,Ottawa,2020,June,4713,138506,29.39,51,117
+ClearSource Ltd,Ottawa,2020,July,4880,159535,32.69,49,119
+ClearSource Ltd,Ottawa,2020,August,4439,95224,21.45,42,97
+ClearSource Ltd,Ottawa,2020,September,6169,156283,25.33,52,86
+ClearSource Ltd,Ottawa,2020,October,4247,109983,25.9,42,154
+ClearSource Ltd,Ottawa,2020,November,4010,90212,22.5,52,150
+ClearSource Ltd,Ottawa,2020,December,5602,153377,27.38,53,64
+ClearSource Ltd,Ottawa,2021,January,5337,144069,26.99,44,78
+ClearSource Ltd,Ottawa,2021,February,5406,159097,29.43,52,124
+ClearSource Ltd,Ottawa,2021,March,5238,152362,29.09,49,96
+ClearSource Ltd,Ottawa,2021,April,5634,139586,24.78,44,71
+ClearSource Ltd,Ottawa,2021,May,4296,111351,25.92,40,122
+ClearSource Ltd,Ottawa,2021,June,5425,101023,18.62,53,124
+ClearSource Ltd,Ottawa,2021,July,5696,100832,17.7,41,75
+ClearSource Ltd,Ottawa,2021,August,5816,98229,16.89,40,60
+ClearSource Ltd,Ottawa,2021,September,4316,123360,28.58,40,116
+ClearSource Ltd,Ottawa,2021,October,6115,178484,29.19,46,60
+ClearSource Ltd,Ottawa,2021,November,5955,168564,28.31,42,122
+ClearSource Ltd,Ottawa,2021,December,4725,86059,18.21,51,76
+ClearSource Ltd,Ottawa,2022,January,6346,158754,25.02,54,80
+ClearSource Ltd,Ottawa,2022,February,4651,100849,21.68,51,81
+ClearSource Ltd,Ottawa,2022,March,4800,121229,25.26,46,66
+ClearSource Ltd,Ottawa,2022,April,5164,154521,29.92,52,75
+ClearSource Ltd,Ottawa,2022,May,4225,123700,29.28,49,147
+ClearSource Ltd,Ottawa,2022,June,6324,176039,27.84,41,132
+ClearSource Ltd,Ottawa,2022,July,4857,144090,29.67,44,65
+ClearSource Ltd,Ottawa,2022,August,5921,156127,26.37,47,74
+ClearSource Ltd,Ottawa,2022,September,6339,103656,16.35,51,109
+ClearSource Ltd,Ottawa,2022,October,4765,115786,24.3,48,110
+ClearSource Ltd,Ottawa,2022,November,6367,171796,26.98,42,146
+ClearSource Ltd,Ottawa,2022,December,5861,103481,17.66,45,131
+ClearSource Ltd,Ottawa,2023,January,6243,173309,27.76,54,139
+ClearSource Ltd,Ottawa,2023,February,6218,86452,13.9,46,66
+ClearSource Ltd,Ottawa,2023,March,5085,123547,24.3,45,93
+ClearSource Ltd,Ottawa,2023,April,6162,103766,16.84,54,98
+ClearSource Ltd,Ottawa,2023,May,4143,150199,36.25,47,112
+ClearSource Ltd,Ottawa,2023,June,5830,85619,14.69,50,146
+ClearSource Ltd,Ottawa,2023,July,5646,172826,30.61,50,77
+ClearSource Ltd,Ottawa,2023,August,6298,127916,20.31,41,140
+ClearSource Ltd,Ottawa,2023,September,6235,171963,27.58,46,127
+ClearSource Ltd,Ottawa,2023,October,5478,156534,28.58,42,96
+ClearSource Ltd,Ottawa,2023,November,6483,117961,18.2,47,132
+ClearSource Ltd,Ottawa,2023,December,4602,88579,19.25,41,98
+UrbanFlow Inc,Ottawa,2020,January,4647,103713,22.32,50,109
+UrbanFlow Inc,Ottawa,2020,February,6248,115240,18.44,49,71
+UrbanFlow Inc,Ottawa,2020,March,5628,165121,29.34,45,71
+UrbanFlow Inc,Ottawa,2020,April,4421,175014,39.59,40,80
+UrbanFlow Inc,Ottawa,2020,May,4303,118625,27.57,54,77
+UrbanFlow Inc,Ottawa,2020,June,6236,163806,26.27,50,141
+UrbanFlow Inc,Ottawa,2020,July,4404,137361,31.19,52,133
+UrbanFlow Inc,Ottawa,2020,August,6437,129531,20.12,42,84
+UrbanFlow Inc,Ottawa,2020,September,4959,147210,29.69,54,146
+UrbanFlow Inc,Ottawa,2020,October,5887,172952,29.38,51,101
+UrbanFlow Inc,Ottawa,2020,November,4463,92608,20.75,45,67
+UrbanFlow Inc,Ottawa,2020,December,5197,121133,23.31,54,148
+UrbanFlow Inc,Ottawa,2021,January,6216,92022,14.8,51,100
+UrbanFlow Inc,Ottawa,2021,February,4032,101433,25.16,50,121
+UrbanFlow Inc,Ottawa,2021,March,5420,118470,21.86,47,107
+UrbanFlow Inc,Ottawa,2021,April,6074,105477,17.37,53,146
+UrbanFlow Inc,Ottawa,2021,May,4826,123614,25.61,46,74
+UrbanFlow Inc,Ottawa,2021,June,4219,114070,27.04,42,158
+UrbanFlow Inc,Ottawa,2021,July,6303,152272,24.16,54,147
+UrbanFlow Inc,Ottawa,2021,August,5751,147408,25.63,40,159
+UrbanFlow Inc,Ottawa,2021,September,5706,85890,15.05,54,84
+UrbanFlow Inc,Ottawa,2021,October,6314,169900,26.91,53,74
+UrbanFlow Inc,Ottawa,2021,November,5006,142438,28.45,54,72
+UrbanFlow Inc,Ottawa,2021,December,5711,125932,22.05,49,104
+UrbanFlow Inc,Ottawa,2022,January,5447,159103,29.21,40,125
+UrbanFlow Inc,Ottawa,2022,February,4067,158305,38.92,41,129
+UrbanFlow Inc,Ottawa,2022,March,4044,122953,30.4,48,111
+UrbanFlow Inc,Ottawa,2022,April,5602,87046,15.54,45,103
+UrbanFlow Inc,Ottawa,2022,May,4565,163526,35.82,47,120
+UrbanFlow Inc,Ottawa,2022,June,6170,99892,16.19,53,147
+UrbanFlow Inc,Ottawa,2022,July,5350,111129,20.77,42,153
+UrbanFlow Inc,Ottawa,2022,August,4888,88781,18.16,48,79
+UrbanFlow Inc,Ottawa,2022,September,6001,169802,28.3,50,138
+UrbanFlow Inc,Ottawa,2022,October,5306,90269,17.01,40,89
+UrbanFlow Inc,Ottawa,2022,November,5513,124486,22.58,46,132
+UrbanFlow Inc,Ottawa,2022,December,4140,168421,40.68,51,129
+UrbanFlow Inc,Ottawa,2023,January,4281,101375,23.68,49,147
+UrbanFlow Inc,Ottawa,2023,February,4574,157695,34.48,47,140
+UrbanFlow Inc,Ottawa,2023,March,6003,136244,22.7,51,143
+UrbanFlow Inc,Ottawa,2023,April,5127,111051,21.66,43,96
+UrbanFlow Inc,Ottawa,2023,May,4427,162887,36.79,43,118
+UrbanFlow Inc,Ottawa,2023,June,4293,176810,41.19,44,122
+UrbanFlow Inc,Ottawa,2023,July,6495,146722,22.59,42,125
+UrbanFlow Inc,Ottawa,2023,August,4669,109030,23.35,42,104
+UrbanFlow Inc,Ottawa,2023,September,4163,116930,28.09,45,94
+UrbanFlow Inc,Ottawa,2023,October,4403,87370,19.84,47,146
+UrbanFlow Inc,Ottawa,2023,November,6078,137466,22.62,40,156
+UrbanFlow Inc,Ottawa,2023,December,5735,116452,20.31,51,158
