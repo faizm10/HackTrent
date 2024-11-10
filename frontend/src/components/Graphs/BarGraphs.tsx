@@ -1,6 +1,14 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from "chart.js";
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
@@ -15,14 +23,14 @@ const BarChart: React.FC<BarChartProps> = ({ labels, userDataset, companyDataset
     labels: labels,
     datasets: [
       {
-        label: "User Data",
+        label: "Electricity Use Intensity (User Data)",
         data: userDataset,
         backgroundColor: "rgba(54, 162, 235, 0.6)", // Blue
         borderColor: "rgba(54, 162, 235, 1)",
         borderWidth: 1,
       },
       {
-        label: "Company Data",
+        label: "Company Data (Reference)",
         data: companyDataset,
         backgroundColor: "rgba(255, 99, 132, 0.6)", // Red
         borderColor: "rgba(255, 99, 132, 1)",
@@ -39,7 +47,7 @@ const BarChart: React.FC<BarChartProps> = ({ labels, userDataset, companyDataset
       },
       title: {
         display: true,
-        text: "Monthly Electricity Usage Comparison",
+        text: "Monthly Electricity Use Intensity (kWh/m²)",
       },
     },
     scales: {
@@ -47,7 +55,7 @@ const BarChart: React.FC<BarChartProps> = ({ labels, userDataset, companyDataset
         beginAtZero: true,
         title: {
           display: true,
-          text: "Electricity Usage (kWh)",
+          text: "EUI (kWh/m²)",
         },
       },
       x: {

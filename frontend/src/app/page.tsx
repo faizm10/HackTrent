@@ -9,7 +9,6 @@ import PieChart from "@/components/Graphs/PieChart";
 import Link from "next/link";
 import BarChart from "@/components/Graphs/BarGraphs";
 
-
 interface CsvRow {
   "Company Name": string;
   Location: string;
@@ -50,10 +49,22 @@ const Home: React.FC = () => {
   const [floorArea, setFloorArea] = useState("");
   const [employees, setEmployees] = useState("");
   const [workHours, setWorkHours] = useState("");
+  const [euiData, setEuiData] = useState<number[]>(Array(12).fill(0));
+
 
   useEffect(() => {
     // Load CSV data if needed
   }, []);
+
+  useEffect(() => {
+    if (floorArea && parseFloat(floorArea) > 0) {
+      const calculatedEUI = monthlyData.map((usage) =>
+        usage && parseFloat(floorArea) > 0 ? usage / parseFloat(floorArea) : 0
+      );
+      setEuiData(calculatedEUI);
+    }
+  }, [monthlyData, floorArea]);
+  
 
   const handleFormSubmit = () => {
     setShowGraph(true);
@@ -93,7 +104,7 @@ const Home: React.FC = () => {
             placeholder="Enter your company name"
             onChange={(e) => setCompanyName(e.target.value)}
           />
-          <div className="flex space-x-4 justify-center">
+          <div className="flex space-x-4 justify-center cursor-leaf">
             <DropdownComponent
               label="Region"
               options={["Toronto", "Ottawa", "Mississauga", "Hamilton"]}
@@ -206,14 +217,14 @@ const Home: React.FC = () => {
               <PieChart monthlyData={monthlyData} />
             </div>
           </div>
-		  <div className="mt-8">
-			{/* New BarChart component */}
-			<BarChart
-			  labels={months}
-			  userDataset={monthlyData}
-			  companyDataset={companyData}
-			/>
-		  </div>
+          <div className="mt-8">
+            {/* New BarChart component */}
+            <BarChart
+              labels={months}
+              userDataset={euiData}
+              companyDataset={companyData}
+            />
+          </div>
         </div>
       )}
     </div>
