@@ -29,9 +29,7 @@ const Home: React.FC = () => {
   const [startYear, setStartYear] = useState("");
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
-  const [monthlyAverages, setMonthlyAverages] = useState<number[]>(
-    Array(12).fill(0)
-  ); // Added state for monthly averages
+  // const [monthlyAverages, setMonthlyAverages] = useState<number[]>(Array(12).fill(0)); // Added state for monthly averages
   const [monthlyAverages, setMonthlyAverages] = useState<number[]>(Array(12).fill(0)); // Added state for monthly averages
   const [intensityAverages, setIntensityAverages] = useState<number[]>(Array(12).fill(0));
   const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(""));
@@ -88,8 +86,8 @@ const Home: React.FC = () => {
 
 
         // Group by month and calculate averages
-<!--         const monthlySums: { [key: string]: { sum: number; count: number } } =
-          {}; -->
+// const monthlySums: { [key: string]: { sum: number; count: number } } =
+//           {}; 
 
         // Group by month and calculate averages for both Electricity Use and Intensity
         const monthlySums: { [key: string]: { useSum: number; intensitySum: number; count: number } } = {};
