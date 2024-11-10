@@ -53,20 +53,16 @@ export default function GetSuggestions({
       const response = await result.response;
       const text = await response.text();
 
-      // Log the full response text for debugging
       console.log("AI Response:", text);
 
-      // Parsing the response text
       const lines = text.split("\n").map((line) => line.trim());
       console.log("Parsed Lines:", lines);
 
-      // Extracting suggestions
       const parsedSuggestions = lines
-        .filter((line) => /^\d\.\s/.test(line)) // Match lines starting with "1." or "2."
+        .filter((line) => /^\d\.\s/.test(line)) 
         .map((line) => line.replace(/^\d\.\s*/, ""));
       console.log("Parsed Suggestions:", parsedSuggestions);
 
-      // Extracting rating and message
       const ratingLine = lines.find((line) => line.startsWith("Rating:"));
       const messageLine = lines.find((line) => line.startsWith("Message:"));
 
