@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
-// import Papa from "papaparse";
+import Papa from "papaparse";
 import DropdownComponent from "@/components/DropdownComponent";
 import InputComponent from "@/components/InputComponent";
 import LineChart from "@/components/Graphs/DoubleLineChart";
