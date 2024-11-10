@@ -1,13 +1,14 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Papa from "papaparse";
+// import Papa from "papaparse";
 import DropdownComponent from "@/components/DropdownComponent";
 import InputComponent from "@/components/InputComponent";
 import LineChart from "@/components/Graphs/DoubleLineChart";
 import PieChart from "@/components/Graphs/PieChart";
-import Link from "next/link";
+// import Link from "next/link";
 import BarChart from "@/components/Graphs/BarGraphs";
+import GetSuggestions from "./states/getSuggestion";
 
 interface CsvRow {
   "Company Name": string;
@@ -196,6 +197,14 @@ const Home: React.FC = () => {
           <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
             Monthly Data for {region} ({startYear})
           </h2>
+          <GetSuggestions
+            region={region}
+            startYear={startYear}
+            wasteType={wasteType}
+            companyName={companyName}
+            // monthlyData={monthlyData}
+            // companyData={companyData}
+          />
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
             {/* LineChart - Reduced width */}
             <div className="w-full max-w-full sm:max-w-[650px] mx-auto cursor-pointer">
