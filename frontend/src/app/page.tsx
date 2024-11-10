@@ -104,7 +104,7 @@ const Home: React.FC = () => {
             placeholder="Enter your company name"
             onChange={(e) => setCompanyName(e.target.value)}
           />
-          <div className="flex space-x-4 justify-center cursor-leaf">
+          <div className="flex space-x-4 justify-center">
             <DropdownComponent
               label="Region"
               options={["Toronto", "Ottawa", "Mississauga", "Hamilton"]}
@@ -200,7 +200,7 @@ const Home: React.FC = () => {
           </h2>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
             {/* LineChart - Reduced width */}
-            <div className="w-full max-w-full sm:max-w-[650px] mx-auto">
+            <div className="w-full max-w-full sm:max-w-[650px] mx-auto cursor-pointer">
               <LineChart
                 labels={months}
                 userDataset={monthlyData}
