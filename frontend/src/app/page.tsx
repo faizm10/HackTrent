@@ -29,6 +29,7 @@ const Home: React.FC = () => {
   const [startYear, setStartYear] = useState("");
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
+  const [monthlyAverages, setMonthlyAverages] = useState<number[]>(Array(12).fill(0)); // Added state for monthly averages
   const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(""));
   const [companyData] = useState<number[]>([
     70, 65, 78, 85, 60, 62, 70, 75, 80, 78, 74, 68,
@@ -56,7 +57,10 @@ const Home: React.FC = () => {
   }, []);
 
   const handleFormSubmit = () => {
-    setShowGraph(true);
+    if (region && startYear) {
+      loadCsvData(region, startYear); // Load data for the specified region and year
+      setShowGraph(true);
+    }
   };
 
   const handleMonthlyDataChange = (index: number, value: string) => {
@@ -64,6 +68,45 @@ const Home: React.FC = () => {
     updatedData[index] = parseFloat(value) || 0;
     setMonthlyData(updatedData);
   };
+
+  const loadCsvData = (region: string, year: string) => {
+    const filePath = `/Data/NEW1_${region.toLowerCase()}.csv`;
+
+    Papa.parse<CsvRow>(filePath, {
+      download: true,
+      header: true,
+      complete: (result) => {
+        // Filter data for the specific year
+        const yearFilteredData = result.data.filter((row) => row.Year === year);
+
+        // Group by month and calculate averages
+        const monthlySums: { [key: string]: { sum: number; count: number } } = {};
+
+        yearFilteredData.forEach((row) => {
+          const month = row.Month;
+          const usage = parseFloat(row["Monthly Electricity Use (kWh)"]) || 0;
+
+          if (!monthlySums[month]) {
+            monthlySums[month] = { sum: 0, count: 0 };
+          }
+          monthlySums[month].sum += usage;
+          monthlySums[month].count += 1;
+        });
+
+        // Calculate monthly averages for each month
+        const averages = months.map((month) =>
+          monthlySums[month] ? monthlySums[month].sum / monthlySums[month].count : 0
+        );
+
+        setMonthlyAverages(averages); // Store the averages in state
+        console.log("Monthly Averages:", averages); // Log for verification
+      },
+      error: (error) => {
+        console.error("Error loading CSV file:", error);
+      },
+    });
+  };
+
 
   const isFormComplete = companyName && region && wasteType && startYear;
 
