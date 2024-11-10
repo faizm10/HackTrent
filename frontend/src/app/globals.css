@@ -18,6 +18,12 @@
 
 body {
     overflow-x: hidden;
+    cursor: url('/images/cursor.png'), auto;
+}
+@layer utilities {
+  .cursor-leaf {
+    cursor: url('/images/cursor.png'), auto;
+  }
 }
 
 @layer utilities {

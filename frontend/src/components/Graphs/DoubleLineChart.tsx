@@ -1,5 +1,5 @@
-import React from 'react';
-import { Line } from 'react-chartjs-2';
+import React from "react";
+import { Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -9,9 +9,17 @@ import {
   Title,
   Tooltip,
   Legend,
-} from 'chart.js';
+} from "chart.js";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 interface LineChartProps {
   labels: string[];
@@ -20,24 +28,33 @@ interface LineChartProps {
   chartTitle: string;
   xAxisLabel: string;
   yAxisLabel: string;
+  region: string;
 }
 
-const LineChart: React.FC<LineChartProps> = ({ labels, userDataset, companyDataset, chartTitle, xAxisLabel, yAxisLabel }) => {
+const LineChart: React.FC<LineChartProps> = ({
+  labels,
+  userDataset,
+  companyDataset,
+  chartTitle,
+  xAxisLabel,
+  yAxisLabel,
+  region,
+}) => {
   const data = {
     labels,
     datasets: [
       {
-        label: 'My Company',
+        label: "My Company",
         data: userDataset,
-        borderColor: 'rgba(75, 192, 192, 1)',
-        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
         tension: 0.4,
       },
       {
-        label: `Other companhy `,
+        label: `Average company in ${region}`,
         data: companyDataset,
-        borderColor: 'rgba(255, 99, 132, 1)',
-        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: "rgba(255, 99, 132, 1)",
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
         tension: 0.4,
       },
     ],
@@ -47,7 +64,7 @@ const LineChart: React.FC<LineChartProps> = ({ labels, userDataset, companyDatas
     responsive: true,
     plugins: {
       legend: {
-        position: 'top' as const,
+        position: "top" as const,
       },
       title: {
         display: true,
