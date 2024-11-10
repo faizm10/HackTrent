@@ -30,10 +30,9 @@ const Home: React.FC = () => {
   const [showGraph, setShowGraph] = useState(false);
   const [csvData, setCsvData] = useState<CsvRow[]>([]);
   const [monthlyAverages, setMonthlyAverages] = useState<number[]>(Array(12).fill(0)); // Added state for monthly averages
+  const [intensityAverages, setIntensityAverages] = useState<number[]>(Array(12).fill(0));
   const [monthlyData, setMonthlyData] = useState<number[]>(Array(12).fill(""));
-  const [companyData] = useState<number[]>([
-    70, 65, 78, 85, 60, 62, 70, 75, 80, 78, 74, 68,
-  ]);
+
   const months = [
     "January",
     "February",
@@ -52,10 +51,6 @@ const Home: React.FC = () => {
   const [employees, setEmployees] = useState("");
   const [workHours, setWorkHours] = useState("");
   const [euiData, setEuiData] = useState<number[]>(Array(12).fill(0));
-
-  useEffect(() => {
-    // Load CSV data if needed
-  }, []);
 
   useEffect(() => {
     if (floorArea && parseFloat(floorArea) > 0) {
@@ -86,30 +81,37 @@ const Home: React.FC = () => {
       download: true,
       header: true,
       complete: (result) => {
-        // Filter data for the specific year
         const yearFilteredData = result.data.filter((row) => row.Year === year);
 
-        // Group by month and calculate averages
-        const monthlySums: { [key: string]: { sum: number; count: number } } = {};
+        // Group by month and calculate averages for both Electricity Use and Intensity
+        const monthlySums: { [key: string]: { useSum: number; intensitySum: number; count: number } } = {};
 
         yearFilteredData.forEach((row) => {
           const month = row.Month;
           const usage = parseFloat(row["Monthly Electricity Use (kWh)"]) || 0;
+          const intensity = parseFloat(row["Electricity Use Intensity (kWh/m²)"]) || 0;
 
           if (!monthlySums[month]) {
-            monthlySums[month] = { sum: 0, count: 0 };
+            monthlySums[month] = { useSum: 0, intensitySum: 0, count: 0 };
           }
-          monthlySums[month].sum += usage;
+          monthlySums[month].useSum += usage;
+          monthlySums[month].intensitySum += intensity;
           monthlySums[month].count += 1;
         });
 
-        // Calculate monthly averages for each month
+        // Calculate monthly averages for usage and intensity
         const averages = months.map((month) =>
-          monthlySums[month] ? monthlySums[month].sum / monthlySums[month].count : 0
+          monthlySums[month] ? monthlySums[month].useSum / monthlySums[month].count : 0
+        );
+        const intensityAverages = months.map((month) =>
+          monthlySums[month] ? monthlySums[month].intensitySum / monthlySums[month].count : 0
         );
 
-        setMonthlyAverages(averages); // Store the averages in state
-        console.log("Monthly Averages:", averages); // Log for verification
+        setMonthlyAverages(averages); // Set monthly electricity use averages
+        setIntensityAverages(intensityAverages); // Set electricity use intensity averages
+
+        console.log("Electricity Usage Averages (kWh):", averages);
+        console.log("Electricity Use Intensity Averages (kWh/m²):", intensityAverages);
       },
       error: (error) => {
         console.error("Error loading CSV file:", error);
@@ -263,17 +265,17 @@ const Home: React.FC = () => {
             </div>
 
             {/* PieChart - Centered */}
-            <div className="mt-2 max-w-[300px] h-[300px] mx-auto">
+            <div className="mt-2 max-w-[300px] h-[300px] mx-auto hover:cursor-pointer">
               <PieChart monthlyData={monthlyData} />
             </div>
           </div>
           <div className="mt-8">
             {/* New BarChart component */}
-            <div className="mt-2 max-w-[800px] h-[400px] mx-auto">
+            <div className="mt-2 max-w-[800px] h-[400px] mx-auto hover:cursor-pointer">
               <BarChart
                 labels={months}
                 userDataset={euiData}
-                companyDataset={companyData}
+                companyDataset={intensityAverages}
               />
             </div>
           </div>
