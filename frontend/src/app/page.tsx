@@ -6,6 +6,8 @@ import DropdownComponent from "@/components/DropdownComponent";
 import InputComponent from "@/components/InputComponent";
 import LineChart from "@/components/Graphs/DoubleLineChart";
 import Link from "next/link";
+import BarChart from "@/components/Graphs/BarGraphs";
+
 
 interface CsvRow {
   "Company Name": string;
@@ -194,6 +196,14 @@ const Home: React.FC = () => {
               yAxisLabel={`${wasteType} Usage (kWh)`}
             />
           </div>
+		  <div className="mt-8">
+			{/* New BarChart component */}
+			<BarChart
+			  labels={months}
+			  userDataset={monthlyData}
+			  companyDataset={companyData}
+			/>
+		  </div>
         </div>
       )}
     </div>
