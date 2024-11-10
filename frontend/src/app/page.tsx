@@ -5,6 +5,7 @@ import Papa from "papaparse";
 import DropdownComponent from "@/components/DropdownComponent";
 import InputComponent from "@/components/InputComponent";
 import LineChart from "@/components/Graphs/DoubleLineChart";
+import PieChart from "@/components/Graphs/PieChart";
 import Link from "next/link";
 
 interface CsvRow {
@@ -65,7 +66,7 @@ const Home: React.FC = () => {
   const isFormComplete = companyName && region && wasteType && startYear;
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 p-8 space-y-8 cursor-leaf">
       {!showGraph ? (
         <div className="w-full max-w-4xl space-y-6">
           <div className="w-full text-center">
@@ -177,22 +178,31 @@ const Home: React.FC = () => {
       ) : (
         <div className="w-full mt-6">
           <div className="w-full text-left">
-            <h1 className="mb-8 text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-purple-500 hover:to-indigo-500 transition-all duration-500 ease-in-out">
+            <h1 className="mb-8 text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-purple-500 hover:to-indigo-500 hover:cursor-pointer transition-all duration-500 ease-in-out">
               EcoTrack Dashboard
             </h1>
           </div>
           <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
             Monthly Data for {region} ({startYear})
           </h2>
-          <div className="mt-8">
-            <LineChart
-              labels={months}
-              userDataset={monthlyData}
-              companyDataset={companyData}
-              chartTitle={`Monthly ${wasteType} Usage Comparison for ${companyName}`}
-              xAxisLabel="Months"
-              yAxisLabel={`${wasteType} Usage (kWh)`}
-            />
+          <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+            {/* LineChart - Reduced width */}
+            <div className="w-full max-w-full sm:max-w-[650px] mx-auto">
+              <LineChart
+                labels={months}
+                userDataset={monthlyData}
+                companyDataset={companyData}
+                chartTitle={`Monthly ${wasteType} Usage Comparison for ${companyName}`}
+                xAxisLabel="Months"
+                yAxisLabel={`${wasteType} Usage (kWh)`}
+                region={region}
+              />
+            </div>
+
+            {/* PieChart - Centered */}
+            <div className="mt-2 max-w-[300px] h-[300px] mx-auto">
+              <PieChart monthlyData={monthlyData} />
+            </div>
           </div>
         </div>
       )}
