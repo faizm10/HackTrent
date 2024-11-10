@@ -34,7 +34,7 @@ const LineChart: React.FC<LineChartProps> = ({ labels, userDataset, companyDatas
         tension: 0.4,
       },
       {
-        label: `Other companhy `,
+        label: `Other company `,
         data: companyDataset,
         borderColor: 'rgba(255, 99, 132, 1)',
         backgroundColor: 'rgba(255, 99, 132, 0.2)',

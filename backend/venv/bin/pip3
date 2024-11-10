@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/mohammedsalih/Desktop/Self codes/Hackaton/HackTrent/backend/venv/bin/python3.12" "$0" "$@"
+'''exec' "/Applications/Visual Studio Code/HackTrent/backend/venv/bin/python3.12" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re

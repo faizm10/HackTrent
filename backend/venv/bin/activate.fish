@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/mohammedsalih/Desktop/Self codes/Hackaton/HackTrent/backend/venv"
+set -gx VIRTUAL_ENV "/Applications/Visual Studio Code/HackTrent/backend/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
