@@ -306,9 +306,12 @@ const Home: React.FC = () => {
       ) : (
         <div className="w-full mt-6">
           <div className="w-full text-left">
-            <h1 className="mb-8 text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-purple-500 hover:to-indigo-500 hover:cursor-pointer transition-all duration-500 ease-in-out">
+          <h1 className="mb-8 text-6xl font-extrabold">
+          <span className="bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent hover:from-purple-500 hover:to-indigo-500 transition-all duration-500 ease-in-out">
               EcoTrack Dashboard
-            </h1>
+          </span>
+          </h1>
+
           </div>
           <h2 className="text-2xl font-semibold text-indigo-700 mb-4">
             Monthly Data for {region} ({startYear})
