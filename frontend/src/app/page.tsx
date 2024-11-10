@@ -8,6 +8,7 @@ import LineChart from "@/components/Graphs/DoubleLineChart";
 import PieChart from "@/components/Graphs/PieChart";
 // import Link from "next/link";
 import BarChart from "@/components/Graphs/BarGraphs";
+import WaterBarGraph from "@/components/Graphs/WaterBarGraph";
 import GetSuggestions from "./states/getSuggestion";
 
 interface CsvRow {
@@ -19,6 +20,8 @@ interface CsvRow {
   "Monthly Electricity Use (kWh)": string;
   "Electricity Use Intensity (kWh/m²)": string;
   "Operating Hours per Week": string;
+  "Monthly Water Use (L)"?: string;
+  "Water Use Intensity (L/m²)"?: string;
   "Number of Employees": string;
 }
 
@@ -52,15 +55,25 @@ const Home: React.FC = () => {
   const [employees, setEmployees] = useState("");
   const [workHours, setWorkHours] = useState("");
   const [euiData, setEuiData] = useState<number[]>(Array(12).fill(0));
+  const [wuiData, setWuiData] = useState<number[]>(Array(12).fill(0));
+  const [wasteData, setWasteData] = useState<number[]>(Array(12).fill(0))
 
   useEffect(() => {
-    if (floorArea && parseFloat(floorArea) > 0) {
-      const calculatedEUI = monthlyData.map((usage) =>
+    if (wasteType === "Water" && floorArea && parseFloat(floorArea) > 0) {
+      // Calculate WUI based on monthlyData and floorArea
+      const calculatedWUI = monthlyData.map((usage) =>
         usage && parseFloat(floorArea) > 0 ? usage / parseFloat(floorArea) : 0
       );
-      setEuiData(calculatedEUI);
+      setWuiData(calculatedWUI); // Set WUI data
+  
+      // Calculate waste as 20% of WUI
+      const calculatedWaste = calculatedWUI.map((wui) => wui * 0.2);
+      setWasteData(calculatedWaste); // Set waste data
+  
+      console.log("Water Use Intensity (L/m²):", calculatedWUI);
+      console.log("Waste Water Intensity (L/m²):", calculatedWaste);
     }
-  }, [monthlyData, floorArea]);
+  }, [monthlyData, floorArea, wasteType]);
 
   const handleFormSubmit = () => {
     if (region && startYear) {
@@ -76,7 +89,8 @@ const Home: React.FC = () => {
   };
 
   const loadCsvData = (region: string, year: string) => {
-    const filePath = `/Data/NEW1_${region.toLowerCase()}.csv`;
+    const filePrefix = wasteType === "Electricity" ? "NEW1" : "NEW2";
+    const filePath = `/Data/${filePrefix}_${region.toLowerCase()}.csv`;
 
     Papa.parse<CsvRow>(filePath, {
       download: true,
@@ -84,20 +98,20 @@ const Home: React.FC = () => {
       complete: (result) => {
         const yearFilteredData = result.data.filter((row) => row.Year === year);
 
-
-        // Group by month and calculate averages
-// const monthlySums: { [key: string]: { sum: number; count: number } } =
-//           {}; 
-
-        // Group by month and calculate averages for both Electricity Use and Intensity
         const monthlySums: { [key: string]: { useSum: number; intensitySum: number; count: number } } = {};
-
 
         yearFilteredData.forEach((row) => {
           const month = row.Month;
-          const usage = parseFloat(row["Monthly Electricity Use (kWh)"]) || 0;
-          const intensity = parseFloat(row["Electricity Use Intensity (kWh/m²)"]) || 0;
-
+        
+          // Use optional chaining and default to 0 if the value is missing
+          const usage = wasteType === "Electricity"
+            ? parseFloat(row["Monthly Electricity Use (kWh)"] ?? "0")
+            : parseFloat(row["Monthly Water Use (L)"] ?? "0");
+        
+          const intensity = wasteType === "Electricity"
+            ? parseFloat(row["Electricity Use Intensity (kWh/m²)"] ?? "0")
+            : parseFloat(row["Water Use Intensity (L/m²)"] ?? "0");
+        
           if (!monthlySums[month]) {
             monthlySums[month] = { useSum: 0, intensitySum: 0, count: 0 };
           }
@@ -106,24 +120,20 @@ const Home: React.FC = () => {
           monthlySums[month].count += 1;
         });
 
-        // Calculate monthly averages for usage and intensity
         const averages = months.map((month) =>
           monthlySums[month]
-            ? monthlySums[month].sum / monthlySums[month].count
+            ? monthlySums[month].useSum / monthlySums[month].count
             : 0
-
-
-
         );
         const intensityAverages = months.map((month) =>
           monthlySums[month] ? monthlySums[month].intensitySum / monthlySums[month].count : 0
         );
 
-        setMonthlyAverages(averages); // Set monthly electricity use averages
-        setIntensityAverages(intensityAverages); // Set electricity use intensity averages
+        setMonthlyAverages(averages);
+        setIntensityAverages(intensityAverages);
 
-        console.log("Electricity Usage Averages (kWh):", averages);
-        console.log("Electricity Use Intensity Averages (kWh/m²):", intensityAverages);
+        console.log(`${wasteType} Usage Averages (${wasteType === "Electricity" ? "kWh" : "L"}):`, averages);
+        console.log(`${wasteType} Use Intensity Averages (${wasteType === "Electricity" ? "kWh/m²" : "L/m²"}):`, intensityAverages);
       },
       error: (error) => {
         console.error("Error loading CSV file:", error);
@@ -337,11 +347,18 @@ const Home: React.FC = () => {
           <div className="mt-8">
             {/* New BarChart component */}
             <div className="mt-2 max-w-[800px] h-[400px] mx-auto hover:cursor-pointer">
+              {wasteType === "Electricity" ? 
               <BarChart
                 labels={months}
                 userDataset={euiData}
                 companyDataset={intensityAverages}
               />
+                  : <WaterBarGraph
+                  labels={months}
+                  userDataset={wuiData} // Pass WUI data as userDataset
+                  companyDataset={wasteData} // Pass waste data as companyDataset
+                />
+                  }
             </div>
           </div>
         </div>
